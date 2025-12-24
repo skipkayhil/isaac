@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Isaac</title>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "preact": "https://esm.sh/preact@10.23.1",
+          "preact/": "https://esm.sh/preact@10.23.1/",
+          "htm/preact": "https://esm.sh/htm@3.1.1/preact?external=preact"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script type="module">
+      import { render } from "preact";
+      import { useEffect, useState } from "preact/hooks";
+      import { html } from "htm/preact";
+
+      const Item = ({ item, toggleChecked }) => {
+        const labelStyle = item.checked ? "text-decoration: line-through" : "";
+
+        return html`
+          <label style=${labelStyle}>
+            ${item.name} | ${item.desc}
+            <input
+              type="checkbox"
+              onClick=${toggleChecked}
+              checked=${item.checked}
+            />
+          </label>
+        `;
+      };
+
+      export function App() {
+        const [data, setData] = useState([]);
+        const [nameToIndex, setNameToIndex] = useState({});
+
+        const sortData = (data) => {
+          data.sort((a, b) => {
+            if (a.checked) {
+              return b.checked ? a.prio - b.prio : -1;
+            } else if (b["checked"]) {
+              return 1;
+            } else {
+              return a.prio - b.prio;
+            }
+          });
+        };
+
+        useEffect(() => {
+          fetch("./data.json").then((resp) =>
+            resp.json().then((d) => {
+              const checkedData = d.map((item) => ({
+                checked: false,
+                ...item,
+              }));
+              const nameToIndexMap = d.reduce((acc, item, i) => ({
+                ...acc,
+                [item["name"]]: i,
+              }));
+
+              sortData(checkedData);
+
+              setData(checkedData);
+              setNameToIndex(nameToIndexMap);
+            }),
+          );
+        }, []);
+
+        const toggleItemChecked = (item) => () => {
+          let newData = [...data];
+          const i = newData.findIndex((i) => i["name"] === item["name"]);
+
+          newData[i] = { ...data[i], checked: !data[i]["checked"] };
+
+          sortData(newData);
+          setData(newData);
+        };
+
+        return html`
+          Isaac
+
+          <ul>
+            ${data.map(
+              (item) => html`
+                <li>
+                  <${Item}
+                    item=${item}
+                    toggleChecked=${toggleItemChecked(item)}
+                  />
+                </li>
+              `,
+            )}
+          </ul>
+        `;
+      }
+
+      render(html`<${App} />`, document.getElementById("app"));
+    </script>
+  </body>
+</html>
