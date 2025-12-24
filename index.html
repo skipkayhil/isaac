@@ -23,8 +23,15 @@
       import { useEffect, useState } from "preact/hooks";
       import { html } from "htm/preact";
 
-      const Item = ({ item, toggleChecked }) => {
-        const labelStyle = item.checked ? "text-decoration: line-through" : "";
+      const Item = ({ item, type, toggleChecked }) => {
+        const checked = type === "checked";
+        const locked = type === "locked";
+
+        const labelStyle = checked
+          ? "text-decoration: line-through"
+          : locked
+            ? "opacity: 50%"
+            : "";
 
         return html`
           <label style=${labelStyle}>
@@ -32,73 +39,106 @@
             <input
               type="checkbox"
               onClick=${toggleChecked}
-              checked=${item.checked}
+              checked=${checked}
+              disabled=${locked}
             />
           </label>
         `;
       };
 
-      export function App() {
-        const [data, setData] = useState([]);
-        const [nameToIndex, setNameToIndex] = useState({});
+      const ItemSection = ({ items, toggle, type }) => html`
+        <ul>
+          ${Object.values(items).map(
+            (item) => html`
+              <li>
+                <${Item}
+                  item=${item}
+                  type=${type}
+                  toggleChecked=${toggle(item, type === "checked")}
+                />
+              </li>
+            `,
+          )}
+        </ul>
+      `;
 
-        const sortData = (data) => {
-          data.sort((a, b) => {
-            if (a.checked) {
-              return b.checked ? a.prio - b.prio : -1;
-            } else if (b["checked"]) {
-              return 1;
-            } else {
-              return a.prio - b.prio;
+      export function App() {
+        const [data, setData] = useState({
+          checked: [],
+          unlocked: [],
+          locked: [],
+        });
+
+        const processNewUnchecked = (newData, unchecked) =>
+          Object.values(unchecked).forEach((item) => {
+            for (const req of item.prereqs) {
+              if (!newData.checked[req]) {
+                newData.locked[item.name] = item;
+
+                return;
+              }
             }
+
+            newData.unlocked[item.name] = item;
           });
-        };
 
         useEffect(() => {
           fetch("./data.json").then((resp) =>
             resp.json().then((d) => {
-              const checkedData = d.map((item) => ({
-                checked: false,
-                ...item,
-              }));
-              const nameToIndexMap = d.reduce((acc, item, i) => ({
-                ...acc,
-                [item["name"]]: i,
-              }));
+              let newData = { checked: {}, unlocked: {}, locked: {} };
 
-              sortData(checkedData);
+              processNewUnchecked(newData, d);
 
-              setData(checkedData);
-              setNameToIndex(nameToIndexMap);
+              setData(newData);
             }),
           );
         }, []);
 
-        const toggleItemChecked = (item) => () => {
-          let newData = [...data];
-          const i = newData.findIndex((i) => i["name"] === item["name"]);
+        const toggleItemChecked = (item, wasChecked) => () => {
+          let newData = {
+            checked: { ...data.checked },
+            unlocked: {},
+            locked: {},
+          };
 
-          newData[i] = { ...data[i], checked: !data[i]["checked"] };
+          let unchecked = {
+            ...data.unlocked,
+            ...data.locked,
+          };
 
-          sortData(newData);
+          if (wasChecked) {
+            delete newData.checked[item.name];
+
+            unchecked[item.name] = item;
+          } else {
+            delete unchecked[item.name];
+
+            newData.checked[item.name] = item;
+          }
+
+          processNewUnchecked(newData, unchecked);
+
           setData(newData);
         };
 
         return html`
           Isaac
 
-          <ul>
-            ${data.map(
-              (item) => html`
-                <li>
-                  <${Item}
-                    item=${item}
-                    toggleChecked=${toggleItemChecked(item)}
-                  />
-                </li>
-              `,
-            )}
-          </ul>
+          <${ItemSection}
+            type="checked"
+            items=${data.checked}
+            toggle=${toggleItemChecked}
+          />
+          <${ItemSection}
+            type="unlocked"
+            items=${data.unlocked}
+            toggle=${toggleItemChecked}
+          />
+          <${ItemSection}
+            type="locked"
+            items=${data.locked}
+            toggle=${toggleItemChecked}
+          />
         `;
       }
 
