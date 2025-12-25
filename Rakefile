@@ -5,6 +5,13 @@ namespace :vendor do
     class RequirementsScrubber
       class << self
         def call(text)
+          if text.include?("Removed in") && text.include?("Added in")
+            i_start = text.index("Removed in")
+            i_end = text.rindex("Added in") - 1
+
+            text.slice!(i_start..i_end)
+          end
+
           text.gsub!(/\[\[[fF]ile.*?\]\]/, "")
 
           text.gsub!(/\[\[(.*?|)?([^|]*?)\]\]/, '[[\2]]')
@@ -12,6 +19,7 @@ namespace :vendor do
           text.gsub!(/<\/?span.*?>/, "")
 
           text.squeeze!(" ")
+          text.lstrip!
 
           text
         end

@@ -534,7 +534,7 @@
   {
     "id": "82",
     "name": "The Lost",
-    "requirements": " It's complicated<br> Die in a Sacrifice Room while holding Missing Poster",
+    "requirements": "Die in a Sacrifice Room while holding Missing Poster",
     "prereqs": []
   },
   {
@@ -1032,14 +1032,16 @@
   {
     "id": "156",
     "name": "Godhead",
-    "requirements": "Earn all 6 / 9 / 10 / 12 Completion Marks on Hard mode as The Lost",
+    "requirements": "Earn all 12 Completion Marks on Hard mode as The Lost",
     "prereqs": []
   },
   {
     "id": "157",
     "name": "Darkness Falls",
-    "requirements": " Defeat Mom's Heart 11 times and unlock Eve<br> Defeat Mom's Heart 11 times and defeat ??? as Eve",
-    "prereqs": []
+    "requirements": "Defeat Mom's Heart 11 times and defeat ??? as Eve",
+    "prereqs": [
+      "Eve"
+    ]
   },
   {
     "id": "158",
@@ -1136,14 +1138,18 @@
   {
     "id": "172",
     "name": "Wrapped Baby",
-    "requirements": " Defeat Mom's Heart on Hard mode as Azazel<br> Defeat Mom's Heart on Hard mode as Lazarus",
-    "prereqs": []
+    "requirements": "Defeat Mom's Heart on Hard mode as Lazarus",
+    "prereqs": [
+      "Lazarus"
+    ]
   },
   {
     "id": "173",
     "name": "Begotten Baby",
-    "requirements": " Defeat Mom's Heart on Hard mode as Lazarus<br> Defeat Mom's Heart on Hard mode as Azazel",
-    "prereqs": []
+    "requirements": "Defeat Mom's Heart on Hard mode as Azazel",
+    "prereqs": [
+      "Azazel"
+    ]
   },
   {
     "id": "174",
@@ -1588,13 +1594,13 @@
   {
     "id": "232",
     "name": "Kidney Stone",
-    "requirements": " Complete The Guardian (challenge #30)<br> Complete Onan's Streak (challenge #29)",
+    "requirements": "Complete Onan's Streak (challenge #29)",
     "prereqs": []
   },
   {
     "id": "233",
     "name": "Blank Rune",
-    "requirements": " Complete Onan's Streak (challenge #29)<br> Complete The Guardian (challenge #30)",
+    "requirements": "Complete The Guardian (challenge #30)",
     "prereqs": []
   },
   {
@@ -1606,7 +1612,7 @@
   {
     "id": "235",
     "name": "1001%",
-    "requirements": " Unlock all Afterbirth secrets and endings, and collect every Afterbirth item<br> Unlock 275 random achievements and have at least 510 items in the collection page",
+    "requirements": "Unlock 275 random achievements and have at least 510 items in the collection page",
     "prereqs": []
   },
   {
@@ -1852,7 +1858,7 @@
   {
     "id": "270",
     "name": "I RULE!",
-    "requirements": " Defeat ??? or The Lamb, defeat Satan as Isaac, and unlock The Negative<br> Defeat ??? or The Lamb, and defeat Satan as Isaac<br> Defeat Mega Satan and unlock The Negative",
+    "requirements": "Defeat Mega Satan and unlock The Negative",
     "prereqs": []
   },
   {
@@ -1870,7 +1876,7 @@
   {
     "id": "273",
     "name": "Onan's Streak",
-    "requirements": " Defeat Mom<br> Unlock Judas and It Lives!",
+    "requirements": "Unlock Judas and It Lives!",
     "prereqs": []
   },
   {
@@ -1894,7 +1900,7 @@
   {
     "id": "277",
     "name": "Backasswards",
-    "requirements": " Defeat ??? or The Lamb<br> Defeat Mega Satan and unlock The Negative",
+    "requirements": "Defeat Mega Satan and unlock The Negative",
     "prereqs": []
   },
   {
@@ -1912,7 +1918,7 @@
   {
     "id": "280",
     "name": "Ultra Hard",
-    "requirements": " Defeat ??? or The Lamb<br> Defeat Mega Satan and unlock The Negative",
+    "requirements": "Defeat Mega Satan and unlock The Negative",
     "prereqs": []
   },
   {
@@ -2338,7 +2344,7 @@
   {
     "id": "339",
     "name": "1000000%",
-    "requirements": " Collect every item in the game, unlock all secrets and endings, and complete the Bestiary<br> Unlock 402 random achievements and have at least 510 items in the collection page",
+    "requirements": "Unlock 402 random achievements and have at least 510 items in the collection page",
     "prereqs": []
   },
   {
