@@ -401,7 +401,9 @@
     "id": "62",
     "name": "Epic Fetus",
     "requirements": "Complete The Family Man (challenge #19)",
-    "prereqs": []
+    "prereqs": [
+      "The Family Man"
+    ]
   },
   {
     "id": "63",
@@ -597,49 +599,65 @@
     "id": "92",
     "name": "Rune of Dagaz",
     "requirements": "Complete Darkness Falls (challenge #4)",
-    "prereqs": []
+    "prereqs": [
+      "Darkness Falls"
+    ]
   },
   {
     "id": "93",
     "name": "Rune of Ansuz",
     "requirements": "Complete The Tank (challenge #5)",
-    "prereqs": []
+    "prereqs": [
+      "The Tank"
+    ]
   },
   {
     "id": "94",
     "name": "Rune of Perthro",
     "requirements": "Complete Solar System (challenge #6)",
-    "prereqs": []
+    "prereqs": [
+      "Solar System"
+    ]
   },
   {
     "id": "95",
     "name": "Rune of Berkano",
     "requirements": "Complete Purist (challenge #20)",
-    "prereqs": []
+    "prereqs": [
+      "Purist"
+    ]
   },
   {
     "id": "96",
     "name": "Rune of Algiz",
     "requirements": "Complete Cat Got Your Tongue (challenge #8)",
-    "prereqs": []
+    "prereqs": [
+      "Cat Got Your Tongue"
+    ]
   },
   {
     "id": "97",
     "name": "Chaos Card",
     "requirements": "Complete Demo Man (challenge #9)",
-    "prereqs": []
+    "prereqs": [
+      "Demo Man"
+    ]
   },
   {
     "id": "98",
     "name": "Credit Card",
     "requirements": "Complete Cursed! (challenge #10)",
-    "prereqs": []
+    "prereqs": [
+      "Cursed!"
+    ]
   },
   {
     "id": "99",
     "name": "Rules Card",
     "requirements": "Complete Glass Cannon (challenge #11)",
-    "prereqs": []
+    "prereqs": [
+      "Glass Cannon"
+    ]
   },
   {
     "id": "100",
@@ -793,7 +811,9 @@
     "id": "120",
     "name": "Suicide King",
     "requirements": "Complete Suicide King (challenge #7)",
-    "prereqs": []
+    "prereqs": [
+      "Suicide King"
+    ]
   },
   {
     "id": "121",
@@ -1549,61 +1569,81 @@
     "id": "224",
     "name": "Gold Heart",
     "requirements": "Complete XXXXXXXXL (challenge #21)",
-    "prereqs": []
+    "prereqs": [
+      "XXXXXXXXL"
+    ]
   },
   {
     "id": "225",
     "name": "Get out of Jail Free Card",
     "requirements": "Complete SPEED! (challenge #22)",
-    "prereqs": []
+    "prereqs": [
+      "SPEED!"
+    ]
   },
   {
     "id": "226",
     "name": "Gold Bomb",
     "requirements": "Complete Blue Bomber (challenge #23)",
-    "prereqs": []
+    "prereqs": [
+      "Blue Bomber"
+    ]
   },
   {
     "id": "227",
     "name": "2 new pills",
     "requirements": "Complete PAY TO PLAY (challenge #24)",
-    "prereqs": []
+    "prereqs": [
+      "PAY TO PLAY"
+    ]
   },
   {
     "id": "228",
     "name": "2 new pills",
     "requirements": "Complete Have a Heart (challenge #25)",
-    "prereqs": []
+    "prereqs": [
+      "Have a Heart"
+    ]
   },
   {
     "id": "229",
     "name": "Poker Chip",
     "requirements": "Complete I RULE! (challenge #26)",
-    "prereqs": []
+    "prereqs": [
+      "I RULE!"
+    ]
   },
   {
     "id": "230",
     "name": "Stud Finder",
     "requirements": "Complete BRAINS! (challenge #27)",
-    "prereqs": []
+    "prereqs": [
+      "BRAINS!"
+    ]
   },
   {
     "id": "231",
     "name": "D8",
     "requirements": "Complete PRIDE DAY! (challenge #28)",
-    "prereqs": []
+    "prereqs": [
+      "PRIDE DAY!"
+    ]
   },
   {
     "id": "232",
     "name": "Kidney Stone",
     "requirements": "Complete Onan's Streak (challenge #29)",
-    "prereqs": []
+    "prereqs": [
+      "Onan's Streak"
+    ]
   },
   {
     "id": "233",
     "name": "Blank Rune",
     "requirements": "Complete The Guardian (challenge #30)",
-    "prereqs": []
+    "prereqs": [
+      "The Guardian"
+    ]
   },
   {
     "id": "234",
@@ -2299,31 +2339,41 @@
     "id": "331",
     "name": "Laz Bleeds More!",
     "requirements": "Complete Backasswards (challenge #31)",
-    "prereqs": []
+    "prereqs": [
+      "Backasswards"
+    ]
   },
   {
     "id": "332",
     "name": "Maggy Now Holds a Pill!",
     "requirements": "Complete Aprils Fool (challenge #32)",
-    "prereqs": []
+    "prereqs": [
+      "Aprils fool"
+    ]
   },
   {
     "id": "333",
     "name": "Charged Key",
     "requirements": "Complete Pokey Mans (challenge #33)",
-    "prereqs": []
+    "prereqs": [
+      "Pokey Mans"
+    ]
   },
   {
     "id": "334",
     "name": "Samson Feels Healthy!",
     "requirements": "Complete Ultra Hard (challenge #34)",
-    "prereqs": []
+    "prereqs": [
+      "Ultra Hard"
+    ]
   },
   {
     "id": "335",
     "name": "Greed's Gullet",
     "requirements": "Complete Pong (challenge #35)",
-    "prereqs": []
+    "prereqs": [
+      "PONG"
+    ]
   },
   {
     "id": "336",
@@ -3627,31 +3677,41 @@
     "id": "518",
     "name": "Sigil of Baphomet",
     "requirements": "Complete Bloody Mary (challenge #37)",
-    "prereqs": []
+    "prereqs": [
+      "Bloody Mary"
+    ]
   },
   {
     "id": "519",
     "name": "Purgatory",
     "requirements": "Complete Baptism by Fire (challenge #38)",
-    "prereqs": []
+    "prereqs": [
+      "Baptism by Fire"
+    ]
   },
   {
     "id": "520",
     "name": "Spirit Sword",
     "requirements": "Complete Isaac's Awakening (challenge #39)",
-    "prereqs": []
+    "prereqs": [
+      "Isaac's Awakening"
+    ]
   },
   {
     "id": "521",
     "name": "Broken Glasses",
     "requirements": "Complete Seeing Double (challenge #40)",
-    "prereqs": []
+    "prereqs": [
+      "Seeing Double"
+    ]
   },
   {
     "id": "522",
     "name": "Ice Cube",
     "requirements": "Complete Pica Run (challenge #41)",
-    "prereqs": []
+    "prereqs": [
+      "Pica Run"
+    ]
   },
   {
     "id": "523",
@@ -3719,19 +3779,25 @@
     "id": "531",
     "name": "The Chariot",
     "requirements": "Complete Hot Potato (challenge #42)",
-    "prereqs": []
+    "prereqs": [
+      "Hot Potato"
+    ]
   },
   {
     "id": "532",
     "name": "Justice",
     "requirements": "Complete Cantripped (challenge #43)",
-    "prereqs": []
+    "prereqs": [
+      "Cantripped!"
+    ]
   },
   {
     "id": "533",
     "name": "The Hermit",
     "requirements": "Complete Red Redemption (challenge #44)",
-    "prereqs": []
+    "prereqs": [
+      "Red Redemption"
+    ]
   },
   {
     "id": "534",
@@ -3769,7 +3835,9 @@
     "id": "538",
     "name": "Temperance",
     "requirements": "Complete DELETE THIS (challenge #45)",
-    "prereqs": []
+    "prereqs": [
+      "DELETE THIS"
+    ]
   },
   {
     "id": "539",

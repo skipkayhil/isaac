@@ -41,6 +41,9 @@ namespace :vendor do
     end
 
     class PrereqParser
+      NONE = [].freeze
+
+      CHALLENGE_REGEX = /Complete \[\[(.*?) \(challenge #/
       DEFEAT_AS_REGEX = /^Defeat \[\[.*?\]\] as \[\[(.*?)\]\]/
       OTHER_AS_REGEX = /\[\[(Home|Boss Rush|Completion Mark)\]\]s? as \[\[(.*?)\]\]/
 
@@ -49,7 +52,23 @@ namespace :vendor do
       }
 
       MANUAL_IDS = {
-        "82" => ["Missing Poster"]
+        "82" => ["Missing Poster"],
+        # Default Challenges
+        "60" => NONE,
+        "63" => NONE,
+        "89" => NONE,
+        "90" => NONE,
+        "91" => NONE,
+        "100" => NONE,
+        "101" => NONE,
+        "102" => NONE,
+        "103" => NONE,
+        "104" => NONE,
+        "517" => NONE,
+        # Mis-cased challenges
+        "332" => ["Aprils fool"],
+        "335" => ["PONG"],
+        "532" => ["Cantripped!"],
       }
 
       def initialize(names)
@@ -71,7 +90,7 @@ namespace :vendor do
         text = achievement["requirements"]
 
         prereqs = case text
-        when DEFEAT_AS_REGEX
+        when DEFEAT_AS_REGEX, CHALLENGE_REGEX
           [$1]
         when OTHER_AS_REGEX
           case $1
