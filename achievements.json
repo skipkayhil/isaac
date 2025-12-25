@@ -51,7 +51,9 @@
     "id": "9",
     "name": "The Nail",
     "requirements": "Complete the Boss Rush as Azazel",
-    "prereqs": []
+    "prereqs": [
+      "Azazel"
+    ]
   },
   {
     "id": "10",
@@ -671,7 +673,9 @@
     "id": "105",
     "name": "Missing No.",
     "requirements": "Complete the Boss Rush as Lazarus",
-    "prereqs": []
+    "prereqs": [
+      "Lazarus"
+    ]
   },
   {
     "id": "106",
@@ -691,19 +695,25 @@
     "id": "108",
     "name": "Judas' Shadow",
     "requirements": "Complete the Boss Rush as Judas",
-    "prereqs": []
+    "prereqs": [
+      "Judas"
+    ]
   },
   {
     "id": "109",
     "name": "Maggy's Bow",
     "requirements": "Complete the Boss Rush as Magdalene",
-    "prereqs": []
+    "prereqs": [
+      "Magdalene"
+    ]
   },
   {
     "id": "110",
     "name": "Cain's Other Eye",
     "requirements": "Complete the Boss Rush as Cain",
-    "prereqs": []
+    "prereqs": [
+      "Cain"
+    ]
   },
   {
     "id": "111",
@@ -717,7 +727,9 @@
     "id": "112",
     "name": "Eve's Mascara",
     "requirements": "Complete the Boss Rush as Eve",
-    "prereqs": []
+    "prereqs": [
+      "Eve"
+    ]
   },
   {
     "id": "113",
@@ -731,13 +743,17 @@
     "id": "114",
     "name": "???'s Only Friend",
     "requirements": "Complete the Boss Rush as ???",
-    "prereqs": []
+    "prereqs": [
+      "???"
+    ]
   },
   {
     "id": "115",
     "name": "Samson's Chains",
     "requirements": "Complete the Boss Rush as Samson",
-    "prereqs": []
+    "prereqs": [
+      "Samson"
+    ]
   },
   {
     "id": "116",
@@ -813,7 +829,9 @@
     "id": "125",
     "name": "Undefined",
     "requirements": "Complete the Boss Rush as Eden",
-    "prereqs": []
+    "prereqs": [
+      "Eden"
+    ]
   },
   {
     "id": "126",
@@ -875,7 +893,9 @@
     "id": "133",
     "name": "The D100",
     "requirements": "Complete the Boss Rush as The Lost",
-    "prereqs": []
+    "prereqs": [
+      "The Lost"
+    ]
   },
   {
     "id": "134",
@@ -1505,7 +1525,9 @@
     "id": "222",
     "name": "Immaculate Conception",
     "requirements": "Complete the Boss Rush as Lilith",
-    "prereqs": []
+    "prereqs": [
+      "Lilith"
+    ]
   },
   {
     "id": "223",
@@ -1623,7 +1645,9 @@
     "id": "240",
     "name": "Sticky Nickels",
     "requirements": "Complete the Boss Rush as Keeper",
-    "prereqs": []
+    "prereqs": [
+      "Keeper"
+    ]
   },
   {
     "id": "241",
@@ -1697,7 +1721,9 @@
     "id": "252",
     "name": "Hive Baby",
     "requirements": "Earn all Hard mode Completion Marks as ???",
-    "prereqs": []
+    "prereqs": [
+      "???"
+    ]
   },
   {
     "id": "253",
@@ -1709,25 +1735,33 @@
     "id": "254",
     "name": "Colorful Baby",
     "requirements": "Earn all Hard mode Completion Marks as Magdalene",
-    "prereqs": []
+    "prereqs": [
+      "Magdalene"
+    ]
   },
   {
     "id": "255",
     "name": "Whore Baby",
     "requirements": "Earn all Hard mode Completion Marks as Eve",
-    "prereqs": []
+    "prereqs": [
+      "Eve"
+    ]
   },
   {
     "id": "256",
     "name": "Cracked Baby",
     "requirements": "Earn all Hard mode Completion Marks as Eden",
-    "prereqs": []
+    "prereqs": [
+      "Eden"
+    ]
   },
   {
     "id": "257",
     "name": "Dripping Baby",
     "requirements": "Earn all Hard mode Completion Marks as Lazarus",
-    "prereqs": []
+    "prereqs": [
+      "Lazarus"
+    ]
   },
   {
     "id": "258",
@@ -1739,37 +1773,49 @@
     "id": "259",
     "name": "Sucky Baby",
     "requirements": "Earn all Hard mode Completion Marks as Azazel",
-    "prereqs": []
+    "prereqs": [
+      "Azazel"
+    ]
   },
   {
     "id": "260",
     "name": "Dark Baby",
     "requirements": "Earn all Hard mode Completion Marks as Lilith",
-    "prereqs": []
+    "prereqs": [
+      "Lilith"
+    ]
   },
   {
     "id": "261",
     "name": "Picky Baby",
     "requirements": "Earn all Hard mode Completion Marks as Cain",
-    "prereqs": []
+    "prereqs": [
+      "Cain"
+    ]
   },
   {
     "id": "262",
     "name": "Revenge Baby",
     "requirements": "Earn all Hard mode Completion Marks as Samson",
-    "prereqs": []
+    "prereqs": [
+      "Samson"
+    ]
   },
   {
     "id": "263",
     "name": "Belial Baby",
     "requirements": "Earn all Hard mode Completion Marks as Judas",
-    "prereqs": []
+    "prereqs": [
+      "Judas"
+    ]
   },
   {
     "id": "264",
     "name": "Sale Baby",
     "requirements": "Earn all Hard mode Completion Marks as Keeper",
-    "prereqs": []
+    "prereqs": [
+      "Keeper"
+    ]
   },
   {
     "id": "265",
@@ -2131,7 +2177,9 @@
     "id": "314",
     "name": "Locust of Conquest",
     "requirements": "Complete the Boss Rush as Apollyon",
-    "prereqs": []
+    "prereqs": [
+      "Apollyon"
+    ]
   },
   {
     "id": "315",
@@ -2169,7 +2217,9 @@
     "id": "319",
     "name": "Apollyon Baby",
     "requirements": "Earn all Hard mode Completion Marks as Apollyon",
-    "prereqs": []
+    "prereqs": [
+      "Apollyon"
+    ]
   },
   {
     "id": "320",
@@ -2647,7 +2697,9 @@
     "id": "397",
     "name": "Divorce Papers",
     "requirements": "Complete the Boss Rush as The Forgotten",
-    "prereqs": []
+    "prereqs": [
+      "The Forgotten"
+    ]
   },
   {
     "id": "398",
@@ -2685,7 +2737,9 @@
     "id": "402",
     "name": "Bone Baby",
     "requirements": "Earn all Hard mode Completion Marks as The Forgotten",
-    "prereqs": []
+    "prereqs": [
+      "The Forgotten"
+    ]
   },
   {
     "id": "403",
@@ -2813,7 +2867,9 @@
     "id": "421",
     "name": "Beth's Faith",
     "requirements": "Complete the Boss Rush as Bethany",
-    "prereqs": []
+    "prereqs": [
+      "Bethany"
+    ]
   },
   {
     "id": "422",
@@ -2851,7 +2907,9 @@
     "id": "426",
     "name": "Hope Baby",
     "requirements": "Earn all Hard mode Completion Marks as Bethany",
-    "prereqs": []
+    "prereqs": [
+      "Bethany"
+    ]
   },
   {
     "id": "427",
@@ -2905,7 +2963,9 @@
     "id": "433",
     "name": "Rock Bottom",
     "requirements": "Complete Boss Rush as Jacob and Esau",
-    "prereqs": []
+    "prereqs": [
+      "Jacob and Esau"
+    ]
   },
   {
     "id": "434",
@@ -2943,7 +3003,9 @@
     "id": "438",
     "name": "Solomon's Baby",
     "requirements": "Earn all Hard mode Completion Marks as Jacob and Esau",
-    "prereqs": []
+    "prereqs": [
+      "Jacob and Esau"
+    ]
   },
   {
     "id": "439",
@@ -3231,97 +3293,129 @@
     "id": "475",
     "name": "The Dauntless",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Magdalene",
-    "prereqs": []
+    "prereqs": [
+      "Magdalene"
+    ]
   },
   {
     "id": "476",
     "name": "The Hoarder",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Cain",
-    "prereqs": []
+    "prereqs": [
+      "Cain"
+    ]
   },
   {
     "id": "477",
     "name": "The Deceiver",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Judas",
-    "prereqs": []
+    "prereqs": [
+      "Judas"
+    ]
   },
   {
     "id": "478",
     "name": "The Soiled",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as ???",
-    "prereqs": []
+    "prereqs": [
+      "???"
+    ]
   },
   {
     "id": "479",
     "name": "The Curdled",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Eve",
-    "prereqs": []
+    "prereqs": [
+      "Eve"
+    ]
   },
   {
     "id": "480",
     "name": "The Savage",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Samson",
-    "prereqs": []
+    "prereqs": [
+      "Samson"
+    ]
   },
   {
     "id": "481",
     "name": "The Benighted",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Azazel",
-    "prereqs": []
+    "prereqs": [
+      "Azazel"
+    ]
   },
   {
     "id": "482",
     "name": "The Enigma",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Lazarus",
-    "prereqs": []
+    "prereqs": [
+      "Lazarus"
+    ]
   },
   {
     "id": "483",
     "name": "The Capricious",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Eden",
-    "prereqs": []
+    "prereqs": [
+      "Eden"
+    ]
   },
   {
     "id": "484",
     "name": "The Baleful",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as The Lost",
-    "prereqs": []
+    "prereqs": [
+      "The Lost"
+    ]
   },
   {
     "id": "485",
     "name": "The Harlot",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Lilith",
-    "prereqs": []
+    "prereqs": [
+      "Lilith"
+    ]
   },
   {
     "id": "486",
     "name": "The Miser",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Keeper",
-    "prereqs": []
+    "prereqs": [
+      "Keeper"
+    ]
   },
   {
     "id": "487",
     "name": "The Empty",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Apollyon",
-    "prereqs": []
+    "prereqs": [
+      "Apollyon"
+    ]
   },
   {
     "id": "488",
     "name": "The Fettered",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as The Forgotten",
-    "prereqs": []
+    "prereqs": [
+      "The Forgotten"
+    ]
   },
   {
     "id": "489",
     "name": "The Zealot",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Bethany",
-    "prereqs": []
+    "prereqs": [
+      "Bethany"
+    ]
   },
   {
     "id": "490",
     "name": "The Deserter",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Jacob and Esau",
-    "prereqs": []
+    "prereqs": [
+      "Jacob and Esau"
+    ]
   },
   {
     "id": "491",

@@ -20,6 +20,7 @@ namespace :vendor do
 
     class PrereqParser
       DEFEAT_AS_REGEX = /^Defeat \[\[.*?\]\] as \[\[(.*?)\]\]/
+      OTHER_AS_REGEX = /\[\[(Home|Boss Rush|Completion Mark)\]\]s? as \[\[(.*?)\]\]/
 
       PREREQ_MAP = {
         "Isaac" => nil
@@ -30,6 +31,8 @@ namespace :vendor do
           prereqs = case text
           when DEFEAT_AS_REGEX
             [$1]
+          when OTHER_AS_REGEX
+            [$2]
           else
             []
           end
@@ -56,20 +59,20 @@ namespace :vendor do
 
         $stdout.write "."
 
-        achievements.concat(cargoquery["cargoquery"].map { |q|
-          q["title"].tap do |a|
-            a["requirements"] = RequirementsScrubber.call(a["requirements"])
-            a["prereqs"] = PrereqParser.call(a["requirements"])
-
-            a["requirements"].gsub!(/\[\[|\]\]/, "")
-          end
-        })
+        achievements.concat(cargoquery["cargoquery"].map { |q| q["title"] })
       else
         $stdout.write "F"
       end
     end
 
     $stdout.puts
+
+    achievements.each do |a|
+      a["requirements"] = RequirementsScrubber.call(a["requirements"])
+      a["prereqs"] = PrereqParser.call(a["requirements"])
+
+      a["requirements"].gsub!(/\[\[|\]\]/, "")
+    end
 
     JSON.dump(achievements, File.open("achievements.json.tmp", "w"))
 
