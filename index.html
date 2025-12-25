@@ -35,7 +35,7 @@
 
         return html`
           <label style=${labelStyle}>
-            ${item.name} | ${item.desc}
+            ${item.name} | ${item.requirements}
             <input
               type="checkbox"
               onClick=${toggleChecked}
@@ -48,17 +48,19 @@
 
       const ItemSection = ({ items, toggle, type }) => html`
         <ul>
-          ${Object.values(items).map(
-            (item) => html`
-              <li>
-                <${Item}
-                  item=${item}
-                  type=${type}
-                  toggleChecked=${toggle(item, type === "checked")}
-                />
-              </li>
-            `,
-          )}
+          ${Object.values(items)
+            .toSorted((a, b) => a.id - b.id)
+            .map(
+              (item) => html`
+                <li>
+                  <${Item}
+                    item=${item}
+                    type=${type}
+                    toggleChecked=${toggle(item, type === "checked")}
+                  />
+                </li>
+              `,
+            )}
         </ul>
       `;
 
@@ -83,7 +85,7 @@
           });
 
         useEffect(() => {
-          fetch("./data.json").then((resp) =>
+          fetch("./achievements.json").then((resp) =>
             resp.json().then((d) => {
               let newData = { checked: {}, unlocked: {}, locked: {} };
 

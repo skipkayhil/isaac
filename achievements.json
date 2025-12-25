@@ -1,0 +1,4472 @@
+[
+  {
+    "id": "1",
+    "name": "Magdalene",
+    "requirements": "Have 7 or more Red Heart Containers at one time",
+    "prereqs": []
+  },
+  {
+    "id": "2",
+    "name": "Cain",
+    "requirements": "Hold 55 Coins at one time",
+    "prereqs": []
+  },
+  {
+    "id": "3",
+    "name": "Judas",
+    "requirements": "Defeat Satan",
+    "prereqs": []
+  },
+  {
+    "id": "4",
+    "name": "The Womb",
+    "requirements": "Defeat Mom",
+    "prereqs": []
+  },
+  {
+    "id": "5",
+    "name": "The Harbingers",
+    "requirements": "Defeat Mom",
+    "prereqs": []
+  },
+  {
+    "id": "6",
+    "name": "A Cube of Meat",
+    "requirements": "Defeat Mom",
+    "prereqs": []
+  },
+  {
+    "id": "7",
+    "name": "The Book of Revelations",
+    "requirements": "Defeat a Harbinger",
+    "prereqs": []
+  },
+  {
+    "id": "8",
+    "name": "A Noose",
+    "requirements": "Defeat Mom's Heart 3 times",
+    "prereqs": []
+  },
+  {
+    "id": "9",
+    "name": "The Nail",
+    "requirements": "Complete the Boss Rush as Azazel",
+    "prereqs": []
+  },
+  {
+    "id": "10",
+    "name": "A Quarter",
+    "requirements": "Defeat Mom's Heart 8 times",
+    "prereqs": []
+  },
+  {
+    "id": "11",
+    "name": "A Fetus in a Jar",
+    "requirements": "Defeat Mom's Heart 9 times",
+    "prereqs": []
+  },
+  {
+    "id": "12",
+    "name": "A Small Rock",
+    "requirements": "Destroy 100 Tinted Rocks",
+    "prereqs": []
+  },
+  {
+    "id": "13",
+    "name": "Monstro's Tooth",
+    "requirements": "Beat Chapter 1",
+    "prereqs": []
+  },
+  {
+    "id": "14",
+    "name": "Lil' Chubby",
+    "requirements": "Beat Chapter 2",
+    "prereqs": []
+  },
+  {
+    "id": "15",
+    "name": "Loki's Horns",
+    "requirements": "Defeat Lokii",
+    "prereqs": []
+  },
+  {
+    "id": "16",
+    "name": "Something From The Future",
+    "requirements": "Beat Basement 40 times",
+    "prereqs": []
+  },
+  {
+    "id": "17",
+    "name": "Something Cute",
+    "requirements": "Beat Chapter 2 30 times",
+    "prereqs": []
+  },
+  {
+    "id": "18",
+    "name": "Something Sticky",
+    "requirements": "Beat Chapter 3 20 times",
+    "prereqs": []
+  },
+  {
+    "id": "19",
+    "name": "A Bandage",
+    "requirements": "Make a Super Bandage Girl by picking up 4 copies of Ball of Bandages in one run",
+    "prereqs": []
+  },
+  {
+    "id": "20",
+    "name": "A Cross",
+    "requirements": "Defeat Isaac as Magdalene",
+    "prereqs": [
+      "Magdalene"
+    ]
+  },
+  {
+    "id": "21",
+    "name": "A Bag of Pennies",
+    "requirements": "Defeat Isaac as Cain",
+    "prereqs": [
+      "Cain"
+    ]
+  },
+  {
+    "id": "22",
+    "name": "The Book of Sin",
+    "requirements": "Defeat all 7 Deadly Sins",
+    "prereqs": []
+  },
+  {
+    "id": "23",
+    "name": "Little Gish",
+    "requirements": "Defeat Gish",
+    "prereqs": []
+  },
+  {
+    "id": "24",
+    "name": "Little Steven",
+    "requirements": "Defeat Steven",
+    "prereqs": []
+  },
+  {
+    "id": "25",
+    "name": "Little C.H.A.D.",
+    "requirements": "Defeat C.H.A.D.",
+    "prereqs": []
+  },
+  {
+    "id": "26",
+    "name": "A Gamekid",
+    "requirements": "Visit 10 Arcades",
+    "prereqs": []
+  },
+  {
+    "id": "27",
+    "name": "A Halo",
+    "requirements": "Defeat Mom, Mom's Heart, or It Lives! using The Bible or XV - The Devil?",
+    "prereqs": []
+  },
+  {
+    "id": "28",
+    "name": "Mr. Mega",
+    "requirements": "Destroy 10 Tinted Rocks",
+    "prereqs": []
+  },
+  {
+    "id": "29",
+    "name": "The D6",
+    "requirements": "Defeat Isaac as ???",
+    "prereqs": [
+      "???"
+    ]
+  },
+  {
+    "id": "30",
+    "name": "The Scissors",
+    "requirements": "Die 100 times",
+    "prereqs": []
+  },
+  {
+    "id": "31",
+    "name": "The Parasite",
+    "requirements": "Pick up 2 dead-related items in a single run",
+    "prereqs": []
+  },
+  {
+    "id": "32",
+    "name": "???",
+    "requirements": "Defeat Mom's Heart 10 times",
+    "prereqs": []
+  },
+  {
+    "id": "33",
+    "name": "Everything Is Terrible!!!",
+    "requirements": "Defeat Mom's Heart 5 times",
+    "prereqs": []
+  },
+  {
+    "id": "34",
+    "name": "It Lives!",
+    "requirements": "Defeat Mom's Heart 11 times",
+    "prereqs": []
+  },
+  {
+    "id": "35",
+    "name": "Mom's Contact",
+    "requirements": "Obtain three Yes Mother? items in one run",
+    "prereqs": []
+  },
+  {
+    "id": "36",
+    "name": "The Necronomicon",
+    "requirements": "Use XIII - Death 4 times",
+    "prereqs": []
+  },
+  {
+    "id": "37",
+    "name": "Basement Boy",
+    "requirements": "Beat Chapter 1 without taking damage",
+    "prereqs": []
+  },
+  {
+    "id": "38",
+    "name": "Spelunker Boy",
+    "requirements": "Beat Chapter 2 without taking damage",
+    "prereqs": []
+  },
+  {
+    "id": "39",
+    "name": "Dark Boy",
+    "requirements": "Beat Chapter 3 without taking damage",
+    "prereqs": []
+  },
+  {
+    "id": "40",
+    "name": "Mama's Boy",
+    "requirements": "Beat Chapter 4 without taking damage",
+    "prereqs": []
+  },
+  {
+    "id": "41",
+    "name": "Golden God!",
+    "requirements": "Defeat ??? and The Lamb",
+    "prereqs": []
+  },
+  {
+    "id": "42",
+    "name": "Eve",
+    "requirements": "Don't pick up any hearts for 2 floors in a row",
+    "prereqs": []
+  },
+  {
+    "id": "43",
+    "name": "Mom's Knife",
+    "requirements": "Defeat Satan as Isaac",
+    "prereqs": []
+  },
+  {
+    "id": "44",
+    "name": "The Razor",
+    "requirements": "Defeat Satan as Eve",
+    "prereqs": [
+      "Eve"
+    ]
+  },
+  {
+    "id": "45",
+    "name": "Guardian Angel",
+    "requirements": "Defeat Satan as Magdalene",
+    "prereqs": [
+      "Magdalene"
+    ]
+  },
+  {
+    "id": "46",
+    "name": "A Bag of Bombs",
+    "requirements": "Defeat Satan as Cain",
+    "prereqs": [
+      "Cain"
+    ]
+  },
+  {
+    "id": "47",
+    "name": "Demon Baby",
+    "requirements": "Defeat The Lamb as Azazel",
+    "prereqs": [
+      "Azazel"
+    ]
+  },
+  {
+    "id": "48",
+    "name": "Forget Me Now",
+    "requirements": "Defeat Satan as ???",
+    "prereqs": [
+      "???"
+    ]
+  },
+  {
+    "id": "49",
+    "name": "The D20",
+    "requirements": "Defeat ??? as Isaac",
+    "prereqs": []
+  },
+  {
+    "id": "50",
+    "name": "Celtic Cross",
+    "requirements": "Defeat ??? as Magdalene",
+    "prereqs": [
+      "Magdalene"
+    ]
+  },
+  {
+    "id": "51",
+    "name": "Abel",
+    "requirements": "Defeat The Lamb as Cain",
+    "prereqs": [
+      "Cain"
+    ]
+  },
+  {
+    "id": "52",
+    "name": "Curved Horn",
+    "requirements": "Defeat The Lamb as Judas",
+    "prereqs": [
+      "Judas"
+    ]
+  },
+  {
+    "id": "53",
+    "name": "Sacrificial Dagger",
+    "requirements": "Defeat ??? as Eve",
+    "prereqs": [
+      "Eve"
+    ]
+  },
+  {
+    "id": "54",
+    "name": "Bloody Lust",
+    "requirements": "Defeat Isaac as Samson",
+    "prereqs": [
+      "Samson"
+    ]
+  },
+  {
+    "id": "55",
+    "name": "Blood Penny",
+    "requirements": "Defeat ??? as Samson",
+    "prereqs": [
+      "Samson"
+    ]
+  },
+  {
+    "id": "56",
+    "name": "Blood Rights",
+    "requirements": "Defeat Satan as Samson",
+    "prereqs": [
+      "Samson"
+    ]
+  },
+  {
+    "id": "57",
+    "name": "The Polaroid",
+    "requirements": "Defeat Isaac 5 times",
+    "prereqs": []
+  },
+  {
+    "id": "58",
+    "name": "Dad's Key",
+    "requirements": "Pick up both Key Pieces from the Angels in one run",
+    "prereqs": []
+  },
+  {
+    "id": "59",
+    "name": "Blue Candle",
+    "requirements": "Donate 900 coins to the Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "60",
+    "name": "Burnt Penny",
+    "requirements": "Complete Beans! (challenge #13)",
+    "prereqs": []
+  },
+  {
+    "id": "61",
+    "name": "Lucky Toe",
+    "requirements": "Blow up 20 Shopkeepers",
+    "prereqs": []
+  },
+  {
+    "id": "62",
+    "name": "Epic Fetus",
+    "requirements": "Complete The Family Man (challenge #19)",
+    "prereqs": []
+  },
+  {
+    "id": "63",
+    "name": "SMB Super Fan",
+    "requirements": "Complete It's in the Cards (challenge #14)",
+    "prereqs": []
+  },
+  {
+    "id": "64",
+    "name": "Counterfeit Coin",
+    "requirements": "Play either Shell Game or Hell Game 100 times",
+    "prereqs": []
+  },
+  {
+    "id": "65",
+    "name": "Guppy's Hairball",
+    "requirements": "Become Guppy",
+    "prereqs": []
+  },
+  {
+    "id": "66",
+    "name": "A Forgotten Horseman",
+    "requirements": "Take 10 Angel Room items",
+    "prereqs": []
+  },
+  {
+    "id": "67",
+    "name": "Samson",
+    "requirements": "Complete 2 floors in a row without taking damage",
+    "prereqs": []
+  },
+  {
+    "id": "68",
+    "name": "Something Icky",
+    "requirements": "Defeat Isaac 10 times",
+    "prereqs": []
+  },
+  {
+    "id": "69",
+    "name": "!Platinum God!",
+    "requirements": "Collect all non-DLC items in the game, and unlock all of the secrets and endings (minus The Lost and his 6 unlockable items)",
+    "prereqs": []
+  },
+  {
+    "id": "70",
+    "name": "Isaac's Head",
+    "requirements": "Complete the Boss Rush as Isaac",
+    "prereqs": []
+  },
+  {
+    "id": "71",
+    "name": "Maggy's Faith",
+    "requirements": "Defeat The Lamb as Magdalene",
+    "prereqs": [
+      "Magdalene"
+    ]
+  },
+  {
+    "id": "72",
+    "name": "Judas' Tongue",
+    "requirements": "Defeat Satan as Judas",
+    "prereqs": [
+      "Judas"
+    ]
+  },
+  {
+    "id": "73",
+    "name": "???'s Soul",
+    "requirements": "Defeat The Lamb as ???",
+    "prereqs": [
+      "???"
+    ]
+  },
+  {
+    "id": "74",
+    "name": "Samson's Lock",
+    "requirements": "Defeat The Lamb as Samson",
+    "prereqs": [
+      "Samson"
+    ]
+  },
+  {
+    "id": "75",
+    "name": "Cain's Eye",
+    "requirements": "Defeat ??? as Cain",
+    "prereqs": [
+      "Cain"
+    ]
+  },
+  {
+    "id": "76",
+    "name": "Eve's Bird Foot",
+    "requirements": "Defeat Isaac as Eve",
+    "prereqs": [
+      "Eve"
+    ]
+  },
+  {
+    "id": "77",
+    "name": "The Left Hand",
+    "requirements": "Defeat Ultra Pride as any character, or ??? as Judas",
+    "prereqs": [
+      "Judas"
+    ]
+  },
+  {
+    "id": "78",
+    "name": "The Negative",
+    "requirements": "Defeat Satan 5 times",
+    "prereqs": []
+  },
+  {
+    "id": "79",
+    "name": "Azazel",
+    "requirements": "Make 3 Deals with the Devil in one run",
+    "prereqs": []
+  },
+  {
+    "id": "80",
+    "name": "Lazarus",
+    "requirements": "Have 4 or more Soul Hearts at one time",
+    "prereqs": []
+  },
+  {
+    "id": "81",
+    "name": "Eden",
+    "requirements": "Complete Chapter 4",
+    "prereqs": []
+  },
+  {
+    "id": "82",
+    "name": "The Lost",
+    "requirements": " It's complicated<br> Die in a Sacrifice Room while holding Missing Poster",
+    "prereqs": []
+  },
+  {
+    "id": "83",
+    "name": "Dead Boy",
+    "requirements": "Complete Chapter 6 without taking damage",
+    "prereqs": []
+  },
+  {
+    "id": "84",
+    "name": "The Real Platinum God",
+    "requirements": "Collect every non-DLC item, and unlock every secret and ending.",
+    "prereqs": []
+  },
+  {
+    "id": "85",
+    "name": "Lucky Rock",
+    "requirements": "Destroy 100 rocks",
+    "prereqs": []
+  },
+  {
+    "id": "86",
+    "name": "The Cellar",
+    "requirements": "Beat all Basement bosses",
+    "prereqs": []
+  },
+  {
+    "id": "87",
+    "name": "The Catacombs",
+    "requirements": "Beat all Caves bosses",
+    "prereqs": []
+  },
+  {
+    "id": "88",
+    "name": "The Necropolis",
+    "requirements": "Beat all Depths bosses",
+    "prereqs": []
+  },
+  {
+    "id": "89",
+    "name": "Rune of Hagalaz",
+    "requirements": "Complete Pitch Black (challenge #1)",
+    "prereqs": []
+  },
+  {
+    "id": "90",
+    "name": "Rune of Jera",
+    "requirements": "Complete High Brow (challenge #2)",
+    "prereqs": []
+  },
+  {
+    "id": "91",
+    "name": "Rune of Ehwaz",
+    "requirements": "Complete Head Trauma (challenge #3)",
+    "prereqs": []
+  },
+  {
+    "id": "92",
+    "name": "Rune of Dagaz",
+    "requirements": "Complete Darkness Falls (challenge #4)",
+    "prereqs": []
+  },
+  {
+    "id": "93",
+    "name": "Rune of Ansuz",
+    "requirements": "Complete The Tank (challenge #5)",
+    "prereqs": []
+  },
+  {
+    "id": "94",
+    "name": "Rune of Perthro",
+    "requirements": "Complete Solar System (challenge #6)",
+    "prereqs": []
+  },
+  {
+    "id": "95",
+    "name": "Rune of Berkano",
+    "requirements": "Complete Purist (challenge #20)",
+    "prereqs": []
+  },
+  {
+    "id": "96",
+    "name": "Rune of Algiz",
+    "requirements": "Complete Cat Got Your Tongue (challenge #8)",
+    "prereqs": []
+  },
+  {
+    "id": "97",
+    "name": "Chaos Card",
+    "requirements": "Complete Demo Man (challenge #9)",
+    "prereqs": []
+  },
+  {
+    "id": "98",
+    "name": "Credit Card",
+    "requirements": "Complete Cursed! (challenge #10)",
+    "prereqs": []
+  },
+  {
+    "id": "99",
+    "name": "Rules Card",
+    "requirements": "Complete Glass Cannon (challenge #11)",
+    "prereqs": []
+  },
+  {
+    "id": "100",
+    "name": "Card Against Humanity",
+    "requirements": "Complete When Life Gives You Lemons (challenge #12)",
+    "prereqs": []
+  },
+  {
+    "id": "101",
+    "name": "Swallowed Penny",
+    "requirements": "Complete Slow Roll (challenge #15)",
+    "prereqs": []
+  },
+  {
+    "id": "102",
+    "name": "Robo-Baby 2.0",
+    "requirements": "Complete Computer Savvy (challenge #16)",
+    "prereqs": []
+  },
+  {
+    "id": "103",
+    "name": "Death's Touch",
+    "requirements": "Complete Waka Waka (challenge #17)",
+    "prereqs": []
+  },
+  {
+    "id": "104",
+    "name": "Technology .5",
+    "requirements": "Complete The Host (challenge #18)",
+    "prereqs": []
+  },
+  {
+    "id": "105",
+    "name": "Missing No.",
+    "requirements": "Complete the Boss Rush as Lazarus",
+    "prereqs": []
+  },
+  {
+    "id": "106",
+    "name": "Isaac's Tears",
+    "requirements": "Defeat Isaac as Isaac",
+    "prereqs": []
+  },
+  {
+    "id": "107",
+    "name": "Guillotine",
+    "requirements": "Defeat Isaac as Judas",
+    "prereqs": [
+      "Judas"
+    ]
+  },
+  {
+    "id": "108",
+    "name": "Judas' Shadow",
+    "requirements": "Complete the Boss Rush as Judas",
+    "prereqs": []
+  },
+  {
+    "id": "109",
+    "name": "Maggy's Bow",
+    "requirements": "Complete the Boss Rush as Magdalene",
+    "prereqs": []
+  },
+  {
+    "id": "110",
+    "name": "Cain's Other Eye",
+    "requirements": "Complete the Boss Rush as Cain",
+    "prereqs": []
+  },
+  {
+    "id": "111",
+    "name": "Black Lipstick",
+    "requirements": "Defeat The Lamb as Eve",
+    "prereqs": [
+      "Eve"
+    ]
+  },
+  {
+    "id": "112",
+    "name": "Eve's Mascara",
+    "requirements": "Complete the Boss Rush as Eve",
+    "prereqs": []
+  },
+  {
+    "id": "113",
+    "name": "Fate",
+    "requirements": "Defeat ??? as ???",
+    "prereqs": [
+      "???"
+    ]
+  },
+  {
+    "id": "114",
+    "name": "???'s Only Friend",
+    "requirements": "Complete the Boss Rush as ???",
+    "prereqs": []
+  },
+  {
+    "id": "115",
+    "name": "Samson's Chains",
+    "requirements": "Complete the Boss Rush as Samson",
+    "prereqs": []
+  },
+  {
+    "id": "116",
+    "name": "Lazarus' Rags",
+    "requirements": "Defeat Isaac as Lazarus",
+    "prereqs": [
+      "Lazarus"
+    ]
+  },
+  {
+    "id": "117",
+    "name": "Broken Ankh",
+    "requirements": "Defeat Satan as Lazarus",
+    "prereqs": [
+      "Lazarus"
+    ]
+  },
+  {
+    "id": "118",
+    "name": "Store Credit",
+    "requirements": "Defeat ??? as Lazarus",
+    "prereqs": [
+      "Lazarus"
+    ]
+  },
+  {
+    "id": "119",
+    "name": "Pandora's Box",
+    "requirements": "Defeat The Lamb as Lazarus",
+    "prereqs": [
+      "Lazarus"
+    ]
+  },
+  {
+    "id": "120",
+    "name": "Suicide King",
+    "requirements": "Complete Suicide King (challenge #7)",
+    "prereqs": []
+  },
+  {
+    "id": "121",
+    "name": "Blank Card",
+    "requirements": "Defeat Isaac as Eden",
+    "prereqs": [
+      "Eden"
+    ]
+  },
+  {
+    "id": "122",
+    "name": "Book of Secrets",
+    "requirements": "Defeat Satan as Eden",
+    "prereqs": [
+      "Eden"
+    ]
+  },
+  {
+    "id": "123",
+    "name": "Mysterious Paper",
+    "requirements": "Defeat ??? as Eden",
+    "prereqs": [
+      "Eden"
+    ]
+  },
+  {
+    "id": "124",
+    "name": "Mystery Sack",
+    "requirements": "Defeat The Lamb as Eden",
+    "prereqs": [
+      "Eden"
+    ]
+  },
+  {
+    "id": "125",
+    "name": "Undefined",
+    "requirements": "Complete the Boss Rush as Eden",
+    "prereqs": []
+  },
+  {
+    "id": "126",
+    "name": "Satanic Bible",
+    "requirements": "Defeat Isaac as Azazel",
+    "prereqs": [
+      "Azazel"
+    ]
+  },
+  {
+    "id": "127",
+    "name": "Daemon's Tail",
+    "requirements": "Defeat Satan as Azazel",
+    "prereqs": [
+      "Azazel"
+    ]
+  },
+  {
+    "id": "128",
+    "name": "Abaddon",
+    "requirements": "Defeat ??? as Azazel",
+    "prereqs": [
+      "Azazel"
+    ]
+  },
+  {
+    "id": "129",
+    "name": "Isaac's Heart",
+    "requirements": "Defeat Isaac as The Lost",
+    "prereqs": [
+      "The Lost"
+    ]
+  },
+  {
+    "id": "130",
+    "name": "The Mind",
+    "requirements": "Defeat Satan as The Lost",
+    "prereqs": [
+      "The Lost"
+    ]
+  },
+  {
+    "id": "131",
+    "name": "The Body",
+    "requirements": "Defeat ??? as The Lost",
+    "prereqs": [
+      "The Lost"
+    ]
+  },
+  {
+    "id": "132",
+    "name": "The Soul",
+    "requirements": "Defeat The Lamb as The Lost",
+    "prereqs": [
+      "The Lost"
+    ]
+  },
+  {
+    "id": "133",
+    "name": "The D100",
+    "requirements": "Complete the Boss Rush as The Lost",
+    "prereqs": []
+  },
+  {
+    "id": "134",
+    "name": "Blue Map",
+    "requirements": "Donate 10 Coins to the Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "135",
+    "name": "There's Options",
+    "requirements": "Donate 50 Coins to the Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "136",
+    "name": "Black Candle",
+    "requirements": "Donate 150 Coins to the Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "137",
+    "name": "Red Candle",
+    "requirements": "Donate 400 Coins to the Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "138",
+    "name": "Stop Watch",
+    "requirements": "Donate 999 Coins to the Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "139",
+    "name": "Wire Coat Hanger",
+    "requirements": "Defeat Mom's Heart 4 times",
+    "prereqs": []
+  },
+  {
+    "id": "140",
+    "name": "Ipecac",
+    "requirements": "Defeat Mom's Heart 6 times",
+    "prereqs": []
+  },
+  {
+    "id": "141",
+    "name": "Experimental Treatment",
+    "requirements": "Defeat Mom's Heart 7 times",
+    "prereqs": []
+  },
+  {
+    "id": "142",
+    "name": "Krampus",
+    "requirements": "Take 20 items from Devil Rooms",
+    "prereqs": []
+  },
+  {
+    "id": "143",
+    "name": "Head of Krampus",
+    "requirements": "Defeat Krampus",
+    "prereqs": []
+  },
+  {
+    "id": "144",
+    "name": "Super Meat Boy",
+    "requirements": "Make a Super Meat Boy by picking up 4 copies of Cube of Meat in one run",
+    "prereqs": []
+  },
+  {
+    "id": "145",
+    "name": "Butter Bean",
+    "requirements": "Destroy 100 Poops",
+    "prereqs": []
+  },
+  {
+    "id": "146",
+    "name": "Little Baggy",
+    "requirements": "Pick up 2 syringe-related items in a single run",
+    "prereqs": []
+  },
+  {
+    "id": "147",
+    "name": "Blood Bag",
+    "requirements": "Use the Blood Donation Machine 30 times",
+    "prereqs": []
+  },
+  {
+    "id": "148",
+    "name": "The D4",
+    "requirements": "Blow up 30 Slot Machine",
+    "prereqs": []
+  },
+  {
+    "id": "149",
+    "name": "Missing Poster",
+    "requirements": "Defeat The Lamb as Isaac",
+    "prereqs": []
+  },
+  {
+    "id": "150",
+    "name": "Rubber Cement",
+    "requirements": "Defeat Mom's Heart 2 times",
+    "prereqs": []
+  },
+  {
+    "id": "151",
+    "name": "Store Upgrade lv.1",
+    "requirements": "Donate 20 Coins to the Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "152",
+    "name": "Store Upgrade lv.2",
+    "requirements": "Donate 100 Coins to the Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "153",
+    "name": "Store Upgrade lv.3",
+    "requirements": "Donate 200 Coins to the Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "154",
+    "name": "Store Upgrade lv.4",
+    "requirements": "Donate 600 Coins to the Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "155",
+    "name": "Angels",
+    "requirements": "Complete Chapter 6",
+    "prereqs": []
+  },
+  {
+    "id": "156",
+    "name": "Godhead",
+    "requirements": "Earn all 6 / 9 / 10 / 12 Completion Marks on Hard mode as The Lost",
+    "prereqs": []
+  },
+  {
+    "id": "157",
+    "name": "Darkness Falls",
+    "requirements": " Defeat Mom's Heart 11 times and unlock Eve<br> Defeat Mom's Heart 11 times and defeat ??? as Eve",
+    "prereqs": []
+  },
+  {
+    "id": "158",
+    "name": "The Tank",
+    "requirements": "Have 7 or more Red Heart Containers at one time",
+    "prereqs": []
+  },
+  {
+    "id": "159",
+    "name": "Solar System",
+    "requirements": "Defeat Mom's Heart 3 times",
+    "prereqs": []
+  },
+  {
+    "id": "160",
+    "name": "Suicide King 2",
+    "requirements": "",
+    "prereqs": []
+  },
+  {
+    "id": "161",
+    "name": "Cat Got Your Tongue",
+    "requirements": "Become Guppy",
+    "prereqs": []
+  },
+  {
+    "id": "162",
+    "name": "Demo Man",
+    "requirements": "Defeat Mom's Heart 9 times",
+    "prereqs": []
+  },
+  {
+    "id": "163",
+    "name": "Cursed!",
+    "requirements": "Have 7 or more Red Heart Containers at one time",
+    "prereqs": []
+  },
+  {
+    "id": "164",
+    "name": "Glass Cannon",
+    "requirements": "Beat The Family Man (challenge #19), defeat Lokii, and unlock Judas and It Lives!",
+    "prereqs": []
+  },
+  {
+    "id": "165",
+    "name": "The Family Man",
+    "requirements": "Pick up both Key Pieces from the Angels in one run",
+    "prereqs": []
+  },
+  {
+    "id": "166",
+    "name": "Purist",
+    "requirements": "Defeat Mom",
+    "prereqs": []
+  },
+  {
+    "id": "167",
+    "name": "Lost Baby",
+    "requirements": "Defeat Mom's Heart on Hard mode as Isaac",
+    "prereqs": []
+  },
+  {
+    "id": "168",
+    "name": "Cute Baby",
+    "requirements": "Defeat Mom's Heart on Hard mode as Magdalene",
+    "prereqs": [
+      "Magdalene"
+    ]
+  },
+  {
+    "id": "169",
+    "name": "Crow Baby",
+    "requirements": "Defeat Mom's Heart on Hard mode as Eve",
+    "prereqs": [
+      "Eve"
+    ]
+  },
+  {
+    "id": "170",
+    "name": "Shadow Baby",
+    "requirements": "Defeat Mom's Heart on Hard mode as Judas",
+    "prereqs": [
+      "Judas"
+    ]
+  },
+  {
+    "id": "171",
+    "name": "Glass Baby",
+    "requirements": "Defeat Mom's Heart on Hard mode as Cain",
+    "prereqs": [
+      "Cain"
+    ]
+  },
+  {
+    "id": "172",
+    "name": "Wrapped Baby",
+    "requirements": " Defeat Mom's Heart on Hard mode as Azazel<br> Defeat Mom's Heart on Hard mode as Lazarus",
+    "prereqs": []
+  },
+  {
+    "id": "173",
+    "name": "Begotten Baby",
+    "requirements": " Defeat Mom's Heart on Hard mode as Lazarus<br> Defeat Mom's Heart on Hard mode as Azazel",
+    "prereqs": []
+  },
+  {
+    "id": "174",
+    "name": "Dead Baby",
+    "requirements": "Defeat Mom's Heart on Hard mode as ???",
+    "prereqs": [
+      "???"
+    ]
+  },
+  {
+    "id": "175",
+    "name": "-0- Baby",
+    "requirements": "Defeat Mom's Heart on Hard mode as The Lost",
+    "prereqs": [
+      "The Lost"
+    ]
+  },
+  {
+    "id": "176",
+    "name": "Glitch Baby",
+    "requirements": "Defeat Mom's Heart on Hard mode as Eden",
+    "prereqs": [
+      "Eden"
+    ]
+  },
+  {
+    "id": "177",
+    "name": "Fighting Baby",
+    "requirements": "Defeat Mom's Heart on Hard mode as Samson",
+    "prereqs": [
+      "Samson"
+    ]
+  },
+  {
+    "id": "178",
+    "name": "Lord of the Flies",
+    "requirements": "Become Beelzebub",
+    "prereqs": []
+  },
+  {
+    "id": "179",
+    "name": "Fart Baby",
+    "requirements": "Defeat Hush as Isaac",
+    "prereqs": []
+  },
+  {
+    "id": "180",
+    "name": "Purity",
+    "requirements": "Defeat Hush as Magdalene",
+    "prereqs": [
+      "Magdalene"
+    ]
+  },
+  {
+    "id": "181",
+    "name": "D12",
+    "requirements": "Defeat Hush as Cain",
+    "prereqs": [
+      "Cain"
+    ]
+  },
+  {
+    "id": "182",
+    "name": "Betrayal",
+    "requirements": "Defeat Hush as Judas",
+    "prereqs": [
+      "Judas"
+    ]
+  },
+  {
+    "id": "183",
+    "name": "Fate's Reward",
+    "requirements": "Defeat Hush as ???",
+    "prereqs": [
+      "???"
+    ]
+  },
+  {
+    "id": "184",
+    "name": "Athame",
+    "requirements": "Defeat Hush as Eve",
+    "prereqs": [
+      "Eve"
+    ]
+  },
+  {
+    "id": "185",
+    "name": "Blind Rage",
+    "requirements": "Defeat Hush as Samson",
+    "prereqs": [
+      "Samson"
+    ]
+  },
+  {
+    "id": "186",
+    "name": "Maw of the Void",
+    "requirements": "Defeat Hush as Azazel",
+    "prereqs": [
+      "Azazel"
+    ]
+  },
+  {
+    "id": "187",
+    "name": "Empty Vessel",
+    "requirements": "Defeat Hush as Lazarus",
+    "prereqs": [
+      "Lazarus"
+    ]
+  },
+  {
+    "id": "188",
+    "name": "Eden's Blessing",
+    "requirements": "Defeat Hush as Eden",
+    "prereqs": [
+      "Eden"
+    ]
+  },
+  {
+    "id": "189",
+    "name": "Sworn Protector",
+    "requirements": "Defeat Hush as The Lost",
+    "prereqs": [
+      "The Lost"
+    ]
+  },
+  {
+    "id": "190",
+    "name": "Incubus",
+    "requirements": "Defeat Hush as Lilith",
+    "prereqs": [
+      "Lilith"
+    ]
+  },
+  {
+    "id": "191",
+    "name": "Keeper now holds... A Penny!",
+    "requirements": "Defeat Hush as Keeper",
+    "prereqs": [
+      "Keeper"
+    ]
+  },
+  {
+    "id": "192",
+    "name": "Lil' Chest",
+    "requirements": "Defeat Ultra Greed as Isaac",
+    "prereqs": []
+  },
+  {
+    "id": "193",
+    "name": "Censer",
+    "requirements": "Defeat Ultra Greed as Magdalene",
+    "prereqs": [
+      "Magdalene"
+    ]
+  },
+  {
+    "id": "194",
+    "name": "Evil Eye",
+    "requirements": "Defeat Ultra Greed as Cain",
+    "prereqs": [
+      "Cain"
+    ]
+  },
+  {
+    "id": "195",
+    "name": "My Shadow",
+    "requirements": "Defeat Ultra Greed as Judas",
+    "prereqs": [
+      "Judas"
+    ]
+  },
+  {
+    "id": "196",
+    "name": "Cracked Dice",
+    "requirements": "Defeat Ultra Greed as ???",
+    "prereqs": [
+      "???"
+    ]
+  },
+  {
+    "id": "197",
+    "name": "Black Feather",
+    "requirements": "Defeat Ultra Greed as Eve",
+    "prereqs": [
+      "Eve"
+    ]
+  },
+  {
+    "id": "198",
+    "name": "Lusty Blood",
+    "requirements": "Defeat Ultra Greed as Samson",
+    "prereqs": [
+      "Samson"
+    ]
+  },
+  {
+    "id": "199",
+    "name": "Lilith",
+    "requirements": "Defeat Ultra Greed as Azazel",
+    "prereqs": [
+      "Azazel"
+    ]
+  },
+  {
+    "id": "200",
+    "name": "Key Bum",
+    "requirements": "Defeat Ultra Greed as Lazarus",
+    "prereqs": [
+      "Lazarus"
+    ]
+  },
+  {
+    "id": "201",
+    "name": "GB Bug",
+    "requirements": "Defeat Ultra Greed as Eden",
+    "prereqs": [
+      "Eden"
+    ]
+  },
+  {
+    "id": "202",
+    "name": "Zodiac",
+    "requirements": "Defeat Ultra Greed as The Lost",
+    "prereqs": [
+      "The Lost"
+    ]
+  },
+  {
+    "id": "203",
+    "name": "Box of Friends",
+    "requirements": "Defeat Ultra Greed as Lilith",
+    "prereqs": [
+      "Lilith"
+    ]
+  },
+  {
+    "id": "204",
+    "name": "Rib of Greed",
+    "requirements": "Defeat Ultra Greed as Keeper",
+    "prereqs": [
+      "Keeper"
+    ]
+  },
+  {
+    "id": "205",
+    "name": "Cry Baby",
+    "requirements": "Defeat Mega Satan as Isaac",
+    "prereqs": []
+  },
+  {
+    "id": "206",
+    "name": "Red Baby",
+    "requirements": "Defeat Mega Satan as Magdalene",
+    "prereqs": [
+      "Magdalene"
+    ]
+  },
+  {
+    "id": "207",
+    "name": "Green Baby",
+    "requirements": "Defeat Mega Satan as Cain",
+    "prereqs": [
+      "Cain"
+    ]
+  },
+  {
+    "id": "208",
+    "name": "Brown Baby",
+    "requirements": "Defeat Mega Satan as Judas",
+    "prereqs": [
+      "Judas"
+    ]
+  },
+  {
+    "id": "209",
+    "name": "Blue Baby",
+    "requirements": "Defeat Mega Satan as ???",
+    "prereqs": [
+      "???"
+    ]
+  },
+  {
+    "id": "210",
+    "name": "Lil' Baby",
+    "requirements": "Defeat Mega Satan as Eve",
+    "prereqs": [
+      "Eve"
+    ]
+  },
+  {
+    "id": "211",
+    "name": "Rage Baby",
+    "requirements": "Defeat Mega Satan as Samson",
+    "prereqs": [
+      "Samson"
+    ]
+  },
+  {
+    "id": "212",
+    "name": "Black Baby",
+    "requirements": "Defeat Mega Satan as Azazel",
+    "prereqs": [
+      "Azazel"
+    ]
+  },
+  {
+    "id": "213",
+    "name": "Long Baby",
+    "requirements": "Defeat Mega Satan as Lazarus",
+    "prereqs": [
+      "Lazarus"
+    ]
+  },
+  {
+    "id": "214",
+    "name": "Yellow Baby",
+    "requirements": "Defeat Mega Satan as Eden",
+    "prereqs": [
+      "Eden"
+    ]
+  },
+  {
+    "id": "215",
+    "name": "White Baby",
+    "requirements": "Defeat Mega Satan as The Lost",
+    "prereqs": [
+      "The Lost"
+    ]
+  },
+  {
+    "id": "216",
+    "name": "Big Baby",
+    "requirements": "Defeat Mega Satan as Lilith",
+    "prereqs": [
+      "Lilith"
+    ]
+  },
+  {
+    "id": "217",
+    "name": "Noose Baby",
+    "requirements": "Defeat Mega Satan as Keeper",
+    "prereqs": [
+      "Keeper"
+    ]
+  },
+  {
+    "id": "218",
+    "name": "Rune Bag",
+    "requirements": "Defeat Isaac as Lilith",
+    "prereqs": [
+      "Lilith"
+    ]
+  },
+  {
+    "id": "219",
+    "name": "Cambion Conception",
+    "requirements": "Defeat ??? as Lilith",
+    "prereqs": [
+      "Lilith"
+    ]
+  },
+  {
+    "id": "220",
+    "name": "Serpent's Kiss",
+    "requirements": "Defeat Satan as Lilith",
+    "prereqs": [
+      "Lilith"
+    ]
+  },
+  {
+    "id": "221",
+    "name": "Succubus",
+    "requirements": "Defeat The Lamb as Lilith",
+    "prereqs": [
+      "Lilith"
+    ]
+  },
+  {
+    "id": "222",
+    "name": "Immaculate Conception",
+    "requirements": "Complete the Boss Rush as Lilith",
+    "prereqs": []
+  },
+  {
+    "id": "223",
+    "name": "Goat Head Baby",
+    "requirements": "Defeat Mom's Heart on Hard mode as Lilith",
+    "prereqs": [
+      "Lilith"
+    ]
+  },
+  {
+    "id": "224",
+    "name": "Gold Heart",
+    "requirements": "Complete XXXXXXXXL (challenge #21)",
+    "prereqs": []
+  },
+  {
+    "id": "225",
+    "name": "Get out of Jail Free Card",
+    "requirements": "Complete SPEED! (challenge #22)",
+    "prereqs": []
+  },
+  {
+    "id": "226",
+    "name": "Gold Bomb",
+    "requirements": "Complete Blue Bomber (challenge #23)",
+    "prereqs": []
+  },
+  {
+    "id": "227",
+    "name": "2 new pills",
+    "requirements": "Complete PAY TO PLAY (challenge #24)",
+    "prereqs": []
+  },
+  {
+    "id": "228",
+    "name": "2 new pills",
+    "requirements": "Complete Have a Heart (challenge #25)",
+    "prereqs": []
+  },
+  {
+    "id": "229",
+    "name": "Poker Chip",
+    "requirements": "Complete I RULE! (challenge #26)",
+    "prereqs": []
+  },
+  {
+    "id": "230",
+    "name": "Stud Finder",
+    "requirements": "Complete BRAINS! (challenge #27)",
+    "prereqs": []
+  },
+  {
+    "id": "231",
+    "name": "D8",
+    "requirements": "Complete PRIDE DAY! (challenge #28)",
+    "prereqs": []
+  },
+  {
+    "id": "232",
+    "name": "Kidney Stone",
+    "requirements": " Complete The Guardian (challenge #30)<br> Complete Onan's Streak (challenge #29)",
+    "prereqs": []
+  },
+  {
+    "id": "233",
+    "name": "Blank Rune",
+    "requirements": " Complete Onan's Streak (challenge #29)<br> Complete The Guardian (challenge #30)",
+    "prereqs": []
+  },
+  {
+    "id": "234",
+    "name": "Blue Womb",
+    "requirements": "Defeat Mom's Heart 10 times",
+    "prereqs": []
+  },
+  {
+    "id": "235",
+    "name": "1001%",
+    "requirements": " Unlock all Afterbirth secrets and endings, and collect every Afterbirth item<br> Unlock 275 random achievements and have at least 510 items in the collection page",
+    "prereqs": []
+  },
+  {
+    "id": "236",
+    "name": "Keeper holds Wooden Nickel",
+    "requirements": "Defeat Isaac as Keeper",
+    "prereqs": [
+      "Keeper"
+    ]
+  },
+  {
+    "id": "237",
+    "name": "Keeper holds Store Key",
+    "requirements": "Defeat Satan as Keeper",
+    "prereqs": [
+      "Keeper"
+    ]
+  },
+  {
+    "id": "238",
+    "name": "Deep Pockets",
+    "requirements": "Defeat ??? as Keeper",
+    "prereqs": [
+      "Keeper"
+    ]
+  },
+  {
+    "id": "239",
+    "name": "Karma",
+    "requirements": "Defeat The Lamb as Keeper",
+    "prereqs": [
+      "Keeper"
+    ]
+  },
+  {
+    "id": "240",
+    "name": "Sticky Nickels",
+    "requirements": "Complete the Boss Rush as Keeper",
+    "prereqs": []
+  },
+  {
+    "id": "241",
+    "name": "Super Greed Baby",
+    "requirements": "Defeat Mom's Heart on Hard mode as Keeper",
+    "prereqs": [
+      "Keeper"
+    ]
+  },
+  {
+    "id": "242",
+    "name": "Lucky Pennies",
+    "requirements": "Donate 2 Coins to the Greed Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "243",
+    "name": "Special Hanging Shopkeepers",
+    "requirements": "Donate 14 Coins to the Greed Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "244",
+    "name": "Wooden Nickel",
+    "requirements": "Donate 33 Coins to the Greed Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "245",
+    "name": "Cain holds Paperclip",
+    "requirements": "Donate 68 Coins to the Greed Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "246",
+    "name": "Everything is Terrible 2!!!",
+    "requirements": "Donate 111 Coins to the Greed Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "247",
+    "name": "Special Shopkeepers",
+    "requirements": "Donate 234 Coins to the Greed Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "248",
+    "name": "Eve now holds Razor Blade",
+    "requirements": "Donate 439 Coins to the Greed Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "249",
+    "name": "Store Key",
+    "requirements": "Donate 666 Coins to the Greed Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "250",
+    "name": "Lost holds Holy Mantle",
+    "requirements": "Donate 879 Coins to the Greed Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "251",
+    "name": "Keeper",
+    "requirements": "Donate 1000 Coins to the Greed Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "252",
+    "name": "Hive Baby",
+    "requirements": "Earn all Hard mode Completion Marks as ???",
+    "prereqs": []
+  },
+  {
+    "id": "253",
+    "name": "Buddy Baby",
+    "requirements": "Earn all Hard mode Completion Marks as Isaac",
+    "prereqs": []
+  },
+  {
+    "id": "254",
+    "name": "Colorful Baby",
+    "requirements": "Earn all Hard mode Completion Marks as Magdalene",
+    "prereqs": []
+  },
+  {
+    "id": "255",
+    "name": "Whore Baby",
+    "requirements": "Earn all Hard mode Completion Marks as Eve",
+    "prereqs": []
+  },
+  {
+    "id": "256",
+    "name": "Cracked Baby",
+    "requirements": "Earn all Hard mode Completion Marks as Eden",
+    "prereqs": []
+  },
+  {
+    "id": "257",
+    "name": "Dripping Baby",
+    "requirements": "Earn all Hard mode Completion Marks as Lazarus",
+    "prereqs": []
+  },
+  {
+    "id": "258",
+    "name": "Blinding Baby",
+    "requirements": "Use Blank Card while holding XIX - The Sun",
+    "prereqs": []
+  },
+  {
+    "id": "259",
+    "name": "Sucky Baby",
+    "requirements": "Earn all Hard mode Completion Marks as Azazel",
+    "prereqs": []
+  },
+  {
+    "id": "260",
+    "name": "Dark Baby",
+    "requirements": "Earn all Hard mode Completion Marks as Lilith",
+    "prereqs": []
+  },
+  {
+    "id": "261",
+    "name": "Picky Baby",
+    "requirements": "Earn all Hard mode Completion Marks as Cain",
+    "prereqs": []
+  },
+  {
+    "id": "262",
+    "name": "Revenge Baby",
+    "requirements": "Earn all Hard mode Completion Marks as Samson",
+    "prereqs": []
+  },
+  {
+    "id": "263",
+    "name": "Belial Baby",
+    "requirements": "Earn all Hard mode Completion Marks as Judas",
+    "prereqs": []
+  },
+  {
+    "id": "264",
+    "name": "Sale Baby",
+    "requirements": "Earn all Hard mode Completion Marks as Keeper",
+    "prereqs": []
+  },
+  {
+    "id": "265",
+    "name": "XXXXXXXXL",
+    "requirements": "Defeat Mom",
+    "prereqs": []
+  },
+  {
+    "id": "266",
+    "name": "SPEED!",
+    "requirements": "Defeat Mom",
+    "prereqs": []
+  },
+  {
+    "id": "267",
+    "name": "Blue Bomber",
+    "requirements": "Destroy 10 Tinted Rocks and defeat Mom's Heart 11 times",
+    "prereqs": []
+  },
+  {
+    "id": "268",
+    "name": "PAY TO PLAY",
+    "requirements": "Defeat Isaac as Cain and destroy 10 Tinted Rocks",
+    "prereqs": [
+      "Cain"
+    ]
+  },
+  {
+    "id": "269",
+    "name": "Have a Heart",
+    "requirements": "Defeat Mom",
+    "prereqs": []
+  },
+  {
+    "id": "270",
+    "name": "I RULE!",
+    "requirements": " Defeat ??? or The Lamb, defeat Satan as Isaac, and unlock The Negative<br> Defeat ??? or The Lamb, and defeat Satan as Isaac<br> Defeat Mega Satan and unlock The Negative",
+    "prereqs": []
+  },
+  {
+    "id": "271",
+    "name": "BRAINS!",
+    "requirements": "Defeat Isaac 5 times",
+    "prereqs": []
+  },
+  {
+    "id": "272",
+    "name": "PRIDE DAY!",
+    "requirements": "Defeat Mom",
+    "prereqs": []
+  },
+  {
+    "id": "273",
+    "name": "Onan's Streak",
+    "requirements": " Defeat Mom<br> Unlock Judas and It Lives!",
+    "prereqs": []
+  },
+  {
+    "id": "274",
+    "name": "The Guardian",
+    "requirements": "Defeat Mom",
+    "prereqs": []
+  },
+  {
+    "id": "275",
+    "name": "Generosity",
+    "requirements": "Donate 999 Coins to the Greed Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "276",
+    "name": "Mega",
+    "requirements": "Defeat Mega Satan as every character ( except tainted characters)",
+    "prereqs": []
+  },
+  {
+    "id": "277",
+    "name": "Backasswards",
+    "requirements": " Defeat ??? or The Lamb<br> Defeat Mega Satan and unlock The Negative",
+    "prereqs": []
+  },
+  {
+    "id": "278",
+    "name": "Aprils fool",
+    "requirements": "Defeat Mom",
+    "prereqs": []
+  },
+  {
+    "id": "279",
+    "name": "Pokey Mans",
+    "requirements": "Defeat Mom's Heart 11 times",
+    "prereqs": []
+  },
+  {
+    "id": "280",
+    "name": "Ultra Hard",
+    "requirements": " Defeat ??? or The Lamb<br> Defeat Mega Satan and unlock The Negative",
+    "prereqs": []
+  },
+  {
+    "id": "281",
+    "name": "PONG",
+    "requirements": "Defeat Isaac 5 times",
+    "prereqs": []
+  },
+  {
+    "id": "282",
+    "name": "D infinity",
+    "requirements": "Defeat Delirium as Isaac",
+    "prereqs": []
+  },
+  {
+    "id": "283",
+    "name": "Eucharist",
+    "requirements": "Defeat Delirium as Magdalene",
+    "prereqs": [
+      "Magdalene"
+    ]
+  },
+  {
+    "id": "284",
+    "name": "Silver Dollar",
+    "requirements": "Defeat Delirium as Cain",
+    "prereqs": [
+      "Cain"
+    ]
+  },
+  {
+    "id": "285",
+    "name": "Shade",
+    "requirements": "Defeat Delirium as Judas",
+    "prereqs": [
+      "Judas"
+    ]
+  },
+  {
+    "id": "286",
+    "name": "King Baby",
+    "requirements": "Defeat Delirium as ???",
+    "prereqs": [
+      "???"
+    ]
+  },
+  {
+    "id": "287",
+    "name": "Bloody Crown",
+    "requirements": "Defeat Delirium as Samson",
+    "prereqs": [
+      "Samson"
+    ]
+  },
+  {
+    "id": "288",
+    "name": "Dull Razor",
+    "requirements": "Defeat Delirium as Eve",
+    "prereqs": [
+      "Eve"
+    ]
+  },
+  {
+    "id": "289",
+    "name": "Eden's Soul",
+    "requirements": "Defeat Delirium as Eden",
+    "prereqs": [
+      "Eden"
+    ]
+  },
+  {
+    "id": "290",
+    "name": "Dark Prince's Crown",
+    "requirements": "Defeat Delirium as Azazel",
+    "prereqs": [
+      "Azazel"
+    ]
+  },
+  {
+    "id": "291",
+    "name": "Compound Fracture",
+    "requirements": "Defeat Delirium as Lazarus",
+    "prereqs": [
+      "Lazarus"
+    ]
+  },
+  {
+    "id": "292",
+    "name": "Euthanasia",
+    "requirements": "Defeat Delirium as Lilith",
+    "prereqs": [
+      "Lilith"
+    ]
+  },
+  {
+    "id": "293",
+    "name": "Holy Card",
+    "requirements": "Defeat Delirium as The Lost",
+    "prereqs": [
+      "The Lost"
+    ]
+  },
+  {
+    "id": "294",
+    "name": "Crooked Penny",
+    "requirements": "Defeat Delirium as Keeper",
+    "prereqs": [
+      "Keeper"
+    ]
+  },
+  {
+    "id": "295",
+    "name": "Void",
+    "requirements": "Defeat Delirium as Apollyon",
+    "prereqs": [
+      "Apollyon"
+    ]
+  },
+  {
+    "id": "296",
+    "name": "D1",
+    "requirements": "Defeat Ultra Greedier as Isaac",
+    "prereqs": []
+  },
+  {
+    "id": "297",
+    "name": "Glyph of Balance",
+    "requirements": "Defeat Ultra Greedier as Magdalene",
+    "prereqs": [
+      "Magdalene"
+    ]
+  },
+  {
+    "id": "298",
+    "name": "Sack of Sacks",
+    "requirements": "Defeat Ultra Greedier as Cain",
+    "prereqs": [
+      "Cain"
+    ]
+  },
+  {
+    "id": "299",
+    "name": "Eye of Belial",
+    "requirements": "Defeat Ultra Greedier as Judas",
+    "prereqs": [
+      "Judas"
+    ]
+  },
+  {
+    "id": "300",
+    "name": "Meconium",
+    "requirements": "Defeat Ultra Greedier as ???",
+    "prereqs": [
+      "???"
+    ]
+  },
+  {
+    "id": "301",
+    "name": "Stem Cell",
+    "requirements": "Defeat Ultra Greedier as Samson",
+    "prereqs": [
+      "Samson"
+    ]
+  },
+  {
+    "id": "302",
+    "name": "Crow Heart",
+    "requirements": "Defeat Ultra Greedier as Eve",
+    "prereqs": [
+      "Eve"
+    ]
+  },
+  {
+    "id": "303",
+    "name": "Metronome",
+    "requirements": "Defeat Ultra Greedier as Eden",
+    "prereqs": [
+      "Eden"
+    ]
+  },
+  {
+    "id": "304",
+    "name": "Bat Wing",
+    "requirements": "Defeat Ultra Greedier as Azazel",
+    "prereqs": [
+      "Azazel"
+    ]
+  },
+  {
+    "id": "305",
+    "name": "Plan C",
+    "requirements": "Defeat Ultra Greedier as Lazarus",
+    "prereqs": [
+      "Lazarus"
+    ]
+  },
+  {
+    "id": "306",
+    "name": "Duality",
+    "requirements": "Defeat Ultra Greedier as Lilith",
+    "prereqs": [
+      "Lilith"
+    ]
+  },
+  {
+    "id": "307",
+    "name": "Dad's Lost Coin",
+    "requirements": "Defeat Ultra Greedier as The Lost",
+    "prereqs": [
+      "The Lost"
+    ]
+  },
+  {
+    "id": "308",
+    "name": "Eye of Greed",
+    "requirements": "Defeat Ultra Greedier as Keeper",
+    "prereqs": [
+      "Keeper"
+    ]
+  },
+  {
+    "id": "309",
+    "name": "Black Rune",
+    "requirements": "Defeat Ultra Greedier as Apollyon",
+    "prereqs": [
+      "Apollyon"
+    ]
+  },
+  {
+    "id": "310",
+    "name": "Locust of Wrath",
+    "requirements": "Defeat Isaac as Apollyon",
+    "prereqs": [
+      "Apollyon"
+    ]
+  },
+  {
+    "id": "311",
+    "name": "Locust of Pestilence",
+    "requirements": "Defeat Satan as Apollyon",
+    "prereqs": [
+      "Apollyon"
+    ]
+  },
+  {
+    "id": "312",
+    "name": "Locust of Famine",
+    "requirements": "Defeat ??? as Apollyon",
+    "prereqs": [
+      "Apollyon"
+    ]
+  },
+  {
+    "id": "313",
+    "name": "Locust of Death",
+    "requirements": "Defeat The Lamb as Apollyon",
+    "prereqs": [
+      "Apollyon"
+    ]
+  },
+  {
+    "id": "314",
+    "name": "Locust of Conquest",
+    "requirements": "Complete the Boss Rush as Apollyon",
+    "prereqs": []
+  },
+  {
+    "id": "315",
+    "name": "Hushy",
+    "requirements": "Defeat Hush as Apollyon",
+    "prereqs": [
+      "Apollyon"
+    ]
+  },
+  {
+    "id": "316",
+    "name": "Brown Nugget",
+    "requirements": "Defeat Ultra Greed as Apollyon",
+    "prereqs": [
+      "Apollyon"
+    ]
+  },
+  {
+    "id": "317",
+    "name": "Mort Baby",
+    "requirements": "Defeat Mega Satan as Apollyon",
+    "prereqs": [
+      "Apollyon"
+    ]
+  },
+  {
+    "id": "318",
+    "name": "Smelter",
+    "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as Apollyon",
+    "prereqs": [
+      "Apollyon"
+    ]
+  },
+  {
+    "id": "319",
+    "name": "Apollyon Baby",
+    "requirements": "Earn all Hard mode Completion Marks as Apollyon",
+    "prereqs": []
+  },
+  {
+    "id": "320",
+    "name": "New Area",
+    "requirements": "Defeat Hush",
+    "prereqs": []
+  },
+  {
+    "id": "321",
+    "name": "Once More with Feeling!",
+    "requirements": "Complete a Victory Lap by defeating The Lamb",
+    "prereqs": []
+  },
+  {
+    "id": "322",
+    "name": "Hat trick!",
+    "requirements": "Get a 3-win streak",
+    "prereqs": []
+  },
+  {
+    "id": "323",
+    "name": "5 Nights at Mom's",
+    "requirements": "Get a 5-win streak, using a different character each time",
+    "prereqs": []
+  },
+  {
+    "id": "324",
+    "name": "Sin collector",
+    "requirements": "Collect every entry in the Bestiary",
+    "prereqs": []
+  },
+  {
+    "id": "325",
+    "name": "Dedication",
+    "requirements": "Participate in 31 Daily Challenges",
+    "prereqs": []
+  },
+  {
+    "id": "326",
+    "name": "ZIP!",
+    "requirements": "Defeat The Lamb in under 20 minutes",
+    "prereqs": []
+  },
+  {
+    "id": "327",
+    "name": "It's the Key",
+    "requirements": "Defeat The Lamb without taking Hearts, Coins, or Bombs through the entire run",
+    "prereqs": []
+  },
+  {
+    "id": "328",
+    "name": "Mr. Resetter!",
+    "requirements": "Reset 7 times in a row<br>SwitchPS 4 Get a minus 10-win streak",
+    "prereqs": []
+  },
+  {
+    "id": "329",
+    "name": "Living on the edge",
+    "requirements": "Complete a Chapter (floors I and II) after Basement, start-to-finish, with only half a Heart total (can use The Lost)",
+    "prereqs": []
+  },
+  {
+    "id": "330",
+    "name": "U Broke It!",
+    "requirements": "Obtain 50 items in a run",
+    "prereqs": []
+  },
+  {
+    "id": "331",
+    "name": "Laz Bleeds More!",
+    "requirements": "Complete Backasswards (challenge #31)",
+    "prereqs": []
+  },
+  {
+    "id": "332",
+    "name": "Maggy Now Holds a Pill!",
+    "requirements": "Complete Aprils Fool (challenge #32)",
+    "prereqs": []
+  },
+  {
+    "id": "333",
+    "name": "Charged Key",
+    "requirements": "Complete Pokey Mans (challenge #33)",
+    "prereqs": []
+  },
+  {
+    "id": "334",
+    "name": "Samson Feels Healthy!",
+    "requirements": "Complete Ultra Hard (challenge #34)",
+    "prereqs": []
+  },
+  {
+    "id": "335",
+    "name": "Greed's Gullet",
+    "requirements": "Complete Pong (challenge #35)",
+    "prereqs": []
+  },
+  {
+    "id": "336",
+    "name": "The Marathon",
+    "requirements": "Get a 5-win streak in the Daily Challenges",
+    "prereqs": []
+  },
+  {
+    "id": "337",
+    "name": "RERUN",
+    "requirements": "Complete 3 Victory Laps by defeating The Lamb",
+    "prereqs": []
+  },
+  {
+    "id": "338",
+    "name": "Delirious",
+    "requirements": "Defeat Delirium",
+    "prereqs": []
+  },
+  {
+    "id": "339",
+    "name": "1000000%",
+    "requirements": " Collect every item in the game, unlock all secrets and endings, and complete the Bestiary<br> Unlock 402 random achievements and have at least 510 items in the collection page",
+    "prereqs": []
+  },
+  {
+    "id": "340",
+    "name": "Apollyon",
+    "requirements": "Defeat Mega Satan",
+    "prereqs": []
+  },
+  {
+    "id": "341",
+    "name": "Greedier!",
+    "requirements": "Donate 500 Coins to the Greed Donation Machine",
+    "prereqs": []
+  },
+  {
+    "id": "342",
+    "name": "Burning Basement",
+    "requirements": "Defeat Mom's Heart 11 times",
+    "prereqs": []
+  },
+  {
+    "id": "343",
+    "name": "Flooded Caves",
+    "requirements": "Defeat It Lives! 16 times",
+    "prereqs": []
+  },
+  {
+    "id": "344",
+    "name": "Dank Depths",
+    "requirements": "Defeat It Lives! 21 times",
+    "prereqs": []
+  },
+  {
+    "id": "345",
+    "name": "Scarred Womb",
+    "requirements": "Defeat It Lives! 30 times",
+    "prereqs": []
+  },
+  {
+    "id": "346",
+    "name": "Something wicked this way comes!",
+    "requirements": "Defeat ??? as 3 different Characters",
+    "prereqs": []
+  },
+  {
+    "id": "347",
+    "name": "Something wicked this way comes+!",
+    "requirements": "Defeat ??? as 6 different Characters",
+    "prereqs": []
+  },
+  {
+    "id": "348",
+    "name": "The gate is open!",
+    "requirements": "Defeat The Lamb",
+    "prereqs": []
+  },
+  {
+    "id": "349",
+    "name": "Black Hole",
+    "requirements": "Defeat 20 Portals",
+    "prereqs": []
+  },
+  {
+    "id": "350",
+    "name": "Mystery Gift",
+    "requirements": "Destroy 500 rocks",
+    "prereqs": []
+  },
+  {
+    "id": "351",
+    "name": "Sprinkler",
+    "requirements": "Beat Chapter 1 without taking damage",
+    "prereqs": []
+  },
+  {
+    "id": "352",
+    "name": "Angry Fly",
+    "requirements": "Become Beelzebub",
+    "prereqs": []
+  },
+  {
+    "id": "353",
+    "name": "Bozo",
+    "requirements": "Destroy 5 rainbow poops",
+    "prereqs": []
+  },
+  {
+    "id": "354",
+    "name": "Broken Modem",
+    "requirements": "Complete 7 Daily Challenges (by touching the trophy at the end)",
+    "prereqs": []
+  },
+  {
+    "id": "355",
+    "name": "Buddy in a Box",
+    "requirements": "Pick up 5 familiars in a single run",
+    "prereqs": []
+  },
+  {
+    "id": "356",
+    "name": "Fast Bombs",
+    "requirements": "Defeat Little Horn 20 times",
+    "prereqs": []
+  },
+  {
+    "id": "357",
+    "name": "Lil Delirium",
+    "requirements": "Defeat Delirium for the 1st time",
+    "prereqs": []
+  },
+  {
+    "id": "358",
+    "name": "Hairpin",
+    "requirements": "Recharge using Lil' Batteries 20 times",
+    "prereqs": []
+  },
+  {
+    "id": "359",
+    "name": "Wooden Cross",
+    "requirements": "Sleep in a bed",
+    "prereqs": []
+  },
+  {
+    "id": "360",
+    "name": "Butter!",
+    "requirements": "Complete 2 Victory Laps by defeating The Lamb",
+    "prereqs": []
+  },
+  {
+    "id": "361",
+    "name": "Huge Growth",
+    "requirements": "Be 3 times larger than the starting size. Depending on the item/card/pill size's multiplier, 5 to 7 size increases will be required.",
+    "prereqs": []
+  },
+  {
+    "id": "362",
+    "name": "Ancient Recall",
+    "requirements": "Use Cards and Runes 20 times",
+    "prereqs": []
+  },
+  {
+    "id": "363",
+    "name": "Era Walk",
+    "requirements": "Add both the Broken Watch and the Stop Watch to your collection",
+    "prereqs": []
+  },
+  {
+    "id": "364",
+    "name": "Coupon",
+    "requirements": "Purchase anything from Shops, Devil Rooms, and/or Black Markets 50 times",
+    "prereqs": []
+  },
+  {
+    "id": "365",
+    "name": "Telekinesis",
+    "requirements": "Beat Chapter 2 without taking damage",
+    "prereqs": []
+  },
+  {
+    "id": "366",
+    "name": "Moving Box",
+    "requirements": "Use Pandora's Box in Dark Room",
+    "prereqs": []
+  },
+  {
+    "id": "367",
+    "name": "Jumper Cables",
+    "requirements": "Pick up 2 battery-related items in a single run",
+    "prereqs": []
+  },
+  {
+    "id": "368",
+    "name": "Leprosy",
+    "requirements": "Beat Chapter 3 without taking damage",
+    "prereqs": []
+  },
+  {
+    "id": "369",
+    "name": "Technology Zero",
+    "requirements": "Pick up 2 technology-related items in a single run",
+    "prereqs": []
+  },
+  {
+    "id": "370",
+    "name": "Filigree Feather",
+    "requirements": "Acquire both Key Piece 1 and Key Piece 2",
+    "prereqs": []
+  },
+  {
+    "id": "371",
+    "name": "Mr. ME!",
+    "requirements": "Open 20 Locked Chests",
+    "prereqs": []
+  },
+  {
+    "id": "372",
+    "name": "7 Seals",
+    "requirements": "Defeat all 5 Harbingers",
+    "prereqs": []
+  },
+  {
+    "id": "373",
+    "name": "Angelic Prism",
+    "requirements": "Defeat an Angel 10 times",
+    "prereqs": []
+  },
+  {
+    "id": "374",
+    "name": "Pop!",
+    "requirements": "Beat Chapter 4 without taking damage",
+    "prereqs": []
+  },
+  {
+    "id": "375",
+    "name": "Door Stop",
+    "requirements": "Blow up doors and Secret Room walls 50 times",
+    "prereqs": []
+  },
+  {
+    "id": "376",
+    "name": "Death's List",
+    "requirements": "Take 25 Deals with the Devil",
+    "prereqs": []
+  },
+  {
+    "id": "377",
+    "name": "Haemolacria",
+    "requirements": "Acquire Blood Clot 10 times",
+    "prereqs": []
+  },
+  {
+    "id": "378",
+    "name": "Lachryphagy",
+    "requirements": "Collect 10 \"Tears Up\" items or pills in one run",
+    "prereqs": []
+  },
+  {
+    "id": "379",
+    "name": "Schoolbag",
+    "requirements": "Enter 6 Shops in one run",
+    "prereqs": []
+  },
+  {
+    "id": "380",
+    "name": "Trisagion",
+    "requirements": "Take 25 Angel Rooms items",
+    "prereqs": []
+  },
+  {
+    "id": "381",
+    "name": "Extension Cord",
+    "requirements": "Have The Battery, 9 Volt, and Car Battery in Isaac's collection",
+    "prereqs": []
+  },
+  {
+    "id": "382",
+    "name": "Flat Stone",
+    "requirements": "Acquire Rubber Cement 5 times",
+    "prereqs": []
+  },
+  {
+    "id": "383",
+    "name": "Sacrificial Altar",
+    "requirements": "Take 50 Deals with the Devil",
+    "prereqs": []
+  },
+  {
+    "id": "384",
+    "name": "Lil Spewer",
+    "requirements": "Have Isaac die to his own explosion from any explosive and poisoned tear (Ipecac, Bob's Rotten Head, Fire Mind / Explosivo + Scorpio, or a Horf! pill)",
+    "prereqs": []
+  },
+  {
+    "id": "385",
+    "name": "Blanket",
+    "requirements": "Sleep in 10 beds",
+    "prereqs": []
+  },
+  {
+    "id": "386",
+    "name": "Marbles",
+    "requirements": "Use 5 Gulp! pills in one run",
+    "prereqs": []
+  },
+  {
+    "id": "387",
+    "name": "Mystery Egg",
+    "requirements": "Spawn three charmed enemies in the same room",
+    "prereqs": []
+  },
+  {
+    "id": "388",
+    "name": "Rotten Penny",
+    "requirements": "Have 20 Blue Flies at the same time",
+    "prereqs": []
+  },
+  {
+    "id": "389",
+    "name": "Baby-Bender",
+    "requirements": "Use I - The Magician or Telepathy For Dummies while already having homing tears",
+    "prereqs": []
+  },
+  {
+    "id": "390",
+    "name": "The Forgotten",
+    "requirements": "It's complicated",
+    "prereqs": []
+  },
+  {
+    "id": "391",
+    "name": "Bone Heart",
+    "requirements": "It's complicated",
+    "prereqs": []
+  },
+  {
+    "id": "392",
+    "name": "Marrow",
+    "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as The Forgotten",
+    "prereqs": [
+      "The Forgotten"
+    ]
+  },
+  {
+    "id": "393",
+    "name": "Slipped Rib",
+    "requirements": "Defeat Isaac as The Forgotten",
+    "prereqs": [
+      "The Forgotten"
+    ]
+  },
+  {
+    "id": "394",
+    "name": "Pointy Rib",
+    "requirements": "Defeat Satan as The Forgotten",
+    "prereqs": [
+      "The Forgotten"
+    ]
+  },
+  {
+    "id": "395",
+    "name": "Jaw Bone",
+    "requirements": "Defeat ??? as The Forgotten",
+    "prereqs": [
+      "The Forgotten"
+    ]
+  },
+  {
+    "id": "396",
+    "name": "Brittle Bones",
+    "requirements": "Defeat The Lamb as The Forgotten",
+    "prereqs": [
+      "The Forgotten"
+    ]
+  },
+  {
+    "id": "397",
+    "name": "Divorce Papers",
+    "requirements": "Complete the Boss Rush as The Forgotten",
+    "prereqs": []
+  },
+  {
+    "id": "398",
+    "name": "Hallowed Ground",
+    "requirements": "Defeat Hush as The Forgotten",
+    "prereqs": [
+      "The Forgotten"
+    ]
+  },
+  {
+    "id": "399",
+    "name": "Finger Bone",
+    "requirements": "Defeat Ultra Greed as The Forgotten",
+    "prereqs": [
+      "The Forgotten"
+    ]
+  },
+  {
+    "id": "400",
+    "name": "Dad's Ring",
+    "requirements": "Defeat Ultra Greedier as The Forgotten",
+    "prereqs": [
+      "The Forgotten"
+    ]
+  },
+  {
+    "id": "401",
+    "name": "Book of the Dead",
+    "requirements": "Defeat Delirium as The Forgotten",
+    "prereqs": [
+      "The Forgotten"
+    ]
+  },
+  {
+    "id": "402",
+    "name": "Bone Baby",
+    "requirements": "Earn all Hard mode Completion Marks as The Forgotten",
+    "prereqs": []
+  },
+  {
+    "id": "403",
+    "name": "Bound Baby",
+    "requirements": "Defeat Mega Satan as The Forgotten",
+    "prereqs": [
+      "The Forgotten"
+    ]
+  },
+  {
+    "id": "404",
+    "name": "Bethany",
+    "requirements": "Defeat Mom's Heart/It Lives! on hard mode as Lazarus, without dying at all",
+    "prereqs": [
+      "Lazarus"
+    ]
+  },
+  {
+    "id": "405",
+    "name": "Jacob and Esau",
+    "requirements": "Defeat Mother",
+    "prereqs": []
+  },
+  {
+    "id": "406",
+    "name": "The Planetarium",
+    "requirements": "Collect any 3 items with the 'stars' item tag in a single run",
+    "prereqs": []
+  },
+  {
+    "id": "407",
+    "name": "A Secret Exit",
+    "requirements": "Defeat Hush 3 times",
+    "prereqs": []
+  },
+  {
+    "id": "408",
+    "name": "Forgotten Lullaby",
+    "requirements": "Blow up The Siren's skull after defeating her",
+    "prereqs": []
+  },
+  {
+    "id": "409",
+    "name": "Fruity Plum",
+    "requirements": "Defeat Baby Plum 10 times",
+    "prereqs": []
+  },
+  {
+    "id": "410",
+    "name": "Plum Flute",
+    "requirements": "Allow Baby Plum to escape instead of defeating her",
+    "prereqs": []
+  },
+  {
+    "id": "411",
+    "name": "Rotten Heart",
+    "requirements": "Enter Corpse for the first time",
+    "prereqs": []
+  },
+  {
+    "id": "412",
+    "name": "Dross",
+    "requirements": "Defeat all bosses in Downpour",
+    "prereqs": []
+  },
+  {
+    "id": "413",
+    "name": "Ashpit",
+    "requirements": "Defeat all bosses in Mines",
+    "prereqs": []
+  },
+  {
+    "id": "414",
+    "name": "Gehenna",
+    "requirements": "Defeat all bosses in Mausoleum",
+    "prereqs": []
+  },
+  {
+    "id": "415",
+    "name": "Red Key",
+    "requirements": "Open Mom's Chest in Home",
+    "prereqs": []
+  },
+  {
+    "id": "416",
+    "name": "Wisp Baby",
+    "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as Bethany",
+    "prereqs": [
+      "Bethany"
+    ]
+  },
+  {
+    "id": "417",
+    "name": "Book of Virtues",
+    "requirements": "Defeat Isaac as Bethany",
+    "prereqs": [
+      "Bethany"
+    ]
+  },
+  {
+    "id": "418",
+    "name": "Urn of Souls",
+    "requirements": "Defeat Satan as Bethany",
+    "prereqs": [
+      "Bethany"
+    ]
+  },
+  {
+    "id": "419",
+    "name": "Blessed Penny",
+    "requirements": "Defeat ??? as Bethany",
+    "prereqs": [
+      "Bethany"
+    ]
+  },
+  {
+    "id": "420",
+    "name": "Alabaster Box",
+    "requirements": "Defeat The Lamb as Bethany",
+    "prereqs": [
+      "Bethany"
+    ]
+  },
+  {
+    "id": "421",
+    "name": "Beth's Faith",
+    "requirements": "Complete the Boss Rush as Bethany",
+    "prereqs": []
+  },
+  {
+    "id": "422",
+    "name": "Soul Locket",
+    "requirements": "Defeat Ultra Greed as Bethany",
+    "prereqs": [
+      "Bethany"
+    ]
+  },
+  {
+    "id": "423",
+    "name": "Divine Intervention",
+    "requirements": "Defeat Hush as Bethany",
+    "prereqs": [
+      "Bethany"
+    ]
+  },
+  {
+    "id": "424",
+    "name": "Vade Retro",
+    "requirements": "Defeat Ultra Greedier as Bethany",
+    "prereqs": [
+      "Bethany"
+    ]
+  },
+  {
+    "id": "425",
+    "name": "Star of Bethlehem",
+    "requirements": "Defeat Delirium as Bethany",
+    "prereqs": [
+      "Bethany"
+    ]
+  },
+  {
+    "id": "426",
+    "name": "Hope Baby",
+    "requirements": "Earn all Hard mode Completion Marks as Bethany",
+    "prereqs": []
+  },
+  {
+    "id": "427",
+    "name": "Glowing Baby",
+    "requirements": "Defeat Mega Satan as Bethany",
+    "prereqs": [
+      "Bethany"
+    ]
+  },
+  {
+    "id": "428",
+    "name": "Double Baby",
+    "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as Jacob and Esau",
+    "prereqs": [
+      "Jacob and Esau"
+    ]
+  },
+  {
+    "id": "429",
+    "name": "The Stairway",
+    "requirements": "Defeat Isaac as Jacob and Esau",
+    "prereqs": [
+      "Jacob and Esau"
+    ]
+  },
+  {
+    "id": "430",
+    "name": "Red Stew",
+    "requirements": "Defeat Satan as Jacob and Esau",
+    "prereqs": [
+      "Jacob and Esau"
+    ]
+  },
+  {
+    "id": "431",
+    "name": "Birthright",
+    "requirements": "Defeat ??? as Jacob and Esau",
+    "prereqs": [
+      "Jacob and Esau"
+    ]
+  },
+  {
+    "id": "432",
+    "name": "Damocles",
+    "requirements": "Defeat The Lamb as Jacob and Esau",
+    "prereqs": [
+      "Jacob and Esau"
+    ]
+  },
+  {
+    "id": "433",
+    "name": "Rock Bottom",
+    "requirements": "Complete Boss Rush as Jacob and Esau",
+    "prereqs": []
+  },
+  {
+    "id": "434",
+    "name": "Inner Child",
+    "requirements": "Defeat Ultra Greed as Jacob and Esau",
+    "prereqs": [
+      "Jacob and Esau"
+    ]
+  },
+  {
+    "id": "435",
+    "name": "Vanishing Twin",
+    "requirements": "Defeat Hush as Jacob and Esau",
+    "prereqs": [
+      "Jacob and Esau"
+    ]
+  },
+  {
+    "id": "436",
+    "name": "Genesis",
+    "requirements": "Defeat Ultra Greedier as Jacob and Esau",
+    "prereqs": [
+      "Jacob and Esau"
+    ]
+  },
+  {
+    "id": "437",
+    "name": "Suplex!",
+    "requirements": "Defeat Delirium as Jacob and Esau",
+    "prereqs": [
+      "Jacob and Esau"
+    ]
+  },
+  {
+    "id": "438",
+    "name": "Solomon's Baby",
+    "requirements": "Earn all Hard mode Completion Marks as Jacob and Esau",
+    "prereqs": []
+  },
+  {
+    "id": "439",
+    "name": "Illusion Baby",
+    "requirements": "Defeat Mega Satan as Jacob and Esau",
+    "prereqs": [
+      "Jacob and Esau"
+    ]
+  },
+  {
+    "id": "440",
+    "name": "Meat Cleaver",
+    "requirements": "Defeat Mother as Isaac",
+    "prereqs": []
+  },
+  {
+    "id": "441",
+    "name": "Options?",
+    "requirements": "Defeat The Beast as Isaac",
+    "prereqs": []
+  },
+  {
+    "id": "442",
+    "name": "Yuck Heart",
+    "requirements": "Defeat Mother as Magdalene",
+    "prereqs": [
+      "Magdalene"
+    ]
+  },
+  {
+    "id": "443",
+    "name": "Candy Heart",
+    "requirements": "Defeat The Beast as Magdalene",
+    "prereqs": [
+      "Magdalene"
+    ]
+  },
+  {
+    "id": "444",
+    "name": "Guppy's Eye",
+    "requirements": "Defeat Mother as Cain",
+    "prereqs": [
+      "Cain"
+    ]
+  },
+  {
+    "id": "445",
+    "name": "A Pound of Flesh",
+    "requirements": "Defeat The Beast as Cain",
+    "prereqs": [
+      "Cain"
+    ]
+  },
+  {
+    "id": "446",
+    "name": "Akeldama",
+    "requirements": "Defeat Mother as Judas",
+    "prereqs": [
+      "Judas"
+    ]
+  },
+  {
+    "id": "447",
+    "name": "Redemption",
+    "requirements": "Defeat The Beast as Judas",
+    "prereqs": [
+      "Judas"
+    ]
+  },
+  {
+    "id": "448",
+    "name": "Eternal D6",
+    "requirements": "Defeat Mother as ???",
+    "prereqs": [
+      "???"
+    ]
+  },
+  {
+    "id": "449",
+    "name": "Montezuma's Revenge",
+    "requirements": "Defeat The Beast as ???",
+    "prereqs": [
+      "???"
+    ]
+  },
+  {
+    "id": "450",
+    "name": "Bird Cage",
+    "requirements": "Defeat Mother as Eve",
+    "prereqs": [
+      "Eve"
+    ]
+  },
+  {
+    "id": "451",
+    "name": "Cracked Orb",
+    "requirements": "Defeat The Beast as Eve",
+    "prereqs": [
+      "Eve"
+    ]
+  },
+  {
+    "id": "452",
+    "name": "Bloody Gust",
+    "requirements": "Defeat Mother as Samson",
+    "prereqs": [
+      "Samson"
+    ]
+  },
+  {
+    "id": "453",
+    "name": "Empty Heart",
+    "requirements": "Defeat The Beast as Samson",
+    "prereqs": [
+      "Samson"
+    ]
+  },
+  {
+    "id": "454",
+    "name": "Devil's Crown",
+    "requirements": "Defeat Mother as Azazel",
+    "prereqs": [
+      "Azazel"
+    ]
+  },
+  {
+    "id": "455",
+    "name": "Lil Abaddon",
+    "requirements": "Defeat The Beast as Azazel",
+    "prereqs": [
+      "Azazel"
+    ]
+  },
+  {
+    "id": "456",
+    "name": "Tinytoma",
+    "requirements": "Defeat Mother as Lazarus",
+    "prereqs": [
+      "Lazarus"
+    ]
+  },
+  {
+    "id": "457",
+    "name": "Astral Projection",
+    "requirements": "Defeat The Beast as Lazarus",
+    "prereqs": [
+      "Lazarus"
+    ]
+  },
+  {
+    "id": "458",
+    "name": "'M",
+    "requirements": "Defeat Mother as Eden",
+    "prereqs": [
+      "Eden"
+    ]
+  },
+  {
+    "id": "459",
+    "name": "Everything Jar",
+    "requirements": "Defeat The Beast as Eden",
+    "prereqs": [
+      "Eden"
+    ]
+  },
+  {
+    "id": "460",
+    "name": "Lost Soul",
+    "requirements": "Defeat Mother as The Lost",
+    "prereqs": [
+      "The Lost"
+    ]
+  },
+  {
+    "id": "461",
+    "name": "Hungry Soul",
+    "requirements": "Defeat The Beast as The Lost",
+    "prereqs": [
+      "The Lost"
+    ]
+  },
+  {
+    "id": "462",
+    "name": "Blood Puppy",
+    "requirements": "Defeat Mother as Lilith",
+    "prereqs": [
+      "Lilith"
+    ]
+  },
+  {
+    "id": "463",
+    "name": "C Section",
+    "requirements": "Defeat The Beast as Lilith",
+    "prereqs": [
+      "Lilith"
+    ]
+  },
+  {
+    "id": "464",
+    "name": "Keeper's Sack",
+    "requirements": "Defeat Mother as Keeper",
+    "prereqs": [
+      "Keeper"
+    ]
+  },
+  {
+    "id": "465",
+    "name": "Keeper's Box",
+    "requirements": "Defeat The Beast as Keeper",
+    "prereqs": [
+      "Keeper"
+    ]
+  },
+  {
+    "id": "466",
+    "name": "Lil Portal",
+    "requirements": "Defeat Mother as Apollyon",
+    "prereqs": [
+      "Apollyon"
+    ]
+  },
+  {
+    "id": "467",
+    "name": "Worm Friend",
+    "requirements": "Defeat The Beast as Apollyon",
+    "prereqs": [
+      "Apollyon"
+    ]
+  },
+  {
+    "id": "468",
+    "name": "Bone Spurs",
+    "requirements": "Defeat Mother as The Forgotten",
+    "prereqs": [
+      "The Forgotten"
+    ]
+  },
+  {
+    "id": "469",
+    "name": "Spirit Shackles",
+    "requirements": "Defeat The Beast as The Forgotten",
+    "prereqs": [
+      "The Forgotten"
+    ]
+  },
+  {
+    "id": "470",
+    "name": "Revelation",
+    "requirements": "Defeat Mother as Bethany",
+    "prereqs": [
+      "Bethany"
+    ]
+  },
+  {
+    "id": "471",
+    "name": "Jar of Wisps",
+    "requirements": "Defeat The Beast as Bethany",
+    "prereqs": [
+      "Bethany"
+    ]
+  },
+  {
+    "id": "472",
+    "name": "Magic Skin",
+    "requirements": "Defeat Mother as Jacob and Esau",
+    "prereqs": [
+      "Jacob and Esau"
+    ]
+  },
+  {
+    "id": "473",
+    "name": "Friend Finder",
+    "requirements": "Defeat The Beast as Jacob and Esau",
+    "prereqs": [
+      "Jacob and Esau"
+    ]
+  },
+  {
+    "id": "474",
+    "name": "The Broken",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Isaac",
+    "prereqs": []
+  },
+  {
+    "id": "475",
+    "name": "The Dauntless",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Magdalene",
+    "prereqs": []
+  },
+  {
+    "id": "476",
+    "name": "The Hoarder",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Cain",
+    "prereqs": []
+  },
+  {
+    "id": "477",
+    "name": "The Deceiver",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Judas",
+    "prereqs": []
+  },
+  {
+    "id": "478",
+    "name": "The Soiled",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as ???",
+    "prereqs": []
+  },
+  {
+    "id": "479",
+    "name": "The Curdled",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Eve",
+    "prereqs": []
+  },
+  {
+    "id": "480",
+    "name": "The Savage",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Samson",
+    "prereqs": []
+  },
+  {
+    "id": "481",
+    "name": "The Benighted",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Azazel",
+    "prereqs": []
+  },
+  {
+    "id": "482",
+    "name": "The Enigma",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Lazarus",
+    "prereqs": []
+  },
+  {
+    "id": "483",
+    "name": "The Capricious",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Eden",
+    "prereqs": []
+  },
+  {
+    "id": "484",
+    "name": "The Baleful",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as The Lost",
+    "prereqs": []
+  },
+  {
+    "id": "485",
+    "name": "The Harlot",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Lilith",
+    "prereqs": []
+  },
+  {
+    "id": "486",
+    "name": "The Miser",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Keeper",
+    "prereqs": []
+  },
+  {
+    "id": "487",
+    "name": "The Empty",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Apollyon",
+    "prereqs": []
+  },
+  {
+    "id": "488",
+    "name": "The Fettered",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as The Forgotten",
+    "prereqs": []
+  },
+  {
+    "id": "489",
+    "name": "The Zealot",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Bethany",
+    "prereqs": []
+  },
+  {
+    "id": "490",
+    "name": "The Deserter",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Jacob and Esau",
+    "prereqs": []
+  },
+  {
+    "id": "491",
+    "name": "Glitched Crown",
+    "requirements": "Defeat The Beast as Tainted Isaac",
+    "prereqs": [
+      "Tainted Isaac"
+    ]
+  },
+  {
+    "id": "492",
+    "name": "Belly Jelly",
+    "requirements": "Defeat The Beast as Tainted Magdalene",
+    "prereqs": [
+      "Tainted Magdalene"
+    ]
+  },
+  {
+    "id": "493",
+    "name": "Blue Key",
+    "requirements": "Defeat The Beast as Tainted Cain",
+    "prereqs": [
+      "Tainted Cain"
+    ]
+  },
+  {
+    "id": "494",
+    "name": "Sanguine Bond",
+    "requirements": "Defeat The Beast as Tainted Judas",
+    "prereqs": [
+      "Tainted Judas"
+    ]
+  },
+  {
+    "id": "495",
+    "name": "The Swarm",
+    "requirements": "Defeat The Beast as Tainted ???",
+    "prereqs": [
+      "Tainted ???"
+    ]
+  },
+  {
+    "id": "496",
+    "name": "Heartbreak",
+    "requirements": "Defeat The Beast as Tainted Eve",
+    "prereqs": [
+      "Tainted Eve"
+    ]
+  },
+  {
+    "id": "497",
+    "name": "Larynx",
+    "requirements": "Defeat The Beast as Tainted Samson",
+    "prereqs": [
+      "Tainted Samson"
+    ]
+  },
+  {
+    "id": "498",
+    "name": "Azazel's Rage",
+    "requirements": "Defeat The Beast as Tainted Azazel",
+    "prereqs": [
+      "Tainted Azazel"
+    ]
+  },
+  {
+    "id": "499",
+    "name": "Salvation",
+    "requirements": "Defeat The Beast as Tainted Lazarus",
+    "prereqs": [
+      "Tainted Lazarus"
+    ]
+  },
+  {
+    "id": "500",
+    "name": "TMTRAINER",
+    "requirements": "Defeat The Beast as Tainted Eden",
+    "prereqs": [
+      "Tainted Eden"
+    ]
+  },
+  {
+    "id": "501",
+    "name": "Sacred Orb",
+    "requirements": "Defeat The Beast as Tainted Lost",
+    "prereqs": [
+      "Tainted Lost"
+    ]
+  },
+  {
+    "id": "502",
+    "name": "Twisted Pair",
+    "requirements": "Defeat The Beast as Tainted Lilith",
+    "prereqs": [
+      "Tainted Lilith"
+    ]
+  },
+  {
+    "id": "503",
+    "name": "Strawman",
+    "requirements": "Defeat The Beast as Tainted Keeper",
+    "prereqs": [
+      "Tainted Keeper"
+    ]
+  },
+  {
+    "id": "504",
+    "name": "Echo Chamber",
+    "requirements": "Defeat The Beast as Tainted Apollyon",
+    "prereqs": [
+      "Tainted Apollyon"
+    ]
+  },
+  {
+    "id": "505",
+    "name": "Isaac's Tomb",
+    "requirements": "Defeat The Beast as Tainted Forgotten",
+    "prereqs": [
+      "Tainted Forgotten"
+    ]
+  },
+  {
+    "id": "506",
+    "name": "Vengeful Spirit",
+    "requirements": "Defeat The Beast as Tainted Bethany",
+    "prereqs": [
+      "Tainted Bethany"
+    ]
+  },
+  {
+    "id": "507",
+    "name": "Esau Jr.",
+    "requirements": "Defeat The Beast as Tainted Jacob",
+    "prereqs": [
+      "Tainted Jacob"
+    ]
+  },
+  {
+    "id": "508",
+    "name": "Bloody Mary",
+    "requirements": "Unlock Bethany, Blood Bag, and It Lives!",
+    "prereqs": []
+  },
+  {
+    "id": "509",
+    "name": "Baptism by Fire",
+    "requirements": "Defeat Satan as Bethany, defeat Mom's Heart 11 times, and unlock Maggy's Faith",
+    "prereqs": [
+      "Bethany"
+    ]
+  },
+  {
+    "id": "510",
+    "name": "Isaac's Awakening",
+    "requirements": "Defeat Mother",
+    "prereqs": []
+  },
+  {
+    "id": "511",
+    "name": "Seeing Double",
+    "requirements": "Defeat Mother",
+    "prereqs": []
+  },
+  {
+    "id": "512",
+    "name": "Pica Run",
+    "requirements": "Defeat Mom's Heart 11 times and unlock Marbles",
+    "prereqs": []
+  },
+  {
+    "id": "513",
+    "name": "Hot Potato",
+    "requirements": "Unlock Tainted Forgotten",
+    "prereqs": []
+  },
+  {
+    "id": "514",
+    "name": "Cantripped!",
+    "requirements": "Unlock Tainted Cain",
+    "prereqs": []
+  },
+  {
+    "id": "515",
+    "name": "Red Redemption",
+    "requirements": "Unlock Tainted Jacob",
+    "prereqs": []
+  },
+  {
+    "id": "516",
+    "name": "DELETE THIS",
+    "requirements": "Unlock Tainted Eden",
+    "prereqs": []
+  },
+  {
+    "id": "517",
+    "name": "Dirty Mind",
+    "requirements": "Complete Scat Man (challenge #36)",
+    "prereqs": []
+  },
+  {
+    "id": "518",
+    "name": "Sigil of Baphomet",
+    "requirements": "Complete Bloody Mary (challenge #37)",
+    "prereqs": []
+  },
+  {
+    "id": "519",
+    "name": "Purgatory",
+    "requirements": "Complete Baptism by Fire (challenge #38)",
+    "prereqs": []
+  },
+  {
+    "id": "520",
+    "name": "Spirit Sword",
+    "requirements": "Complete Isaac's Awakening (challenge #39)",
+    "prereqs": []
+  },
+  {
+    "id": "521",
+    "name": "Broken Glasses",
+    "requirements": "Complete Seeing Double (challenge #40)",
+    "prereqs": []
+  },
+  {
+    "id": "522",
+    "name": "Ice Cube",
+    "requirements": "Complete Pica Run (challenge #41)",
+    "prereqs": []
+  },
+  {
+    "id": "523",
+    "name": "Charged Penny",
+    "requirements": "Donate to Battery Bums until they pay out with an item 5 times",
+    "prereqs": []
+  },
+  {
+    "id": "524",
+    "name": "The Fool",
+    "requirements": "Defeat Ultra Greedier as Tainted Lost",
+    "prereqs": [
+      "Tainted Lost"
+    ]
+  },
+  {
+    "id": "525",
+    "name": "The Magician",
+    "requirements": "Defeat Ultra Greedier as Tainted Judas",
+    "prereqs": [
+      "Tainted Judas"
+    ]
+  },
+  {
+    "id": "526",
+    "name": "The High Priestess",
+    "requirements": "Defeat Ultra Greedier as Tainted Lilith",
+    "prereqs": [
+      "Tainted Lilith"
+    ]
+  },
+  {
+    "id": "527",
+    "name": "The Empress",
+    "requirements": "Defeat Ultra Greedier as Tainted Eve",
+    "prereqs": [
+      "Tainted Eve"
+    ]
+  },
+  {
+    "id": "528",
+    "name": "The Emperor",
+    "requirements": "Defeat Ultra Greedier as Tainted ???",
+    "prereqs": [
+      "Tainted ???"
+    ]
+  },
+  {
+    "id": "529",
+    "name": "The Hierophant",
+    "requirements": "Defeat Ultra Greedier as Tainted Bethany",
+    "prereqs": [
+      "Tainted Bethany"
+    ]
+  },
+  {
+    "id": "530",
+    "name": "The Lovers",
+    "requirements": "Defeat Ultra Greedier as Tainted Magdalene",
+    "prereqs": [
+      "Tainted Magdalene"
+    ]
+  },
+  {
+    "id": "531",
+    "name": "The Chariot",
+    "requirements": "Complete Hot Potato (challenge #42)",
+    "prereqs": []
+  },
+  {
+    "id": "532",
+    "name": "Justice",
+    "requirements": "Complete Cantripped (challenge #43)",
+    "prereqs": []
+  },
+  {
+    "id": "533",
+    "name": "The Hermit",
+    "requirements": "Complete Red Redemption (challenge #44)",
+    "prereqs": []
+  },
+  {
+    "id": "534",
+    "name": "Wheel of Fortune",
+    "requirements": "Defeat Ultra Greedier as Tainted Cain",
+    "prereqs": [
+      "Tainted Cain"
+    ]
+  },
+  {
+    "id": "535",
+    "name": "Strength",
+    "requirements": "Defeat Ultra Greedier as Tainted Samson",
+    "prereqs": [
+      "Tainted Samson"
+    ]
+  },
+  {
+    "id": "536",
+    "name": "The Hanged Man",
+    "requirements": "Defeat Ultra Greedier as Tainted Keeper",
+    "prereqs": [
+      "Tainted Keeper"
+    ]
+  },
+  {
+    "id": "537",
+    "name": "Death",
+    "requirements": "Defeat Ultra Greedier as Tainted Forgotten",
+    "prereqs": [
+      "Tainted Forgotten"
+    ]
+  },
+  {
+    "id": "538",
+    "name": "Temperance",
+    "requirements": "Complete DELETE THIS (challenge #45)",
+    "prereqs": []
+  },
+  {
+    "id": "539",
+    "name": "The Devil",
+    "requirements": "Defeat Ultra Greedier as Tainted Azazel",
+    "prereqs": [
+      "Tainted Azazel"
+    ]
+  },
+  {
+    "id": "540",
+    "name": "The Tower",
+    "requirements": "Defeat Ultra Greedier as Tainted Apollyon",
+    "prereqs": [
+      "Tainted Apollyon"
+    ]
+  },
+  {
+    "id": "541",
+    "name": "The Stars",
+    "requirements": "Defeat Ultra Greedier as Tainted Isaac",
+    "prereqs": [
+      "Tainted Isaac"
+    ]
+  },
+  {
+    "id": "542",
+    "name": "The Sun and the Moon",
+    "requirements": "Defeat Ultra Greedier as Tainted Jacob",
+    "prereqs": [
+      "Tainted Jacob"
+    ]
+  },
+  {
+    "id": "543",
+    "name": "Judgement",
+    "requirements": "Defeat Ultra Greedier as Tainted Lazarus",
+    "prereqs": [
+      "Tainted Lazarus"
+    ]
+  },
+  {
+    "id": "544",
+    "name": "The World",
+    "requirements": "Defeat Ultra Greedier as Tainted Eden",
+    "prereqs": [
+      "Tainted Eden"
+    ]
+  },
+  {
+    "id": "545",
+    "name": "Old Capacitor",
+    "requirements": "Kill 10 Battery Bums",
+    "prereqs": []
+  },
+  {
+    "id": "546",
+    "name": "Brimstone Bombs",
+    "requirements": "After breaking Hornfel's minecart, kill him before he can escape",
+    "prereqs": []
+  },
+  {
+    "id": "547",
+    "name": "Mega Mush",
+    "requirements": "Earn all Hard mode Completion Marks for all non-Tainted characters",
+    "prereqs": []
+  },
+  {
+    "id": "548",
+    "name": "Mom's Lock",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Isaac",
+    "prereqs": [
+      "Tainted Isaac"
+    ]
+  },
+  {
+    "id": "549",
+    "name": "Dice Bag",
+    "requirements": "Defeat Mother as Tainted Isaac",
+    "prereqs": [
+      "Tainted Isaac"
+    ]
+  },
+  {
+    "id": "550",
+    "name": "Holy Crown",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Magdalene",
+    "prereqs": [
+      "Tainted Magdalene"
+    ]
+  },
+  {
+    "id": "551",
+    "name": "Mother's Kiss",
+    "requirements": "Defeat Mother as Tainted Magdalene",
+    "prereqs": [
+      "Tainted Magdalene"
+    ]
+  },
+  {
+    "id": "552",
+    "name": "Gilded Key",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Cain",
+    "prereqs": [
+      "Tainted Cain"
+    ]
+  },
+  {
+    "id": "553",
+    "name": "Lucky Sack",
+    "requirements": "Defeat Mother as Tainted Cain",
+    "prereqs": [
+      "Tainted Cain"
+    ]
+  },
+  {
+    "id": "554",
+    "name": "Your Soul",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Judas",
+    "prereqs": [
+      "Tainted Judas"
+    ]
+  },
+  {
+    "id": "555",
+    "name": "Number Magnet",
+    "requirements": "Defeat Mother as Tainted Judas",
+    "prereqs": [
+      "Tainted Judas"
+    ]
+  },
+  {
+    "id": "556",
+    "name": "Dingle Berry",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted ???",
+    "prereqs": [
+      "Tainted ???"
+    ]
+  },
+  {
+    "id": "557",
+    "name": "Ring Cap",
+    "requirements": "Defeat Mother as Tainted ???",
+    "prereqs": [
+      "Tainted ???"
+    ]
+  },
+  {
+    "id": "558",
+    "name": "Strange Key",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Eve",
+    "prereqs": [
+      "Tainted Eve"
+    ]
+  },
+  {
+    "id": "559",
+    "name": "Lil Clot",
+    "requirements": "Defeat Mother as Tainted Eve",
+    "prereqs": [
+      "Tainted Eve"
+    ]
+  },
+  {
+    "id": "560",
+    "name": "Temporary Tattoo",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Samson",
+    "prereqs": [
+      "Tainted Samson"
+    ]
+  },
+  {
+    "id": "561",
+    "name": "Swallowed M80",
+    "requirements": "Defeat Mother as Tainted Samson",
+    "prereqs": [
+      "Tainted Samson"
+    ]
+  },
+  {
+    "id": "562",
+    "name": "Wicked Crown",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Azazel",
+    "prereqs": [
+      "Tainted Azazel"
+    ]
+  },
+  {
+    "id": "563",
+    "name": "Azazel's Stump",
+    "requirements": "Defeat Mother as Tainted Azazel",
+    "prereqs": [
+      "Tainted Azazel"
+    ]
+  },
+  {
+    "id": "564",
+    "name": "Torn Pocket",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Lazarus",
+    "prereqs": [
+      "Tainted Lazarus"
+    ]
+  },
+  {
+    "id": "565",
+    "name": "Torn Card",
+    "requirements": "Defeat Mother as Tainted Lazarus",
+    "prereqs": [
+      "Tainted Lazarus"
+    ]
+  },
+  {
+    "id": "566",
+    "name": "Nuh Uh!",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Eden",
+    "prereqs": [
+      "Tainted Eden"
+    ]
+  },
+  {
+    "id": "567",
+    "name": "Modeling Clay",
+    "requirements": "Defeat Mother as Tainted Eden",
+    "prereqs": [
+      "Tainted Eden"
+    ]
+  },
+  {
+    "id": "568",
+    "name": "Kid's Drawing",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Lost",
+    "prereqs": [
+      "Tainted Lost"
+    ]
+  },
+  {
+    "id": "569",
+    "name": "Crystal Key",
+    "requirements": "Defeat Mother as Tainted Lost",
+    "prereqs": [
+      "Tainted Lost"
+    ]
+  },
+  {
+    "id": "570",
+    "name": "The Twins",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Lilith",
+    "prereqs": [
+      "Tainted Lilith"
+    ]
+  },
+  {
+    "id": "571",
+    "name": "Adoption Papers",
+    "requirements": "Defeat Mother as Tainted Lilith",
+    "prereqs": [
+      "Tainted Lilith"
+    ]
+  },
+  {
+    "id": "572",
+    "name": "Keeper's Bargain",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Keeper",
+    "prereqs": [
+      "Tainted Keeper"
+    ]
+  },
+  {
+    "id": "573",
+    "name": "Cursed Penny",
+    "requirements": "Defeat Mother as Tainted Keeper",
+    "prereqs": [
+      "Tainted Keeper"
+    ]
+  },
+  {
+    "id": "574",
+    "name": "Cricket Leg",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Apollyon",
+    "prereqs": [
+      "Tainted Apollyon"
+    ]
+  },
+  {
+    "id": "575",
+    "name": "Apollyon's Best Friend",
+    "requirements": "Defeat Mother as Tainted Apollyon",
+    "prereqs": [
+      "Tainted Apollyon"
+    ]
+  },
+  {
+    "id": "576",
+    "name": "Polished Bone",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Forgotten",
+    "prereqs": [
+      "Tainted Forgotten"
+    ]
+  },
+  {
+    "id": "577",
+    "name": "Hollow Heart",
+    "requirements": "Defeat Mother as Tainted Forgotten",
+    "prereqs": [
+      "Tainted Forgotten"
+    ]
+  },
+  {
+    "id": "578",
+    "name": "Expansion Pack",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Bethany",
+    "prereqs": [
+      "Tainted Bethany"
+    ]
+  },
+  {
+    "id": "579",
+    "name": "Beth's Essence",
+    "requirements": "Defeat Mother as Tainted Bethany",
+    "prereqs": [
+      "Tainted Bethany"
+    ]
+  },
+  {
+    "id": "580",
+    "name": "RC Remote",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Jacob",
+    "prereqs": [
+      "Tainted Jacob"
+    ]
+  },
+  {
+    "id": "581",
+    "name": "Found Soul",
+    "requirements": "Defeat Mother as Tainted Jacob",
+    "prereqs": [
+      "Tainted Jacob"
+    ]
+  },
+  {
+    "id": "582",
+    "name": "Member Card",
+    "requirements": "Spend 40+ coins in a single Shop",
+    "prereqs": []
+  },
+  {
+    "id": "583",
+    "name": "Golden Razor",
+    "requirements": "In a single run, obtain 99 Coins, then spend all of them",
+    "prereqs": []
+  },
+  {
+    "id": "584",
+    "name": "Spindown Dice",
+    "requirements": "Defeat Delirium as Tainted Isaac",
+    "prereqs": [
+      "Tainted Isaac"
+    ]
+  },
+  {
+    "id": "585",
+    "name": "Hypercoagulation",
+    "requirements": "Defeat Delirium as Tainted Magdalene",
+    "prereqs": [
+      "Tainted Magdalene"
+    ]
+  },
+  {
+    "id": "586",
+    "name": "Bag of Crafting",
+    "requirements": "Defeat Delirium as Tainted Cain",
+    "prereqs": [
+      "Tainted Cain"
+    ]
+  },
+  {
+    "id": "587",
+    "name": "Dark Arts",
+    "requirements": "Defeat Delirium as Tainted Judas",
+    "prereqs": [
+      "Tainted Judas"
+    ]
+  },
+  {
+    "id": "588",
+    "name": "IBS",
+    "requirements": "Defeat Delirium as Tainted ???",
+    "prereqs": [
+      "Tainted ???"
+    ]
+  },
+  {
+    "id": "589",
+    "name": "Sumptorium",
+    "requirements": "Defeat Delirium as Tainted Eve",
+    "prereqs": [
+      "Tainted Eve"
+    ]
+  },
+  {
+    "id": "590",
+    "name": "Berserk!",
+    "requirements": "Defeat Delirium as Tainted Samson",
+    "prereqs": [
+      "Tainted Samson"
+    ]
+  },
+  {
+    "id": "591",
+    "name": "Hemoptysis",
+    "requirements": "Defeat Delirium as Tainted Azazel",
+    "prereqs": [
+      "Tainted Azazel"
+    ]
+  },
+  {
+    "id": "592",
+    "name": "Flip",
+    "requirements": "Defeat Delirium as Tainted Lazarus",
+    "prereqs": [
+      "Tainted Lazarus"
+    ]
+  },
+  {
+    "id": "593",
+    "name": "Corrupted Data",
+    "requirements": "Defeat Delirium as Tainted Eden",
+    "prereqs": [
+      "Tainted Eden"
+    ]
+  },
+  {
+    "id": "594",
+    "name": "Ghost Bombs",
+    "requirements": "Defeat Delirium as Tainted Lost",
+    "prereqs": [
+      "Tainted Lost"
+    ]
+  },
+  {
+    "id": "595",
+    "name": "Gello",
+    "requirements": "Defeat Delirium as Tainted Lilith",
+    "prereqs": [
+      "Tainted Lilith"
+    ]
+  },
+  {
+    "id": "596",
+    "name": "Keeper's Kin",
+    "requirements": "Defeat Delirium as Tainted Keeper",
+    "prereqs": [
+      "Tainted Keeper"
+    ]
+  },
+  {
+    "id": "597",
+    "name": "Abyss",
+    "requirements": "Defeat Delirium as Tainted Apollyon",
+    "prereqs": [
+      "Tainted Apollyon"
+    ]
+  },
+  {
+    "id": "598",
+    "name": "Decap Attack",
+    "requirements": "Defeat Delirium as Tainted Forgotten",
+    "prereqs": [
+      "Tainted Forgotten"
+    ]
+  },
+  {
+    "id": "599",
+    "name": "Lemegeton",
+    "requirements": "Defeat Delirium as Tainted Bethany",
+    "prereqs": [
+      "Tainted Bethany"
+    ]
+  },
+  {
+    "id": "600",
+    "name": "Anima Sola",
+    "requirements": "Defeat Delirium as Tainted Jacob",
+    "prereqs": [
+      "Tainted Jacob"
+    ]
+  },
+  {
+    "id": "601",
+    "name": "Mega Chest",
+    "requirements": "Defeat Mega Satan as Tainted Isaac",
+    "prereqs": [
+      "Tainted Isaac"
+    ]
+  },
+  {
+    "id": "602",
+    "name": "Queen of Hearts",
+    "requirements": "Defeat Mega Satan as Tainted Magdalene",
+    "prereqs": [
+      "Tainted Magdalene"
+    ]
+  },
+  {
+    "id": "603",
+    "name": "Gold Pill",
+    "requirements": "Defeat Mega Satan as Tainted Cain",
+    "prereqs": [
+      "Tainted Cain"
+    ]
+  },
+  {
+    "id": "604",
+    "name": "Black Sack",
+    "requirements": "Defeat Mega Satan as Tainted Judas",
+    "prereqs": [
+      "Tainted Judas"
+    ]
+  },
+  {
+    "id": "605",
+    "name": "Charming Poop",
+    "requirements": "Defeat Mega Satan as Tainted ???",
+    "prereqs": [
+      "Tainted ???"
+    ]
+  },
+  {
+    "id": "606",
+    "name": "Horse Pill",
+    "requirements": "Defeat Mega Satan as Tainted Eve",
+    "prereqs": [
+      "Tainted Eve"
+    ]
+  },
+  {
+    "id": "607",
+    "name": "Crane Game",
+    "requirements": "Defeat Mega Satan as Tainted Samson",
+    "prereqs": [
+      "Tainted Samson"
+    ]
+  },
+  {
+    "id": "608",
+    "name": "Hell Game",
+    "requirements": "Defeat Mega Satan as Tainted Azazel",
+    "prereqs": [
+      "Tainted Azazel"
+    ]
+  },
+  {
+    "id": "609",
+    "name": "Wooden Chest",
+    "requirements": "Defeat Mega Satan as Tainted Lazarus",
+    "prereqs": [
+      "Tainted Lazarus"
+    ]
+  },
+  {
+    "id": "610",
+    "name": "Wild Card",
+    "requirements": "Defeat Mega Satan as Tainted Eden",
+    "prereqs": [
+      "Tainted Eden"
+    ]
+  },
+  {
+    "id": "611",
+    "name": "Haunted Chest",
+    "requirements": "Defeat Mega Satan as Tainted Lost",
+    "prereqs": [
+      "Tainted Lost"
+    ]
+  },
+  {
+    "id": "612",
+    "name": "Fool's Gold",
+    "requirements": "Defeat Mega Satan as Tainted Lilith",
+    "prereqs": [
+      "Tainted Lilith"
+    ]
+  },
+  {
+    "id": "613",
+    "name": "Golden Penny",
+    "requirements": "Defeat Mega Satan as Tainted Keeper",
+    "prereqs": [
+      "Tainted Keeper"
+    ]
+  },
+  {
+    "id": "614",
+    "name": "Rotten Beggar",
+    "requirements": "Defeat Mega Satan as Tainted Apollyon",
+    "prereqs": [
+      "Tainted Apollyon"
+    ]
+  },
+  {
+    "id": "615",
+    "name": "Golden Battery",
+    "requirements": "Defeat Mega Satan as Tainted Forgotten",
+    "prereqs": [
+      "Tainted Forgotten"
+    ]
+  },
+  {
+    "id": "616",
+    "name": "Confessional",
+    "requirements": "Defeat Mega Satan as Tainted Bethany",
+    "prereqs": [
+      "Tainted Bethany"
+    ]
+  },
+  {
+    "id": "617",
+    "name": "Golden Trinket",
+    "requirements": "Defeat Mega Satan as Tainted Jacob",
+    "prereqs": [
+      "Tainted Jacob"
+    ]
+  },
+  {
+    "id": "618",
+    "name": "Soul of Isaac",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Isaac",
+    "prereqs": [
+      "Tainted Isaac"
+    ]
+  },
+  {
+    "id": "619",
+    "name": "Soul of Magdalene",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Magdalene",
+    "prereqs": [
+      "Tainted Magdalene"
+    ]
+  },
+  {
+    "id": "620",
+    "name": "Soul of Cain",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Cain",
+    "prereqs": [
+      "Tainted Cain"
+    ]
+  },
+  {
+    "id": "621",
+    "name": "Soul of Judas",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Judas",
+    "prereqs": [
+      "Tainted Judas"
+    ]
+  },
+  {
+    "id": "622",
+    "name": "Soul of ???",
+    "requirements": "Defeat Hush and Boss Rush as Tainted ???",
+    "prereqs": [
+      "Tainted ???"
+    ]
+  },
+  {
+    "id": "623",
+    "name": "Soul of Eve",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Eve",
+    "prereqs": [
+      "Tainted Eve"
+    ]
+  },
+  {
+    "id": "624",
+    "name": "Soul of Samson",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Samson",
+    "prereqs": [
+      "Tainted Samson"
+    ]
+  },
+  {
+    "id": "625",
+    "name": "Soul of Azazel",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Azazel",
+    "prereqs": [
+      "Tainted Azazel"
+    ]
+  },
+  {
+    "id": "626",
+    "name": "Soul of Lazarus",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Lazarus",
+    "prereqs": [
+      "Tainted Lazarus"
+    ]
+  },
+  {
+    "id": "627",
+    "name": "Soul of Eden",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Eden",
+    "prereqs": [
+      "Tainted Eden"
+    ]
+  },
+  {
+    "id": "628",
+    "name": "Soul of the Lost",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Lost",
+    "prereqs": [
+      "Tainted Lost"
+    ]
+  },
+  {
+    "id": "629",
+    "name": "Soul of Lilith",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Lilith",
+    "prereqs": [
+      "Tainted Lilith"
+    ]
+  },
+  {
+    "id": "630",
+    "name": "Soul of the Keeper",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Keeper",
+    "prereqs": [
+      "Tainted Keeper"
+    ]
+  },
+  {
+    "id": "631",
+    "name": "Soul of Apollyon",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Apollyon",
+    "prereqs": [
+      "Tainted Apollyon"
+    ]
+  },
+  {
+    "id": "632",
+    "name": "Soul of the Forgotten",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Forgotten",
+    "prereqs": [
+      "Tainted Forgotten"
+    ]
+  },
+  {
+    "id": "633",
+    "name": "Soul of Bethany",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Bethany",
+    "prereqs": [
+      "Tainted Bethany"
+    ]
+  },
+  {
+    "id": "634",
+    "name": "Soul of Jacob and Esau",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Jacob",
+    "prereqs": [
+      "Tainted Jacob"
+    ]
+  },
+  {
+    "id": "635",
+    "name": "A Strange Door",
+    "requirements": "Defeat Mother",
+    "prereqs": []
+  },
+  {
+    "id": "636",
+    "name": "Death Certificate",
+    "requirements": "Earn all Hard mode Completion Marks for all characters, including tainted ones",
+    "prereqs": []
+  },
+  {
+    "id": "637",
+    "name": "Dead God",
+    "requirements": "Unlock all the other achievements ( including the 4 Repentance+ achievements) and collect every item in the game",
+    "prereqs": []
+  },
+  {
+    "id": "638",
+    "name": "Play Online",
+    "requirements": "Play an Online game",
+    "prereqs": []
+  },
+  {
+    "id": "639",
+    "name": "Win Online",
+    "requirements": "Win an Online run",
+    "prereqs": []
+  },
+  {
+    "id": "640",
+    "name": "Win Online Daily",
+    "requirements": "Win an Online Daily run",
+    "prereqs": []
+  },
+  {
+    "id": "641",
+    "name": "Item Descriptions",
+    "requirements": "Defeat Mom",
+    "prereqs": []
+  }
+]
