@@ -109,13 +109,21 @@
           };
 
           if (wasChecked) {
-            delete newData.checked[item.name];
+            const sameReqItems = Object.values(newData.checked).filter(i => i["requirements"] === item.requirements);
 
-            unchecked[item.name] = item;
+            for (const i of sameReqItems) {
+              delete newData.checked[i.name];
+
+              unchecked[i.name] = i;
+            }
           } else {
-            delete unchecked[item.name];
+            const sameReqItems = Object.values(unchecked).filter(i => i["requirements"] === item.requirements);
 
-            newData.checked[item.name] = item;
+            for (const i of sameReqItems) {
+              delete unchecked[i.name];
+
+              newData.checked[i.name] = i;
+            }
           }
 
           processNewUnchecked(newData, unchecked);
