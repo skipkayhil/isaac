@@ -44,7 +44,7 @@ namespace :vendor do
       NONE = [].freeze
 
       CHALLENGE_REGEX = /Complete \[\[(.*?) \(challenge #/
-      DEFEAT_AS_REGEX = /^Defeat \[\[.*?\]\] as \[\[(.*?)\]\]/
+      DEFEAT_AS_REGEX = /^Defeat \[\[(.*?)\]\] as \[\[(.*?)\]\]/
       OTHER_AS_REGEX = /\[\[(Home|Boss Rush|Completion Mark)\]\]s? as \[\[(.*?)\]\]/
 
       MANUAL_PREREQ_MAP = {
@@ -85,6 +85,9 @@ namespace :vendor do
         "343" => ["???"],
         "344" => ["Flooded Caves"],
         "345" => ["Dank Depths"],
+        # Hush
+        "320" => ["Blue Womb"],
+        "407" => ["New Area"],
       }
 
       def initialize(names)
@@ -106,8 +109,15 @@ namespace :vendor do
         text = achievement["requirements"]
 
         prereqs = case text
-        when DEFEAT_AS_REGEX, CHALLENGE_REGEX
+        when CHALLENGE_REGEX
           [$1]
+        when DEFEAT_AS_REGEX
+          case $1
+          when "Hush"
+            ["Blue Womb", $2]
+          else
+            [$2]
+          end
         when OTHER_AS_REGEX
           case $1
           when "Home"

@@ -1241,13 +1241,16 @@
     "id": "179",
     "name": "Fart Baby",
     "requirements": "Defeat Hush as Isaac",
-    "prereqs": []
+    "prereqs": [
+      "Blue Womb"
+    ]
   },
   {
     "id": "180",
     "name": "Purity",
     "requirements": "Defeat Hush as Magdalene",
     "prereqs": [
+      "Blue Womb",
       "Magdalene"
     ]
   },
@@ -1256,6 +1259,7 @@
     "name": "D12",
     "requirements": "Defeat Hush as Cain",
     "prereqs": [
+      "Blue Womb",
       "Cain"
     ]
   },
@@ -1264,6 +1268,7 @@
     "name": "Betrayal",
     "requirements": "Defeat Hush as Judas",
     "prereqs": [
+      "Blue Womb",
       "Judas"
     ]
   },
@@ -1272,6 +1277,7 @@
     "name": "Fate's Reward",
     "requirements": "Defeat Hush as ???",
     "prereqs": [
+      "Blue Womb",
       "???"
     ]
   },
@@ -1280,6 +1286,7 @@
     "name": "Athame",
     "requirements": "Defeat Hush as Eve",
     "prereqs": [
+      "Blue Womb",
       "Eve"
     ]
   },
@@ -1288,6 +1295,7 @@
     "name": "Blind Rage",
     "requirements": "Defeat Hush as Samson",
     "prereqs": [
+      "Blue Womb",
       "Samson"
     ]
   },
@@ -1296,6 +1304,7 @@
     "name": "Maw of the Void",
     "requirements": "Defeat Hush as Azazel",
     "prereqs": [
+      "Blue Womb",
       "Azazel"
     ]
   },
@@ -1304,6 +1313,7 @@
     "name": "Empty Vessel",
     "requirements": "Defeat Hush as Lazarus",
     "prereqs": [
+      "Blue Womb",
       "Lazarus"
     ]
   },
@@ -1312,6 +1322,7 @@
     "name": "Eden's Blessing",
     "requirements": "Defeat Hush as Eden",
     "prereqs": [
+      "Blue Womb",
       "Eden"
     ]
   },
@@ -1320,6 +1331,7 @@
     "name": "Sworn Protector",
     "requirements": "Defeat Hush as The Lost",
     "prereqs": [
+      "Blue Womb",
       "The Lost"
     ]
   },
@@ -1328,6 +1340,7 @@
     "name": "Incubus",
     "requirements": "Defeat Hush as Lilith",
     "prereqs": [
+      "Blue Womb",
       "Lilith"
     ]
   },
@@ -1336,6 +1349,7 @@
     "name": "Keeper now holds... A Penny!",
     "requirements": "Defeat Hush as Keeper",
     "prereqs": [
+      "Blue Womb",
       "Keeper"
     ]
   },
@@ -2266,6 +2280,7 @@
     "name": "Hushy",
     "requirements": "Defeat Hush as Apollyon",
     "prereqs": [
+      "Blue Womb",
       "Apollyon"
     ]
   },
@@ -2305,7 +2320,9 @@
     "id": "320",
     "name": "New Area",
     "requirements": "Defeat Hush",
-    "prereqs": []
+    "prereqs": [
+      "Blue Womb"
+    ]
   },
   {
     "id": "321",
@@ -2806,6 +2823,7 @@
     "name": "Hallowed Ground",
     "requirements": "Defeat Hush as The Forgotten",
     "prereqs": [
+      "Blue Womb",
       "The Forgotten"
     ]
   },
@@ -2873,7 +2891,9 @@
     "id": "407",
     "name": "A Secret Exit",
     "requirements": "Defeat Hush 3 times",
-    "prereqs": []
+    "prereqs": [
+      "New Area"
+    ]
   },
   {
     "id": "408",
@@ -2984,6 +3004,7 @@
     "name": "Divine Intervention",
     "requirements": "Defeat Hush as Bethany",
     "prereqs": [
+      "Blue Womb",
       "Bethany"
     ]
   },
@@ -3080,6 +3101,7 @@
     "name": "Vanishing Twin",
     "requirements": "Defeat Hush as Jacob and Esau",
     "prereqs": [
+      "Blue Womb",
       "Jacob and Esau"
     ]
   },
