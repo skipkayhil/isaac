@@ -99,6 +99,8 @@ namespace :vendor do
           end
 
           [$2]
+        when /Chapter 4/
+          ["The Womb"]
         else
           []
         end

@@ -245,7 +245,9 @@
     "id": "40",
     "name": "Mama's Boy",
     "requirements": "Beat Chapter 4 without taking damage",
-    "prereqs": []
+    "prereqs": [
+      "The Womb"
+    ]
   },
   {
     "id": "41",
@@ -531,7 +533,9 @@
     "id": "81",
     "name": "Eden",
     "requirements": "Complete Chapter 4",
-    "prereqs": []
+    "prereqs": [
+      "The Womb"
+    ]
   },
   {
     "id": "82",
@@ -2607,7 +2611,9 @@
     "id": "374",
     "name": "Pop!",
     "requirements": "Beat Chapter 4 without taking damage",
-    "prereqs": []
+    "prereqs": [
+      "The Womb"
+    ]
   },
   {
     "id": "375",
