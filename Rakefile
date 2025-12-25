@@ -69,6 +69,22 @@ namespace :vendor do
         "332" => ["Aprils fool"],
         "335" => ["PONG"],
         "532" => ["Cantripped!"],
+        # Mom's Heart #s
+        "8" => ["Rubber Cement"],
+        "159" => ["Rubber Cement"],
+        "139" => ["A Noose"],
+        "33" => ["Wire Coat Hanger"],
+        "140" => ["Everything Is Terrible!!!"],
+        "141" => ["Ipecac"],
+        "10" => ["Experimental Treatment"],
+        "11" => ["A Quarter"],
+        "162" => ["A Quarter"],
+        "32" => ["A Fetus in a Jar"],
+        "234" => ["A Fetus in a Jar"],
+        # It Lives! #s
+        "343" => ["???"],
+        "344" => ["Flooded Caves"],
+        "345" => ["Dank Depths"],
       }
 
       def initialize(names)
@@ -101,6 +117,8 @@ namespace :vendor do
           [$2]
         when /Chapter 4/
           ["The Womb"]
+        when /11 times/
+          ["???"]
         else
           []
         end

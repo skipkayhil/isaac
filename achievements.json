@@ -45,7 +45,9 @@
     "id": "8",
     "name": "A Noose",
     "requirements": "Defeat Mom's Heart 3 times",
-    "prereqs": []
+    "prereqs": [
+      "Rubber Cement"
+    ]
   },
   {
     "id": "9",
@@ -59,13 +61,17 @@
     "id": "10",
     "name": "A Quarter",
     "requirements": "Defeat Mom's Heart 8 times",
-    "prereqs": []
+    "prereqs": [
+      "Experimental Treatment"
+    ]
   },
   {
     "id": "11",
     "name": "A Fetus in a Jar",
     "requirements": "Defeat Mom's Heart 9 times",
-    "prereqs": []
+    "prereqs": [
+      "A Quarter"
+    ]
   },
   {
     "id": "12",
@@ -197,19 +203,25 @@
     "id": "32",
     "name": "???",
     "requirements": "Defeat Mom's Heart 10 times",
-    "prereqs": []
+    "prereqs": [
+      "A Fetus in a Jar"
+    ]
   },
   {
     "id": "33",
     "name": "Everything Is Terrible!!!",
     "requirements": "Defeat Mom's Heart 5 times",
-    "prereqs": []
+    "prereqs": [
+      "Wire Coat Hanger"
+    ]
   },
   {
     "id": "34",
     "name": "It Lives!",
     "requirements": "Defeat Mom's Heart 11 times",
-    "prereqs": []
+    "prereqs": [
+      "???"
+    ]
   },
   {
     "id": "35",
@@ -957,19 +969,25 @@
     "id": "139",
     "name": "Wire Coat Hanger",
     "requirements": "Defeat Mom's Heart 4 times",
-    "prereqs": []
+    "prereqs": [
+      "A Noose"
+    ]
   },
   {
     "id": "140",
     "name": "Ipecac",
     "requirements": "Defeat Mom's Heart 6 times",
-    "prereqs": []
+    "prereqs": [
+      "Everything Is Terrible!!!"
+    ]
   },
   {
     "id": "141",
     "name": "Experimental Treatment",
     "requirements": "Defeat Mom's Heart 7 times",
-    "prereqs": []
+    "prereqs": [
+      "Ipecac"
+    ]
   },
   {
     "id": "142",
@@ -1079,7 +1097,9 @@
     "id": "159",
     "name": "Solar System",
     "requirements": "Defeat Mom's Heart 3 times",
-    "prereqs": []
+    "prereqs": [
+      "Rubber Cement"
+    ]
   },
   {
     "id": "160",
@@ -1097,7 +1117,9 @@
     "id": "162",
     "name": "Demo Man",
     "requirements": "Defeat Mom's Heart 9 times",
-    "prereqs": []
+    "prereqs": [
+      "A Quarter"
+    ]
   },
   {
     "id": "163",
@@ -1653,7 +1675,9 @@
     "id": "234",
     "name": "Blue Womb",
     "requirements": "Defeat Mom's Heart 10 times",
-    "prereqs": []
+    "prereqs": [
+      "A Fetus in a Jar"
+    ]
   },
   {
     "id": "235",
@@ -1885,7 +1909,9 @@
     "id": "267",
     "name": "Blue Bomber",
     "requirements": "Destroy 10 Tinted Rocks and defeat Mom's Heart 11 times",
-    "prereqs": []
+    "prereqs": [
+      "???"
+    ]
   },
   {
     "id": "268",
@@ -1959,7 +1985,9 @@
     "id": "279",
     "name": "Pokey Mans",
     "requirements": "Defeat Mom's Heart 11 times",
-    "prereqs": []
+    "prereqs": [
+      "???"
+    ]
   },
   {
     "id": "280",
@@ -2419,25 +2447,33 @@
     "id": "342",
     "name": "Burning Basement",
     "requirements": "Defeat Mom's Heart 11 times",
-    "prereqs": []
+    "prereqs": [
+      "???"
+    ]
   },
   {
     "id": "343",
     "name": "Flooded Caves",
     "requirements": "Defeat It Lives! 16 times",
-    "prereqs": []
+    "prereqs": [
+      "???"
+    ]
   },
   {
     "id": "344",
     "name": "Dank Depths",
     "requirements": "Defeat It Lives! 21 times",
-    "prereqs": []
+    "prereqs": [
+      "Flooded Caves"
+    ]
   },
   {
     "id": "345",
     "name": "Scarred Womb",
     "requirements": "Defeat It Lives! 30 times",
-    "prereqs": []
+    "prereqs": [
+      "Dank Depths"
+    ]
   },
   {
     "id": "346",
@@ -3647,7 +3683,9 @@
     "id": "512",
     "name": "Pica Run",
     "requirements": "Defeat Mom's Heart 11 times and unlock Marbles",
-    "prereqs": []
+    "prereqs": [
+      "???"
+    ]
   },
   {
     "id": "513",
