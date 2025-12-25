@@ -2,6 +2,20 @@
 
 namespace :vendor do
   task :data do
+    module Tainted
+      module_function
+
+      MANUAL_TAINTED = {
+        "The Lost" => "Tainted Lost",
+        "The Forgotten" => "Tainted Forgotten",
+        "Jacob and Esau" => "Tainted Jacob",
+      }
+
+      def fetch(name)
+        MANUAL_TAINTED.fetch(name) { "Tainted #{name}" }
+      end
+    end
+
     class RequirementsScrubber
       class << self
         def call(text)
@@ -30,33 +44,47 @@ namespace :vendor do
       DEFEAT_AS_REGEX = /^Defeat \[\[.*?\]\] as \[\[(.*?)\]\]/
       OTHER_AS_REGEX = /\[\[(Home|Boss Rush|Completion Mark)\]\]s? as \[\[(.*?)\]\]/
 
-      PREREQ_MAP = {
-        "Isaac" => nil
+      MANUAL_PREREQ_MAP = {
+        "Isaac" => nil,
       }
 
       MANUAL_IDS = {
         "82" => ["Missing Poster"]
       }
 
-      class << self
-        def call(text, id)
-          MANUAL_IDS.fetch(id) { match(text) }
+      def initialize(names)
+        @names = names
+        @prereq_map = MANUAL_PREREQ_MAP.dup
+      end
+
+      def call(achievement)
+        id = achievement["id"]
+
+        MANUAL_IDS.fetch(id) { match(achievement) }.tap do |parsed_names|
+          puts "Unknown name for id #{id}: #{parsed_names}" unless parsed_names.all? { |n| @names.include? n }
         end
+      end
 
-        private
+      private
 
-        def match(text)
-          prereqs = case text
-          when DEFEAT_AS_REGEX
-            [$1]
-          when OTHER_AS_REGEX
-            [$2]
-          else
-            []
+      def match(achievement)
+        text = achievement["requirements"]
+
+        prereqs = case text
+        when DEFEAT_AS_REGEX
+          [$1]
+        when OTHER_AS_REGEX
+          case $1
+          when "Home"
+            @prereq_map[Tainted.fetch($2)] = achievement["name"]
           end
 
-          prereqs.filter_map { |p| PREREQ_MAP.fetch(p) { p } }
+          [$2]
+        else
+          []
         end
+
+        prereqs.filter_map { |p| @prereq_map.fetch(p) { p } }
       end
     end
 
@@ -85,9 +113,11 @@ namespace :vendor do
 
     $stdout.puts
 
+    prereq_parser = PrereqParser.new(achievements.map { |a| a["name"] })
+
     achievements.each do |a|
       a["requirements"] = RequirementsScrubber.call(a["requirements"])
-      a["prereqs"] = PrereqParser.call(a["requirements"], a["id"])
+      a["prereqs"] = prereq_parser.call(a)
 
       a["requirements"].gsub!(/\[\[|\]\]/, "")
     end

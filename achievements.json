@@ -3430,7 +3430,7 @@
     "name": "Glitched Crown",
     "requirements": "Defeat The Beast as Tainted Isaac",
     "prereqs": [
-      "Tainted Isaac"
+      "The Broken"
     ]
   },
   {
@@ -3438,7 +3438,7 @@
     "name": "Belly Jelly",
     "requirements": "Defeat The Beast as Tainted Magdalene",
     "prereqs": [
-      "Tainted Magdalene"
+      "The Dauntless"
     ]
   },
   {
@@ -3446,7 +3446,7 @@
     "name": "Blue Key",
     "requirements": "Defeat The Beast as Tainted Cain",
     "prereqs": [
-      "Tainted Cain"
+      "The Hoarder"
     ]
   },
   {
@@ -3454,7 +3454,7 @@
     "name": "Sanguine Bond",
     "requirements": "Defeat The Beast as Tainted Judas",
     "prereqs": [
-      "Tainted Judas"
+      "The Deceiver"
     ]
   },
   {
@@ -3462,7 +3462,7 @@
     "name": "The Swarm",
     "requirements": "Defeat The Beast as Tainted ???",
     "prereqs": [
-      "Tainted ???"
+      "The Soiled"
     ]
   },
   {
@@ -3470,7 +3470,7 @@
     "name": "Heartbreak",
     "requirements": "Defeat The Beast as Tainted Eve",
     "prereqs": [
-      "Tainted Eve"
+      "The Curdled"
     ]
   },
   {
@@ -3478,7 +3478,7 @@
     "name": "Larynx",
     "requirements": "Defeat The Beast as Tainted Samson",
     "prereqs": [
-      "Tainted Samson"
+      "The Savage"
     ]
   },
   {
@@ -3486,7 +3486,7 @@
     "name": "Azazel's Rage",
     "requirements": "Defeat The Beast as Tainted Azazel",
     "prereqs": [
-      "Tainted Azazel"
+      "The Benighted"
     ]
   },
   {
@@ -3494,7 +3494,7 @@
     "name": "Salvation",
     "requirements": "Defeat The Beast as Tainted Lazarus",
     "prereqs": [
-      "Tainted Lazarus"
+      "The Enigma"
     ]
   },
   {
@@ -3502,7 +3502,7 @@
     "name": "TMTRAINER",
     "requirements": "Defeat The Beast as Tainted Eden",
     "prereqs": [
-      "Tainted Eden"
+      "The Capricious"
     ]
   },
   {
@@ -3510,7 +3510,7 @@
     "name": "Sacred Orb",
     "requirements": "Defeat The Beast as Tainted Lost",
     "prereqs": [
-      "Tainted Lost"
+      "The Baleful"
     ]
   },
   {
@@ -3518,7 +3518,7 @@
     "name": "Twisted Pair",
     "requirements": "Defeat The Beast as Tainted Lilith",
     "prereqs": [
-      "Tainted Lilith"
+      "The Harlot"
     ]
   },
   {
@@ -3526,7 +3526,7 @@
     "name": "Strawman",
     "requirements": "Defeat The Beast as Tainted Keeper",
     "prereqs": [
-      "Tainted Keeper"
+      "The Miser"
     ]
   },
   {
@@ -3534,7 +3534,7 @@
     "name": "Echo Chamber",
     "requirements": "Defeat The Beast as Tainted Apollyon",
     "prereqs": [
-      "Tainted Apollyon"
+      "The Empty"
     ]
   },
   {
@@ -3542,7 +3542,7 @@
     "name": "Isaac's Tomb",
     "requirements": "Defeat The Beast as Tainted Forgotten",
     "prereqs": [
-      "Tainted Forgotten"
+      "The Fettered"
     ]
   },
   {
@@ -3550,7 +3550,7 @@
     "name": "Vengeful Spirit",
     "requirements": "Defeat The Beast as Tainted Bethany",
     "prereqs": [
-      "Tainted Bethany"
+      "The Zealot"
     ]
   },
   {
@@ -3558,7 +3558,7 @@
     "name": "Esau Jr.",
     "requirements": "Defeat The Beast as Tainted Jacob",
     "prereqs": [
-      "Tainted Jacob"
+      "The Deserter"
     ]
   },
   {
@@ -3664,7 +3664,7 @@
     "name": "The Fool",
     "requirements": "Defeat Ultra Greedier as Tainted Lost",
     "prereqs": [
-      "Tainted Lost"
+      "The Baleful"
     ]
   },
   {
@@ -3672,7 +3672,7 @@
     "name": "The Magician",
     "requirements": "Defeat Ultra Greedier as Tainted Judas",
     "prereqs": [
-      "Tainted Judas"
+      "The Deceiver"
     ]
   },
   {
@@ -3680,7 +3680,7 @@
     "name": "The High Priestess",
     "requirements": "Defeat Ultra Greedier as Tainted Lilith",
     "prereqs": [
-      "Tainted Lilith"
+      "The Harlot"
     ]
   },
   {
@@ -3688,7 +3688,7 @@
     "name": "The Empress",
     "requirements": "Defeat Ultra Greedier as Tainted Eve",
     "prereqs": [
-      "Tainted Eve"
+      "The Curdled"
     ]
   },
   {
@@ -3696,7 +3696,7 @@
     "name": "The Emperor",
     "requirements": "Defeat Ultra Greedier as Tainted ???",
     "prereqs": [
-      "Tainted ???"
+      "The Soiled"
     ]
   },
   {
@@ -3704,7 +3704,7 @@
     "name": "The Hierophant",
     "requirements": "Defeat Ultra Greedier as Tainted Bethany",
     "prereqs": [
-      "Tainted Bethany"
+      "The Zealot"
     ]
   },
   {
@@ -3712,7 +3712,7 @@
     "name": "The Lovers",
     "requirements": "Defeat Ultra Greedier as Tainted Magdalene",
     "prereqs": [
-      "Tainted Magdalene"
+      "The Dauntless"
     ]
   },
   {
@@ -3738,7 +3738,7 @@
     "name": "Wheel of Fortune",
     "requirements": "Defeat Ultra Greedier as Tainted Cain",
     "prereqs": [
-      "Tainted Cain"
+      "The Hoarder"
     ]
   },
   {
@@ -3746,7 +3746,7 @@
     "name": "Strength",
     "requirements": "Defeat Ultra Greedier as Tainted Samson",
     "prereqs": [
-      "Tainted Samson"
+      "The Savage"
     ]
   },
   {
@@ -3754,7 +3754,7 @@
     "name": "The Hanged Man",
     "requirements": "Defeat Ultra Greedier as Tainted Keeper",
     "prereqs": [
-      "Tainted Keeper"
+      "The Miser"
     ]
   },
   {
@@ -3762,7 +3762,7 @@
     "name": "Death",
     "requirements": "Defeat Ultra Greedier as Tainted Forgotten",
     "prereqs": [
-      "Tainted Forgotten"
+      "The Fettered"
     ]
   },
   {
@@ -3776,7 +3776,7 @@
     "name": "The Devil",
     "requirements": "Defeat Ultra Greedier as Tainted Azazel",
     "prereqs": [
-      "Tainted Azazel"
+      "The Benighted"
     ]
   },
   {
@@ -3784,7 +3784,7 @@
     "name": "The Tower",
     "requirements": "Defeat Ultra Greedier as Tainted Apollyon",
     "prereqs": [
-      "Tainted Apollyon"
+      "The Empty"
     ]
   },
   {
@@ -3792,7 +3792,7 @@
     "name": "The Stars",
     "requirements": "Defeat Ultra Greedier as Tainted Isaac",
     "prereqs": [
-      "Tainted Isaac"
+      "The Broken"
     ]
   },
   {
@@ -3800,7 +3800,7 @@
     "name": "The Sun and the Moon",
     "requirements": "Defeat Ultra Greedier as Tainted Jacob",
     "prereqs": [
-      "Tainted Jacob"
+      "The Deserter"
     ]
   },
   {
@@ -3808,7 +3808,7 @@
     "name": "Judgement",
     "requirements": "Defeat Ultra Greedier as Tainted Lazarus",
     "prereqs": [
-      "Tainted Lazarus"
+      "The Enigma"
     ]
   },
   {
@@ -3816,7 +3816,7 @@
     "name": "The World",
     "requirements": "Defeat Ultra Greedier as Tainted Eden",
     "prereqs": [
-      "Tainted Eden"
+      "The Capricious"
     ]
   },
   {
@@ -3842,7 +3842,7 @@
     "name": "Mom's Lock",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Isaac",
     "prereqs": [
-      "Tainted Isaac"
+      "The Broken"
     ]
   },
   {
@@ -3850,7 +3850,7 @@
     "name": "Dice Bag",
     "requirements": "Defeat Mother as Tainted Isaac",
     "prereqs": [
-      "Tainted Isaac"
+      "The Broken"
     ]
   },
   {
@@ -3858,7 +3858,7 @@
     "name": "Holy Crown",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Magdalene",
     "prereqs": [
-      "Tainted Magdalene"
+      "The Dauntless"
     ]
   },
   {
@@ -3866,7 +3866,7 @@
     "name": "Mother's Kiss",
     "requirements": "Defeat Mother as Tainted Magdalene",
     "prereqs": [
-      "Tainted Magdalene"
+      "The Dauntless"
     ]
   },
   {
@@ -3874,7 +3874,7 @@
     "name": "Gilded Key",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Cain",
     "prereqs": [
-      "Tainted Cain"
+      "The Hoarder"
     ]
   },
   {
@@ -3882,7 +3882,7 @@
     "name": "Lucky Sack",
     "requirements": "Defeat Mother as Tainted Cain",
     "prereqs": [
-      "Tainted Cain"
+      "The Hoarder"
     ]
   },
   {
@@ -3890,7 +3890,7 @@
     "name": "Your Soul",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Judas",
     "prereqs": [
-      "Tainted Judas"
+      "The Deceiver"
     ]
   },
   {
@@ -3898,7 +3898,7 @@
     "name": "Number Magnet",
     "requirements": "Defeat Mother as Tainted Judas",
     "prereqs": [
-      "Tainted Judas"
+      "The Deceiver"
     ]
   },
   {
@@ -3906,7 +3906,7 @@
     "name": "Dingle Berry",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted ???",
     "prereqs": [
-      "Tainted ???"
+      "The Soiled"
     ]
   },
   {
@@ -3914,7 +3914,7 @@
     "name": "Ring Cap",
     "requirements": "Defeat Mother as Tainted ???",
     "prereqs": [
-      "Tainted ???"
+      "The Soiled"
     ]
   },
   {
@@ -3922,7 +3922,7 @@
     "name": "Strange Key",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Eve",
     "prereqs": [
-      "Tainted Eve"
+      "The Curdled"
     ]
   },
   {
@@ -3930,7 +3930,7 @@
     "name": "Lil Clot",
     "requirements": "Defeat Mother as Tainted Eve",
     "prereqs": [
-      "Tainted Eve"
+      "The Curdled"
     ]
   },
   {
@@ -3938,7 +3938,7 @@
     "name": "Temporary Tattoo",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Samson",
     "prereqs": [
-      "Tainted Samson"
+      "The Savage"
     ]
   },
   {
@@ -3946,7 +3946,7 @@
     "name": "Swallowed M80",
     "requirements": "Defeat Mother as Tainted Samson",
     "prereqs": [
-      "Tainted Samson"
+      "The Savage"
     ]
   },
   {
@@ -3954,7 +3954,7 @@
     "name": "Wicked Crown",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Azazel",
     "prereqs": [
-      "Tainted Azazel"
+      "The Benighted"
     ]
   },
   {
@@ -3962,7 +3962,7 @@
     "name": "Azazel's Stump",
     "requirements": "Defeat Mother as Tainted Azazel",
     "prereqs": [
-      "Tainted Azazel"
+      "The Benighted"
     ]
   },
   {
@@ -3970,7 +3970,7 @@
     "name": "Torn Pocket",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Lazarus",
     "prereqs": [
-      "Tainted Lazarus"
+      "The Enigma"
     ]
   },
   {
@@ -3978,7 +3978,7 @@
     "name": "Torn Card",
     "requirements": "Defeat Mother as Tainted Lazarus",
     "prereqs": [
-      "Tainted Lazarus"
+      "The Enigma"
     ]
   },
   {
@@ -3986,7 +3986,7 @@
     "name": "Nuh Uh!",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Eden",
     "prereqs": [
-      "Tainted Eden"
+      "The Capricious"
     ]
   },
   {
@@ -3994,7 +3994,7 @@
     "name": "Modeling Clay",
     "requirements": "Defeat Mother as Tainted Eden",
     "prereqs": [
-      "Tainted Eden"
+      "The Capricious"
     ]
   },
   {
@@ -4002,7 +4002,7 @@
     "name": "Kid's Drawing",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Lost",
     "prereqs": [
-      "Tainted Lost"
+      "The Baleful"
     ]
   },
   {
@@ -4010,7 +4010,7 @@
     "name": "Crystal Key",
     "requirements": "Defeat Mother as Tainted Lost",
     "prereqs": [
-      "Tainted Lost"
+      "The Baleful"
     ]
   },
   {
@@ -4018,7 +4018,7 @@
     "name": "The Twins",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Lilith",
     "prereqs": [
-      "Tainted Lilith"
+      "The Harlot"
     ]
   },
   {
@@ -4026,7 +4026,7 @@
     "name": "Adoption Papers",
     "requirements": "Defeat Mother as Tainted Lilith",
     "prereqs": [
-      "Tainted Lilith"
+      "The Harlot"
     ]
   },
   {
@@ -4034,7 +4034,7 @@
     "name": "Keeper's Bargain",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Keeper",
     "prereqs": [
-      "Tainted Keeper"
+      "The Miser"
     ]
   },
   {
@@ -4042,7 +4042,7 @@
     "name": "Cursed Penny",
     "requirements": "Defeat Mother as Tainted Keeper",
     "prereqs": [
-      "Tainted Keeper"
+      "The Miser"
     ]
   },
   {
@@ -4050,7 +4050,7 @@
     "name": "Cricket Leg",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Apollyon",
     "prereqs": [
-      "Tainted Apollyon"
+      "The Empty"
     ]
   },
   {
@@ -4058,7 +4058,7 @@
     "name": "Apollyon's Best Friend",
     "requirements": "Defeat Mother as Tainted Apollyon",
     "prereqs": [
-      "Tainted Apollyon"
+      "The Empty"
     ]
   },
   {
@@ -4066,7 +4066,7 @@
     "name": "Polished Bone",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Forgotten",
     "prereqs": [
-      "Tainted Forgotten"
+      "The Fettered"
     ]
   },
   {
@@ -4074,7 +4074,7 @@
     "name": "Hollow Heart",
     "requirements": "Defeat Mother as Tainted Forgotten",
     "prereqs": [
-      "Tainted Forgotten"
+      "The Fettered"
     ]
   },
   {
@@ -4082,7 +4082,7 @@
     "name": "Expansion Pack",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Bethany",
     "prereqs": [
-      "Tainted Bethany"
+      "The Zealot"
     ]
   },
   {
@@ -4090,7 +4090,7 @@
     "name": "Beth's Essence",
     "requirements": "Defeat Mother as Tainted Bethany",
     "prereqs": [
-      "Tainted Bethany"
+      "The Zealot"
     ]
   },
   {
@@ -4098,7 +4098,7 @@
     "name": "RC Remote",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Jacob",
     "prereqs": [
-      "Tainted Jacob"
+      "The Deserter"
     ]
   },
   {
@@ -4106,7 +4106,7 @@
     "name": "Found Soul",
     "requirements": "Defeat Mother as Tainted Jacob",
     "prereqs": [
-      "Tainted Jacob"
+      "The Deserter"
     ]
   },
   {
@@ -4126,7 +4126,7 @@
     "name": "Spindown Dice",
     "requirements": "Defeat Delirium as Tainted Isaac",
     "prereqs": [
-      "Tainted Isaac"
+      "The Broken"
     ]
   },
   {
@@ -4134,7 +4134,7 @@
     "name": "Hypercoagulation",
     "requirements": "Defeat Delirium as Tainted Magdalene",
     "prereqs": [
-      "Tainted Magdalene"
+      "The Dauntless"
     ]
   },
   {
@@ -4142,7 +4142,7 @@
     "name": "Bag of Crafting",
     "requirements": "Defeat Delirium as Tainted Cain",
     "prereqs": [
-      "Tainted Cain"
+      "The Hoarder"
     ]
   },
   {
@@ -4150,7 +4150,7 @@
     "name": "Dark Arts",
     "requirements": "Defeat Delirium as Tainted Judas",
     "prereqs": [
-      "Tainted Judas"
+      "The Deceiver"
     ]
   },
   {
@@ -4158,7 +4158,7 @@
     "name": "IBS",
     "requirements": "Defeat Delirium as Tainted ???",
     "prereqs": [
-      "Tainted ???"
+      "The Soiled"
     ]
   },
   {
@@ -4166,7 +4166,7 @@
     "name": "Sumptorium",
     "requirements": "Defeat Delirium as Tainted Eve",
     "prereqs": [
-      "Tainted Eve"
+      "The Curdled"
     ]
   },
   {
@@ -4174,7 +4174,7 @@
     "name": "Berserk!",
     "requirements": "Defeat Delirium as Tainted Samson",
     "prereqs": [
-      "Tainted Samson"
+      "The Savage"
     ]
   },
   {
@@ -4182,7 +4182,7 @@
     "name": "Hemoptysis",
     "requirements": "Defeat Delirium as Tainted Azazel",
     "prereqs": [
-      "Tainted Azazel"
+      "The Benighted"
     ]
   },
   {
@@ -4190,7 +4190,7 @@
     "name": "Flip",
     "requirements": "Defeat Delirium as Tainted Lazarus",
     "prereqs": [
-      "Tainted Lazarus"
+      "The Enigma"
     ]
   },
   {
@@ -4198,7 +4198,7 @@
     "name": "Corrupted Data",
     "requirements": "Defeat Delirium as Tainted Eden",
     "prereqs": [
-      "Tainted Eden"
+      "The Capricious"
     ]
   },
   {
@@ -4206,7 +4206,7 @@
     "name": "Ghost Bombs",
     "requirements": "Defeat Delirium as Tainted Lost",
     "prereqs": [
-      "Tainted Lost"
+      "The Baleful"
     ]
   },
   {
@@ -4214,7 +4214,7 @@
     "name": "Gello",
     "requirements": "Defeat Delirium as Tainted Lilith",
     "prereqs": [
-      "Tainted Lilith"
+      "The Harlot"
     ]
   },
   {
@@ -4222,7 +4222,7 @@
     "name": "Keeper's Kin",
     "requirements": "Defeat Delirium as Tainted Keeper",
     "prereqs": [
-      "Tainted Keeper"
+      "The Miser"
     ]
   },
   {
@@ -4230,7 +4230,7 @@
     "name": "Abyss",
     "requirements": "Defeat Delirium as Tainted Apollyon",
     "prereqs": [
-      "Tainted Apollyon"
+      "The Empty"
     ]
   },
   {
@@ -4238,7 +4238,7 @@
     "name": "Decap Attack",
     "requirements": "Defeat Delirium as Tainted Forgotten",
     "prereqs": [
-      "Tainted Forgotten"
+      "The Fettered"
     ]
   },
   {
@@ -4246,7 +4246,7 @@
     "name": "Lemegeton",
     "requirements": "Defeat Delirium as Tainted Bethany",
     "prereqs": [
-      "Tainted Bethany"
+      "The Zealot"
     ]
   },
   {
@@ -4254,7 +4254,7 @@
     "name": "Anima Sola",
     "requirements": "Defeat Delirium as Tainted Jacob",
     "prereqs": [
-      "Tainted Jacob"
+      "The Deserter"
     ]
   },
   {
@@ -4262,7 +4262,7 @@
     "name": "Mega Chest",
     "requirements": "Defeat Mega Satan as Tainted Isaac",
     "prereqs": [
-      "Tainted Isaac"
+      "The Broken"
     ]
   },
   {
@@ -4270,7 +4270,7 @@
     "name": "Queen of Hearts",
     "requirements": "Defeat Mega Satan as Tainted Magdalene",
     "prereqs": [
-      "Tainted Magdalene"
+      "The Dauntless"
     ]
   },
   {
@@ -4278,7 +4278,7 @@
     "name": "Gold Pill",
     "requirements": "Defeat Mega Satan as Tainted Cain",
     "prereqs": [
-      "Tainted Cain"
+      "The Hoarder"
     ]
   },
   {
@@ -4286,7 +4286,7 @@
     "name": "Black Sack",
     "requirements": "Defeat Mega Satan as Tainted Judas",
     "prereqs": [
-      "Tainted Judas"
+      "The Deceiver"
     ]
   },
   {
@@ -4294,7 +4294,7 @@
     "name": "Charming Poop",
     "requirements": "Defeat Mega Satan as Tainted ???",
     "prereqs": [
-      "Tainted ???"
+      "The Soiled"
     ]
   },
   {
@@ -4302,7 +4302,7 @@
     "name": "Horse Pill",
     "requirements": "Defeat Mega Satan as Tainted Eve",
     "prereqs": [
-      "Tainted Eve"
+      "The Curdled"
     ]
   },
   {
@@ -4310,7 +4310,7 @@
     "name": "Crane Game",
     "requirements": "Defeat Mega Satan as Tainted Samson",
     "prereqs": [
-      "Tainted Samson"
+      "The Savage"
     ]
   },
   {
@@ -4318,7 +4318,7 @@
     "name": "Hell Game",
     "requirements": "Defeat Mega Satan as Tainted Azazel",
     "prereqs": [
-      "Tainted Azazel"
+      "The Benighted"
     ]
   },
   {
@@ -4326,7 +4326,7 @@
     "name": "Wooden Chest",
     "requirements": "Defeat Mega Satan as Tainted Lazarus",
     "prereqs": [
-      "Tainted Lazarus"
+      "The Enigma"
     ]
   },
   {
@@ -4334,7 +4334,7 @@
     "name": "Wild Card",
     "requirements": "Defeat Mega Satan as Tainted Eden",
     "prereqs": [
-      "Tainted Eden"
+      "The Capricious"
     ]
   },
   {
@@ -4342,7 +4342,7 @@
     "name": "Haunted Chest",
     "requirements": "Defeat Mega Satan as Tainted Lost",
     "prereqs": [
-      "Tainted Lost"
+      "The Baleful"
     ]
   },
   {
@@ -4350,7 +4350,7 @@
     "name": "Fool's Gold",
     "requirements": "Defeat Mega Satan as Tainted Lilith",
     "prereqs": [
-      "Tainted Lilith"
+      "The Harlot"
     ]
   },
   {
@@ -4358,7 +4358,7 @@
     "name": "Golden Penny",
     "requirements": "Defeat Mega Satan as Tainted Keeper",
     "prereqs": [
-      "Tainted Keeper"
+      "The Miser"
     ]
   },
   {
@@ -4366,7 +4366,7 @@
     "name": "Rotten Beggar",
     "requirements": "Defeat Mega Satan as Tainted Apollyon",
     "prereqs": [
-      "Tainted Apollyon"
+      "The Empty"
     ]
   },
   {
@@ -4374,7 +4374,7 @@
     "name": "Golden Battery",
     "requirements": "Defeat Mega Satan as Tainted Forgotten",
     "prereqs": [
-      "Tainted Forgotten"
+      "The Fettered"
     ]
   },
   {
@@ -4382,7 +4382,7 @@
     "name": "Confessional",
     "requirements": "Defeat Mega Satan as Tainted Bethany",
     "prereqs": [
-      "Tainted Bethany"
+      "The Zealot"
     ]
   },
   {
@@ -4390,7 +4390,7 @@
     "name": "Golden Trinket",
     "requirements": "Defeat Mega Satan as Tainted Jacob",
     "prereqs": [
-      "Tainted Jacob"
+      "The Deserter"
     ]
   },
   {
@@ -4398,7 +4398,7 @@
     "name": "Soul of Isaac",
     "requirements": "Defeat Hush and Boss Rush as Tainted Isaac",
     "prereqs": [
-      "Tainted Isaac"
+      "The Broken"
     ]
   },
   {
@@ -4406,7 +4406,7 @@
     "name": "Soul of Magdalene",
     "requirements": "Defeat Hush and Boss Rush as Tainted Magdalene",
     "prereqs": [
-      "Tainted Magdalene"
+      "The Dauntless"
     ]
   },
   {
@@ -4414,7 +4414,7 @@
     "name": "Soul of Cain",
     "requirements": "Defeat Hush and Boss Rush as Tainted Cain",
     "prereqs": [
-      "Tainted Cain"
+      "The Hoarder"
     ]
   },
   {
@@ -4422,7 +4422,7 @@
     "name": "Soul of Judas",
     "requirements": "Defeat Hush and Boss Rush as Tainted Judas",
     "prereqs": [
-      "Tainted Judas"
+      "The Deceiver"
     ]
   },
   {
@@ -4430,7 +4430,7 @@
     "name": "Soul of ???",
     "requirements": "Defeat Hush and Boss Rush as Tainted ???",
     "prereqs": [
-      "Tainted ???"
+      "The Soiled"
     ]
   },
   {
@@ -4438,7 +4438,7 @@
     "name": "Soul of Eve",
     "requirements": "Defeat Hush and Boss Rush as Tainted Eve",
     "prereqs": [
-      "Tainted Eve"
+      "The Curdled"
     ]
   },
   {
@@ -4446,7 +4446,7 @@
     "name": "Soul of Samson",
     "requirements": "Defeat Hush and Boss Rush as Tainted Samson",
     "prereqs": [
-      "Tainted Samson"
+      "The Savage"
     ]
   },
   {
@@ -4454,7 +4454,7 @@
     "name": "Soul of Azazel",
     "requirements": "Defeat Hush and Boss Rush as Tainted Azazel",
     "prereqs": [
-      "Tainted Azazel"
+      "The Benighted"
     ]
   },
   {
@@ -4462,7 +4462,7 @@
     "name": "Soul of Lazarus",
     "requirements": "Defeat Hush and Boss Rush as Tainted Lazarus",
     "prereqs": [
-      "Tainted Lazarus"
+      "The Enigma"
     ]
   },
   {
@@ -4470,7 +4470,7 @@
     "name": "Soul of Eden",
     "requirements": "Defeat Hush and Boss Rush as Tainted Eden",
     "prereqs": [
-      "Tainted Eden"
+      "The Capricious"
     ]
   },
   {
@@ -4478,7 +4478,7 @@
     "name": "Soul of the Lost",
     "requirements": "Defeat Hush and Boss Rush as Tainted Lost",
     "prereqs": [
-      "Tainted Lost"
+      "The Baleful"
     ]
   },
   {
@@ -4486,7 +4486,7 @@
     "name": "Soul of Lilith",
     "requirements": "Defeat Hush and Boss Rush as Tainted Lilith",
     "prereqs": [
-      "Tainted Lilith"
+      "The Harlot"
     ]
   },
   {
@@ -4494,7 +4494,7 @@
     "name": "Soul of the Keeper",
     "requirements": "Defeat Hush and Boss Rush as Tainted Keeper",
     "prereqs": [
-      "Tainted Keeper"
+      "The Miser"
     ]
   },
   {
@@ -4502,7 +4502,7 @@
     "name": "Soul of Apollyon",
     "requirements": "Defeat Hush and Boss Rush as Tainted Apollyon",
     "prereqs": [
-      "Tainted Apollyon"
+      "The Empty"
     ]
   },
   {
@@ -4510,7 +4510,7 @@
     "name": "Soul of the Forgotten",
     "requirements": "Defeat Hush and Boss Rush as Tainted Forgotten",
     "prereqs": [
-      "Tainted Forgotten"
+      "The Fettered"
     ]
   },
   {
@@ -4518,7 +4518,7 @@
     "name": "Soul of Bethany",
     "requirements": "Defeat Hush and Boss Rush as Tainted Bethany",
     "prereqs": [
-      "Tainted Bethany"
+      "The Zealot"
     ]
   },
   {
@@ -4526,7 +4526,7 @@
     "name": "Soul of Jacob and Esau",
     "requirements": "Defeat Hush and Boss Rush as Tainted Jacob",
     "prereqs": [
-      "Tainted Jacob"
+      "The Deserter"
     ]
   },
   {
