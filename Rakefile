@@ -34,8 +34,18 @@ namespace :vendor do
         "Isaac" => nil
       }
 
+      MANUAL_IDS = {
+        "82" => ["Missing Poster"]
+      }
+
       class << self
-        def call(text)
+        def call(text, id)
+          MANUAL_IDS.fetch(id) { match(text) }
+        end
+
+        private
+
+        def match(text)
           prereqs = case text
           when DEFEAT_AS_REGEX
             [$1]
@@ -77,7 +87,7 @@ namespace :vendor do
 
     achievements.each do |a|
       a["requirements"] = RequirementsScrubber.call(a["requirements"])
-      a["prereqs"] = PrereqParser.call(a["requirements"])
+      a["prereqs"] = PrereqParser.call(a["requirements"], a["id"])
 
       a["requirements"].gsub!(/\[\[|\]\]/, "")
     end

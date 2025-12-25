@@ -535,7 +535,9 @@
     "id": "82",
     "name": "The Lost",
     "requirements": "Die in a Sacrifice Room while holding Missing Poster",
-    "prereqs": []
+    "prereqs": [
+      "Missing Poster"
+    ]
   },
   {
     "id": "83",
