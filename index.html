@@ -23,6 +23,67 @@
       import { useEffect, useState } from "preact/hooks";
       import { html } from "htm/preact";
 
+      const toQuery = (checkedIdStrings) => {
+        let allChecked = new Array(648);
+
+        checkedIdStrings
+          .map((id) => parseInt(id))
+          .forEach((i) => (allChecked[i] = true));
+
+        let uint8Array = new Uint8Array(81);
+
+        for (let i = 0; i < 81; i++) {
+          let int8 = 0;
+
+          for (let j = 0; j < 8; j++) {
+            if (allChecked[i * 8 + j]) {
+              int8 |= 1 << j;
+            }
+          }
+
+          uint8Array[i] = int8;
+        }
+
+        return uint8Array.toBase64({ alphabet: "base64url" });
+      };
+
+      const fromQuery = (query) => {
+        if (query.length != 108) {
+          return [];
+        }
+
+        const uint8Array = Uint8Array.fromBase64(query, {
+          alphabet: "base64url",
+        });
+
+        let checkedIds = [];
+
+        for (let i = 0; i < 81; i++) {
+          let int8 = uint8Array[i];
+
+          for (let j = 0; j < 8; j++) {
+            if (int8 & (1 << j)) {
+              checkedIds.push((i * 8 + j).toString());
+            }
+          }
+        }
+
+        return checkedIds;
+      };
+
+      const getCheckedFromQuery = () => {
+        const url = new URL(window.location);
+        const q = url.searchParams.get("q");
+
+        return q ? fromQuery(q) : [];
+      };
+
+      const setCheckedQuery = (checkedIdStrings) => {
+        const url = new URL(window.location);
+        url.searchParams.set("q", toQuery(checkedIdStrings));
+        history.pushState(null, "", url);
+      };
+
       const Item = ({ item, type, toggleChecked }) => {
         const checked = type === "checked";
         const locked = type === "locked";
@@ -89,6 +150,17 @@
             resp.json().then((d) => {
               let newData = { checked: {}, unlocked: {}, locked: {} };
 
+              const checkedFromQuery = getCheckedFromQuery()
+                .map((id) => parseInt(id) - 1)
+                .sort((a, b) => a - b)
+                .reverse();
+
+              for (const i of checkedFromQuery) {
+                const checkedItem = d.splice(i, 1)[0];
+
+                newData.checked[checkedItem.name] = checkedItem;
+              }
+
               processNewUnchecked(newData, d);
 
               setData(newData);
@@ -109,7 +181,9 @@
           };
 
           if (wasChecked) {
-            const sameReqItems = Object.values(newData.checked).filter(i => i["requirements"] === item.requirements);
+            const sameReqItems = Object.values(newData.checked).filter(
+              (i) => i["requirements"] === item.requirements,
+            );
 
             for (const i of sameReqItems) {
               delete newData.checked[i.name];
@@ -117,7 +191,9 @@
               unchecked[i.name] = i;
             }
           } else {
-            const sameReqItems = Object.values(unchecked).filter(i => i["requirements"] === item.requirements);
+            const sameReqItems = Object.values(unchecked).filter(
+              (i) => i["requirements"] === item.requirements,
+            );
 
             for (const i of sameReqItems) {
               delete unchecked[i.name];
@@ -128,6 +204,11 @@
 
           processNewUnchecked(newData, unchecked);
 
+          setCheckedQuery(
+            Object.values(newData.checked)
+              .map((i) => i.id)
+              .sort(),
+          );
           setData(newData);
         };
 
