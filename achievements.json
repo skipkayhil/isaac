@@ -2042,13 +2042,16 @@
     "id": "282",
     "name": "D infinity",
     "requirements": "Defeat Delirium as Isaac",
-    "prereqs": []
+    "prereqs": [
+      "New Area"
+    ]
   },
   {
     "id": "283",
     "name": "Eucharist",
     "requirements": "Defeat Delirium as Magdalene",
     "prereqs": [
+      "New Area",
       "Magdalene"
     ]
   },
@@ -2057,6 +2060,7 @@
     "name": "Silver Dollar",
     "requirements": "Defeat Delirium as Cain",
     "prereqs": [
+      "New Area",
       "Cain"
     ]
   },
@@ -2065,6 +2069,7 @@
     "name": "Shade",
     "requirements": "Defeat Delirium as Judas",
     "prereqs": [
+      "New Area",
       "Judas"
     ]
   },
@@ -2073,6 +2078,7 @@
     "name": "King Baby",
     "requirements": "Defeat Delirium as ???",
     "prereqs": [
+      "New Area",
       "???"
     ]
   },
@@ -2081,6 +2087,7 @@
     "name": "Bloody Crown",
     "requirements": "Defeat Delirium as Samson",
     "prereqs": [
+      "New Area",
       "Samson"
     ]
   },
@@ -2089,6 +2096,7 @@
     "name": "Dull Razor",
     "requirements": "Defeat Delirium as Eve",
     "prereqs": [
+      "New Area",
       "Eve"
     ]
   },
@@ -2097,6 +2105,7 @@
     "name": "Eden's Soul",
     "requirements": "Defeat Delirium as Eden",
     "prereqs": [
+      "New Area",
       "Eden"
     ]
   },
@@ -2105,6 +2114,7 @@
     "name": "Dark Prince's Crown",
     "requirements": "Defeat Delirium as Azazel",
     "prereqs": [
+      "New Area",
       "Azazel"
     ]
   },
@@ -2113,6 +2123,7 @@
     "name": "Compound Fracture",
     "requirements": "Defeat Delirium as Lazarus",
     "prereqs": [
+      "New Area",
       "Lazarus"
     ]
   },
@@ -2121,6 +2132,7 @@
     "name": "Euthanasia",
     "requirements": "Defeat Delirium as Lilith",
     "prereqs": [
+      "New Area",
       "Lilith"
     ]
   },
@@ -2129,6 +2141,7 @@
     "name": "Holy Card",
     "requirements": "Defeat Delirium as The Lost",
     "prereqs": [
+      "New Area",
       "The Lost"
     ]
   },
@@ -2137,6 +2150,7 @@
     "name": "Crooked Penny",
     "requirements": "Defeat Delirium as Keeper",
     "prereqs": [
+      "New Area",
       "Keeper"
     ]
   },
@@ -2145,6 +2159,7 @@
     "name": "Void",
     "requirements": "Defeat Delirium as Apollyon",
     "prereqs": [
+      "New Area",
       "Apollyon"
     ]
   },
@@ -2479,7 +2494,9 @@
     "id": "338",
     "name": "Delirious",
     "requirements": "Defeat Delirium",
-    "prereqs": []
+    "prereqs": [
+      "New Area"
+    ]
   },
   {
     "id": "339",
@@ -2603,7 +2620,9 @@
     "id": "357",
     "name": "Lil Delirium",
     "requirements": "Defeat Delirium for the 1st time",
-    "prereqs": []
+    "prereqs": [
+      "New Area"
+    ]
   },
   {
     "id": "358",
@@ -2890,6 +2909,7 @@
     "name": "Book of the Dead",
     "requirements": "Defeat Delirium as The Forgotten",
     "prereqs": [
+      "New Area",
       "The Forgotten"
     ]
   },
@@ -3077,6 +3097,7 @@
     "name": "Star of Bethlehem",
     "requirements": "Defeat Delirium as Bethany",
     "prereqs": [
+      "New Area",
       "Bethany"
     ]
   },
@@ -3176,6 +3197,7 @@
     "name": "Suplex!",
     "requirements": "Defeat Delirium as Jacob and Esau",
     "prereqs": [
+      "New Area",
       "Jacob and Esau"
     ]
   },
@@ -4430,6 +4452,7 @@
     "name": "Spindown Dice",
     "requirements": "Defeat Delirium as Tainted Isaac",
     "prereqs": [
+      "New Area",
       "The Broken"
     ]
   },
@@ -4438,6 +4461,7 @@
     "name": "Hypercoagulation",
     "requirements": "Defeat Delirium as Tainted Magdalene",
     "prereqs": [
+      "New Area",
       "The Dauntless"
     ]
   },
@@ -4446,6 +4470,7 @@
     "name": "Bag of Crafting",
     "requirements": "Defeat Delirium as Tainted Cain",
     "prereqs": [
+      "New Area",
       "The Hoarder"
     ]
   },
@@ -4454,6 +4479,7 @@
     "name": "Dark Arts",
     "requirements": "Defeat Delirium as Tainted Judas",
     "prereqs": [
+      "New Area",
       "The Deceiver"
     ]
   },
@@ -4462,6 +4488,7 @@
     "name": "IBS",
     "requirements": "Defeat Delirium as Tainted ???",
     "prereqs": [
+      "New Area",
       "The Soiled"
     ]
   },
@@ -4470,6 +4497,7 @@
     "name": "Sumptorium",
     "requirements": "Defeat Delirium as Tainted Eve",
     "prereqs": [
+      "New Area",
       "The Curdled"
     ]
   },
@@ -4478,6 +4506,7 @@
     "name": "Berserk!",
     "requirements": "Defeat Delirium as Tainted Samson",
     "prereqs": [
+      "New Area",
       "The Savage"
     ]
   },
@@ -4486,6 +4515,7 @@
     "name": "Hemoptysis",
     "requirements": "Defeat Delirium as Tainted Azazel",
     "prereqs": [
+      "New Area",
       "The Benighted"
     ]
   },
@@ -4494,6 +4524,7 @@
     "name": "Flip",
     "requirements": "Defeat Delirium as Tainted Lazarus",
     "prereqs": [
+      "New Area",
       "The Enigma"
     ]
   },
@@ -4502,6 +4533,7 @@
     "name": "Corrupted Data",
     "requirements": "Defeat Delirium as Tainted Eden",
     "prereqs": [
+      "New Area",
       "The Capricious"
     ]
   },
@@ -4510,6 +4542,7 @@
     "name": "Ghost Bombs",
     "requirements": "Defeat Delirium as Tainted Lost",
     "prereqs": [
+      "New Area",
       "The Baleful"
     ]
   },
@@ -4518,6 +4551,7 @@
     "name": "Gello",
     "requirements": "Defeat Delirium as Tainted Lilith",
     "prereqs": [
+      "New Area",
       "The Harlot"
     ]
   },
@@ -4526,6 +4560,7 @@
     "name": "Keeper's Kin",
     "requirements": "Defeat Delirium as Tainted Keeper",
     "prereqs": [
+      "New Area",
       "The Miser"
     ]
   },
@@ -4534,6 +4569,7 @@
     "name": "Abyss",
     "requirements": "Defeat Delirium as Tainted Apollyon",
     "prereqs": [
+      "New Area",
       "The Empty"
     ]
   },
@@ -4542,6 +4578,7 @@
     "name": "Decap Attack",
     "requirements": "Defeat Delirium as Tainted Forgotten",
     "prereqs": [
+      "New Area",
       "The Fettered"
     ]
   },
@@ -4550,6 +4587,7 @@
     "name": "Lemegeton",
     "requirements": "Defeat Delirium as Tainted Bethany",
     "prereqs": [
+      "New Area",
       "The Zealot"
     ]
   },
@@ -4558,6 +4596,7 @@
     "name": "Anima Sola",
     "requirements": "Defeat Delirium as Tainted Jacob",
     "prereqs": [
+      "New Area",
       "The Deserter"
     ]
   },

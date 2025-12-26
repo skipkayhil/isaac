@@ -100,6 +100,7 @@ namespace :vendor do
       }
 
       BOSSES = {
+        "Delirium" => "New Area",
         "Hush" => "Blue Womb",
         "Mega Satan" => "Angels",
         "Mother" => "A Secret Exit",
