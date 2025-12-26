@@ -1460,13 +1460,16 @@
     "id": "205",
     "name": "Cry Baby",
     "requirements": "Defeat Mega Satan as Isaac",
-    "prereqs": []
+    "prereqs": [
+      "Angels"
+    ]
   },
   {
     "id": "206",
     "name": "Red Baby",
     "requirements": "Defeat Mega Satan as Magdalene",
     "prereqs": [
+      "Angels",
       "Magdalene"
     ]
   },
@@ -1475,6 +1478,7 @@
     "name": "Green Baby",
     "requirements": "Defeat Mega Satan as Cain",
     "prereqs": [
+      "Angels",
       "Cain"
     ]
   },
@@ -1483,6 +1487,7 @@
     "name": "Brown Baby",
     "requirements": "Defeat Mega Satan as Judas",
     "prereqs": [
+      "Angels",
       "Judas"
     ]
   },
@@ -1491,6 +1496,7 @@
     "name": "Blue Baby",
     "requirements": "Defeat Mega Satan as ???",
     "prereqs": [
+      "Angels",
       "???"
     ]
   },
@@ -1499,6 +1505,7 @@
     "name": "Lil' Baby",
     "requirements": "Defeat Mega Satan as Eve",
     "prereqs": [
+      "Angels",
       "Eve"
     ]
   },
@@ -1507,6 +1514,7 @@
     "name": "Rage Baby",
     "requirements": "Defeat Mega Satan as Samson",
     "prereqs": [
+      "Angels",
       "Samson"
     ]
   },
@@ -1515,6 +1523,7 @@
     "name": "Black Baby",
     "requirements": "Defeat Mega Satan as Azazel",
     "prereqs": [
+      "Angels",
       "Azazel"
     ]
   },
@@ -1523,6 +1532,7 @@
     "name": "Long Baby",
     "requirements": "Defeat Mega Satan as Lazarus",
     "prereqs": [
+      "Angels",
       "Lazarus"
     ]
   },
@@ -1531,6 +1541,7 @@
     "name": "Yellow Baby",
     "requirements": "Defeat Mega Satan as Eden",
     "prereqs": [
+      "Angels",
       "Eden"
     ]
   },
@@ -1539,6 +1550,7 @@
     "name": "White Baby",
     "requirements": "Defeat Mega Satan as The Lost",
     "prereqs": [
+      "Angels",
       "The Lost"
     ]
   },
@@ -1547,6 +1559,7 @@
     "name": "Big Baby",
     "requirements": "Defeat Mega Satan as Lilith",
     "prereqs": [
+      "Angels",
       "Lilith"
     ]
   },
@@ -1555,6 +1568,7 @@
     "name": "Noose Baby",
     "requirements": "Defeat Mega Satan as Keeper",
     "prereqs": [
+      "Angels",
       "Keeper"
     ]
   },
@@ -1946,7 +1960,9 @@
     "id": "270",
     "name": "I RULE!",
     "requirements": "Defeat Mega Satan and unlock The Negative",
-    "prereqs": []
+    "prereqs": [
+      "Angels"
+    ]
   },
   {
     "id": "271",
@@ -1982,13 +1998,17 @@
     "id": "276",
     "name": "Mega",
     "requirements": "Defeat Mega Satan as every character ( except tainted characters)",
-    "prereqs": []
+    "prereqs": [
+      "Angels"
+    ]
   },
   {
     "id": "277",
     "name": "Backasswards",
     "requirements": "Defeat Mega Satan and unlock The Negative",
-    "prereqs": []
+    "prereqs": [
+      "Angels"
+    ]
   },
   {
     "id": "278",
@@ -2008,7 +2028,9 @@
     "id": "280",
     "name": "Ultra Hard",
     "requirements": "Defeat Mega Satan and unlock The Negative",
-    "prereqs": []
+    "prereqs": [
+      "Angels"
+    ]
   },
   {
     "id": "281",
@@ -2298,6 +2320,7 @@
     "name": "Mort Baby",
     "requirements": "Defeat Mega Satan as Apollyon",
     "prereqs": [
+      "Angels",
       "Apollyon"
     ]
   },
@@ -2453,7 +2476,9 @@
     "id": "340",
     "name": "Apollyon",
     "requirements": "Defeat Mega Satan",
-    "prereqs": []
+    "prereqs": [
+      "Angels"
+    ]
   },
   {
     "id": "341",
@@ -2865,6 +2890,7 @@
     "name": "Bound Baby",
     "requirements": "Defeat Mega Satan as The Forgotten",
     "prereqs": [
+      "Angels",
       "The Forgotten"
     ]
   },
@@ -3050,6 +3076,7 @@
     "name": "Glowing Baby",
     "requirements": "Defeat Mega Satan as Bethany",
     "prereqs": [
+      "Angels",
       "Bethany"
     ]
   },
@@ -3147,6 +3174,7 @@
     "name": "Illusion Baby",
     "requirements": "Defeat Mega Satan as Jacob and Esau",
     "prereqs": [
+      "Angels",
       "Jacob and Esau"
     ]
   },
@@ -4503,6 +4531,7 @@
     "name": "Mega Chest",
     "requirements": "Defeat Mega Satan as Tainted Isaac",
     "prereqs": [
+      "Angels",
       "The Broken"
     ]
   },
@@ -4511,6 +4540,7 @@
     "name": "Queen of Hearts",
     "requirements": "Defeat Mega Satan as Tainted Magdalene",
     "prereqs": [
+      "Angels",
       "The Dauntless"
     ]
   },
@@ -4519,6 +4549,7 @@
     "name": "Gold Pill",
     "requirements": "Defeat Mega Satan as Tainted Cain",
     "prereqs": [
+      "Angels",
       "The Hoarder"
     ]
   },
@@ -4527,6 +4558,7 @@
     "name": "Black Sack",
     "requirements": "Defeat Mega Satan as Tainted Judas",
     "prereqs": [
+      "Angels",
       "The Deceiver"
     ]
   },
@@ -4535,6 +4567,7 @@
     "name": "Charming Poop",
     "requirements": "Defeat Mega Satan as Tainted ???",
     "prereqs": [
+      "Angels",
       "The Soiled"
     ]
   },
@@ -4543,6 +4576,7 @@
     "name": "Horse Pill",
     "requirements": "Defeat Mega Satan as Tainted Eve",
     "prereqs": [
+      "Angels",
       "The Curdled"
     ]
   },
@@ -4551,6 +4585,7 @@
     "name": "Crane Game",
     "requirements": "Defeat Mega Satan as Tainted Samson",
     "prereqs": [
+      "Angels",
       "The Savage"
     ]
   },
@@ -4559,6 +4594,7 @@
     "name": "Hell Game",
     "requirements": "Defeat Mega Satan as Tainted Azazel",
     "prereqs": [
+      "Angels",
       "The Benighted"
     ]
   },
@@ -4567,6 +4603,7 @@
     "name": "Wooden Chest",
     "requirements": "Defeat Mega Satan as Tainted Lazarus",
     "prereqs": [
+      "Angels",
       "The Enigma"
     ]
   },
@@ -4575,6 +4612,7 @@
     "name": "Wild Card",
     "requirements": "Defeat Mega Satan as Tainted Eden",
     "prereqs": [
+      "Angels",
       "The Capricious"
     ]
   },
@@ -4583,6 +4621,7 @@
     "name": "Haunted Chest",
     "requirements": "Defeat Mega Satan as Tainted Lost",
     "prereqs": [
+      "Angels",
       "The Baleful"
     ]
   },
@@ -4591,6 +4630,7 @@
     "name": "Fool's Gold",
     "requirements": "Defeat Mega Satan as Tainted Lilith",
     "prereqs": [
+      "Angels",
       "The Harlot"
     ]
   },
@@ -4599,6 +4639,7 @@
     "name": "Golden Penny",
     "requirements": "Defeat Mega Satan as Tainted Keeper",
     "prereqs": [
+      "Angels",
       "The Miser"
     ]
   },
@@ -4607,6 +4648,7 @@
     "name": "Rotten Beggar",
     "requirements": "Defeat Mega Satan as Tainted Apollyon",
     "prereqs": [
+      "Angels",
       "The Empty"
     ]
   },
@@ -4615,6 +4657,7 @@
     "name": "Golden Battery",
     "requirements": "Defeat Mega Satan as Tainted Forgotten",
     "prereqs": [
+      "Angels",
       "The Fettered"
     ]
   },
@@ -4623,6 +4666,7 @@
     "name": "Confessional",
     "requirements": "Defeat Mega Satan as Tainted Bethany",
     "prereqs": [
+      "Angels",
       "The Zealot"
     ]
   },
@@ -4631,6 +4675,7 @@
     "name": "Golden Trinket",
     "requirements": "Defeat Mega Satan as Tainted Jacob",
     "prereqs": [
+      "Angels",
       "The Deserter"
     ]
   },
