@@ -1,0 +1,52 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "base64"
+require "net/http"
+require "nokogiri"
+require "json"
+require "uri"
+
+BASE64_ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_"
+
+uri = URI.parse("https://steamcommunity.com/id/#{ARGV[0]}/stats/appid/250900/achievements")
+response = Net::HTTP.get_response(uri)
+
+case response
+when Net::HTTPSuccess
+  checked_names = Nokogiri.HTML5(response.body)
+    .css(".achieveUnlockTime")
+    .map { |n|
+      n.parent.css("h3").text.downcase.tr("!", "")
+    }
+
+  all_achievements = JSON.load_file("achievements.json")
+  all_achievements.each do |a|
+    a["name"].downcase!
+    a["name"].tr!("!", "")
+  end
+
+  all_checked = Array.new(648)
+
+  checked_names.each do |name|
+    achievement = all_achievements.find { |a| a["name"] == name }
+
+    all_checked[achievement["id"].to_i] = true
+  end
+
+  s = +"";
+
+  all_checked.each_slice(6) do |slice|
+    i = 0
+
+    slice.each_with_index do |b, index|
+      i |= (1 << index) if b
+    end
+
+    s << BASE64_ALPHABET[i]
+  end
+
+  puts "https://skipkayhil.github.io/isaac?q=#{s}"
+else
+  $stdout.write "error"
+end
