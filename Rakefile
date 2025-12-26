@@ -87,6 +87,11 @@ namespace :vendor do
         "Scarred Womb" => ["Dank Depths"],
         # Hush
         "A Secret Exit" => ["New Area"],
+        # Corpse/Mother
+        "Rotten Heart" => ["A Secret Exit"],
+        "Dross" => ["A Secret Exit"],
+        "Ashpit" => ["A Secret Exit"],
+        "Gehenna" => ["A Secret Exit"],
         # Home
         "Red Key" => ["A Strange Door"],
         # Complex/Multi Requirement

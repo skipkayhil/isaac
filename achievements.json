@@ -2920,25 +2920,33 @@
     "id": "411",
     "name": "Rotten Heart",
     "requirements": "Enter Corpse for the first time",
-    "prereqs": []
+    "prereqs": [
+      "A Secret Exit"
+    ]
   },
   {
     "id": "412",
     "name": "Dross",
     "requirements": "Defeat all bosses in Downpour",
-    "prereqs": []
+    "prereqs": [
+      "A Secret Exit"
+    ]
   },
   {
     "id": "413",
     "name": "Ashpit",
     "requirements": "Defeat all bosses in Mines",
-    "prereqs": []
+    "prereqs": [
+      "A Secret Exit"
+    ]
   },
   {
     "id": "414",
     "name": "Gehenna",
     "requirements": "Defeat all bosses in Mausoleum",
-    "prereqs": []
+    "prereqs": [
+      "A Secret Exit"
+    ]
   },
   {
     "id": "415",
