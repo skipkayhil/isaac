@@ -2152,13 +2152,16 @@
     "id": "296",
     "name": "D1",
     "requirements": "Defeat Ultra Greedier as Isaac",
-    "prereqs": []
+    "prereqs": [
+      "Greedier!"
+    ]
   },
   {
     "id": "297",
     "name": "Glyph of Balance",
     "requirements": "Defeat Ultra Greedier as Magdalene",
     "prereqs": [
+      "Greedier!",
       "Magdalene"
     ]
   },
@@ -2167,6 +2170,7 @@
     "name": "Sack of Sacks",
     "requirements": "Defeat Ultra Greedier as Cain",
     "prereqs": [
+      "Greedier!",
       "Cain"
     ]
   },
@@ -2175,6 +2179,7 @@
     "name": "Eye of Belial",
     "requirements": "Defeat Ultra Greedier as Judas",
     "prereqs": [
+      "Greedier!",
       "Judas"
     ]
   },
@@ -2183,6 +2188,7 @@
     "name": "Meconium",
     "requirements": "Defeat Ultra Greedier as ???",
     "prereqs": [
+      "Greedier!",
       "???"
     ]
   },
@@ -2191,6 +2197,7 @@
     "name": "Stem Cell",
     "requirements": "Defeat Ultra Greedier as Samson",
     "prereqs": [
+      "Greedier!",
       "Samson"
     ]
   },
@@ -2199,6 +2206,7 @@
     "name": "Crow Heart",
     "requirements": "Defeat Ultra Greedier as Eve",
     "prereqs": [
+      "Greedier!",
       "Eve"
     ]
   },
@@ -2207,6 +2215,7 @@
     "name": "Metronome",
     "requirements": "Defeat Ultra Greedier as Eden",
     "prereqs": [
+      "Greedier!",
       "Eden"
     ]
   },
@@ -2215,6 +2224,7 @@
     "name": "Bat Wing",
     "requirements": "Defeat Ultra Greedier as Azazel",
     "prereqs": [
+      "Greedier!",
       "Azazel"
     ]
   },
@@ -2223,6 +2233,7 @@
     "name": "Plan C",
     "requirements": "Defeat Ultra Greedier as Lazarus",
     "prereqs": [
+      "Greedier!",
       "Lazarus"
     ]
   },
@@ -2231,6 +2242,7 @@
     "name": "Duality",
     "requirements": "Defeat Ultra Greedier as Lilith",
     "prereqs": [
+      "Greedier!",
       "Lilith"
     ]
   },
@@ -2239,6 +2251,7 @@
     "name": "Dad's Lost Coin",
     "requirements": "Defeat Ultra Greedier as The Lost",
     "prereqs": [
+      "Greedier!",
       "The Lost"
     ]
   },
@@ -2247,6 +2260,7 @@
     "name": "Eye of Greed",
     "requirements": "Defeat Ultra Greedier as Keeper",
     "prereqs": [
+      "Greedier!",
       "Keeper"
     ]
   },
@@ -2255,6 +2269,7 @@
     "name": "Black Rune",
     "requirements": "Defeat Ultra Greedier as Apollyon",
     "prereqs": [
+      "Greedier!",
       "Apollyon"
     ]
   },
@@ -2866,6 +2881,7 @@
     "name": "Dad's Ring",
     "requirements": "Defeat Ultra Greedier as The Forgotten",
     "prereqs": [
+      "Greedier!",
       "The Forgotten"
     ]
   },
@@ -3052,6 +3068,7 @@
     "name": "Vade Retro",
     "requirements": "Defeat Ultra Greedier as Bethany",
     "prereqs": [
+      "Greedier!",
       "Bethany"
     ]
   },
@@ -3150,6 +3167,7 @@
     "name": "Genesis",
     "requirements": "Defeat Ultra Greedier as Jacob and Esau",
     "prereqs": [
+      "Greedier!",
       "Jacob and Esau"
     ]
   },
@@ -3908,6 +3926,7 @@
     "name": "The Fool",
     "requirements": "Defeat Ultra Greedier as Tainted Lost",
     "prereqs": [
+      "Greedier!",
       "The Baleful"
     ]
   },
@@ -3916,6 +3935,7 @@
     "name": "The Magician",
     "requirements": "Defeat Ultra Greedier as Tainted Judas",
     "prereqs": [
+      "Greedier!",
       "The Deceiver"
     ]
   },
@@ -3924,6 +3944,7 @@
     "name": "The High Priestess",
     "requirements": "Defeat Ultra Greedier as Tainted Lilith",
     "prereqs": [
+      "Greedier!",
       "The Harlot"
     ]
   },
@@ -3932,6 +3953,7 @@
     "name": "The Empress",
     "requirements": "Defeat Ultra Greedier as Tainted Eve",
     "prereqs": [
+      "Greedier!",
       "The Curdled"
     ]
   },
@@ -3940,6 +3962,7 @@
     "name": "The Emperor",
     "requirements": "Defeat Ultra Greedier as Tainted ???",
     "prereqs": [
+      "Greedier!",
       "The Soiled"
     ]
   },
@@ -3948,6 +3971,7 @@
     "name": "The Hierophant",
     "requirements": "Defeat Ultra Greedier as Tainted Bethany",
     "prereqs": [
+      "Greedier!",
       "The Zealot"
     ]
   },
@@ -3956,6 +3980,7 @@
     "name": "The Lovers",
     "requirements": "Defeat Ultra Greedier as Tainted Magdalene",
     "prereqs": [
+      "Greedier!",
       "The Dauntless"
     ]
   },
@@ -3988,6 +4013,7 @@
     "name": "Wheel of Fortune",
     "requirements": "Defeat Ultra Greedier as Tainted Cain",
     "prereqs": [
+      "Greedier!",
       "The Hoarder"
     ]
   },
@@ -3996,6 +4022,7 @@
     "name": "Strength",
     "requirements": "Defeat Ultra Greedier as Tainted Samson",
     "prereqs": [
+      "Greedier!",
       "The Savage"
     ]
   },
@@ -4004,6 +4031,7 @@
     "name": "The Hanged Man",
     "requirements": "Defeat Ultra Greedier as Tainted Keeper",
     "prereqs": [
+      "Greedier!",
       "The Miser"
     ]
   },
@@ -4012,6 +4040,7 @@
     "name": "Death",
     "requirements": "Defeat Ultra Greedier as Tainted Forgotten",
     "prereqs": [
+      "Greedier!",
       "The Fettered"
     ]
   },
@@ -4028,6 +4057,7 @@
     "name": "The Devil",
     "requirements": "Defeat Ultra Greedier as Tainted Azazel",
     "prereqs": [
+      "Greedier!",
       "The Benighted"
     ]
   },
@@ -4036,6 +4066,7 @@
     "name": "The Tower",
     "requirements": "Defeat Ultra Greedier as Tainted Apollyon",
     "prereqs": [
+      "Greedier!",
       "The Empty"
     ]
   },
@@ -4044,6 +4075,7 @@
     "name": "The Stars",
     "requirements": "Defeat Ultra Greedier as Tainted Isaac",
     "prereqs": [
+      "Greedier!",
       "The Broken"
     ]
   },
@@ -4052,6 +4084,7 @@
     "name": "The Sun and the Moon",
     "requirements": "Defeat Ultra Greedier as Tainted Jacob",
     "prereqs": [
+      "Greedier!",
       "The Deserter"
     ]
   },
@@ -4060,6 +4093,7 @@
     "name": "Judgement",
     "requirements": "Defeat Ultra Greedier as Tainted Lazarus",
     "prereqs": [
+      "Greedier!",
       "The Enigma"
     ]
   },
@@ -4068,6 +4102,7 @@
     "name": "The World",
     "requirements": "Defeat Ultra Greedier as Tainted Eden",
     "prereqs": [
+      "Greedier!",
       "The Capricious"
     ]
   },

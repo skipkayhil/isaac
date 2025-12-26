@@ -104,6 +104,7 @@ namespace :vendor do
         "Mega Satan" => "Angels",
         "Mother" => "A Secret Exit",
         "The Beast" => "A Strange Door",
+        "Ultra Greedier" => "Greedier!",
       }
 
       def initialize(names)
