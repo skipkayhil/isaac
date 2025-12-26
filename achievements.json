@@ -2941,7 +2941,9 @@
     "id": "415",
     "name": "Red Key",
     "requirements": "Open Mom's Chest in Home",
-    "prereqs": []
+    "prereqs": [
+      "A Strange Door"
+    ]
   },
   {
     "id": "416",
@@ -3409,14 +3411,17 @@
     "id": "474",
     "name": "The Broken",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Isaac",
-    "prereqs": []
+    "prereqs": [
+      "A Strange Door"
+    ]
   },
   {
     "id": "475",
     "name": "The Dauntless",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Magdalene",
     "prereqs": [
-      "Magdalene"
+      "Magdalene",
+      "A Strange Door"
     ]
   },
   {
@@ -3424,7 +3429,8 @@
     "name": "The Hoarder",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Cain",
     "prereqs": [
-      "Cain"
+      "Cain",
+      "A Strange Door"
     ]
   },
   {
@@ -3432,7 +3438,8 @@
     "name": "The Deceiver",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Judas",
     "prereqs": [
-      "Judas"
+      "Judas",
+      "A Strange Door"
     ]
   },
   {
@@ -3440,7 +3447,8 @@
     "name": "The Soiled",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as ???",
     "prereqs": [
-      "???"
+      "???",
+      "A Strange Door"
     ]
   },
   {
@@ -3448,7 +3456,8 @@
     "name": "The Curdled",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Eve",
     "prereqs": [
-      "Eve"
+      "Eve",
+      "A Strange Door"
     ]
   },
   {
@@ -3456,7 +3465,8 @@
     "name": "The Savage",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Samson",
     "prereqs": [
-      "Samson"
+      "Samson",
+      "A Strange Door"
     ]
   },
   {
@@ -3464,7 +3474,8 @@
     "name": "The Benighted",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Azazel",
     "prereqs": [
-      "Azazel"
+      "Azazel",
+      "A Strange Door"
     ]
   },
   {
@@ -3472,7 +3483,8 @@
     "name": "The Enigma",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Lazarus",
     "prereqs": [
-      "Lazarus"
+      "Lazarus",
+      "A Strange Door"
     ]
   },
   {
@@ -3480,7 +3492,8 @@
     "name": "The Capricious",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Eden",
     "prereqs": [
-      "Eden"
+      "Eden",
+      "A Strange Door"
     ]
   },
   {
@@ -3488,7 +3501,8 @@
     "name": "The Baleful",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as The Lost",
     "prereqs": [
-      "The Lost"
+      "The Lost",
+      "A Strange Door"
     ]
   },
   {
@@ -3496,7 +3510,8 @@
     "name": "The Harlot",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Lilith",
     "prereqs": [
-      "Lilith"
+      "Lilith",
+      "A Strange Door"
     ]
   },
   {
@@ -3504,7 +3519,8 @@
     "name": "The Miser",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Keeper",
     "prereqs": [
-      "Keeper"
+      "Keeper",
+      "A Strange Door"
     ]
   },
   {
@@ -3512,7 +3528,8 @@
     "name": "The Empty",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Apollyon",
     "prereqs": [
-      "Apollyon"
+      "Apollyon",
+      "A Strange Door"
     ]
   },
   {
@@ -3520,7 +3537,8 @@
     "name": "The Fettered",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as The Forgotten",
     "prereqs": [
-      "The Forgotten"
+      "The Forgotten",
+      "A Strange Door"
     ]
   },
   {
@@ -3528,7 +3546,8 @@
     "name": "The Zealot",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Bethany",
     "prereqs": [
-      "Bethany"
+      "Bethany",
+      "A Strange Door"
     ]
   },
   {
@@ -3536,7 +3555,8 @@
     "name": "The Deserter",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Jacob and Esau",
     "prereqs": [
-      "Jacob and Esau"
+      "Jacob and Esau",
+      "A Strange Door"
     ]
   },
   {

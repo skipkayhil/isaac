@@ -88,6 +88,8 @@ namespace :vendor do
         # Hush
         "New Area" => ["Blue Womb"],
         "A Secret Exit" => ["New Area"],
+        # Home
+        "Red Key" => ["A Strange Door"],
       }
 
       def initialize(names)
@@ -122,9 +124,11 @@ namespace :vendor do
           case $1
           when "Home"
             @prereq_map[Tainted.fetch($2)] = achievement["name"]
-          end
 
-          [$2]
+            [$2, "A Strange Door"]
+          else
+            [$2]
+          end
         when /Chapter 4/
           ["The Womb"]
         when /11 times/
