@@ -3154,7 +3154,9 @@
     "id": "441",
     "name": "Options?",
     "requirements": "Defeat The Beast as Isaac",
-    "prereqs": []
+    "prereqs": [
+      "A Strange Door"
+    ]
   },
   {
     "id": "442",
@@ -3170,6 +3172,7 @@
     "name": "Candy Heart",
     "requirements": "Defeat The Beast as Magdalene",
     "prereqs": [
+      "A Strange Door",
       "Magdalene"
     ]
   },
@@ -3187,6 +3190,7 @@
     "name": "A Pound of Flesh",
     "requirements": "Defeat The Beast as Cain",
     "prereqs": [
+      "A Strange Door",
       "Cain"
     ]
   },
@@ -3204,6 +3208,7 @@
     "name": "Redemption",
     "requirements": "Defeat The Beast as Judas",
     "prereqs": [
+      "A Strange Door",
       "Judas"
     ]
   },
@@ -3221,6 +3226,7 @@
     "name": "Montezuma's Revenge",
     "requirements": "Defeat The Beast as ???",
     "prereqs": [
+      "A Strange Door",
       "???"
     ]
   },
@@ -3238,6 +3244,7 @@
     "name": "Cracked Orb",
     "requirements": "Defeat The Beast as Eve",
     "prereqs": [
+      "A Strange Door",
       "Eve"
     ]
   },
@@ -3255,6 +3262,7 @@
     "name": "Empty Heart",
     "requirements": "Defeat The Beast as Samson",
     "prereqs": [
+      "A Strange Door",
       "Samson"
     ]
   },
@@ -3272,6 +3280,7 @@
     "name": "Lil Abaddon",
     "requirements": "Defeat The Beast as Azazel",
     "prereqs": [
+      "A Strange Door",
       "Azazel"
     ]
   },
@@ -3289,6 +3298,7 @@
     "name": "Astral Projection",
     "requirements": "Defeat The Beast as Lazarus",
     "prereqs": [
+      "A Strange Door",
       "Lazarus"
     ]
   },
@@ -3306,6 +3316,7 @@
     "name": "Everything Jar",
     "requirements": "Defeat The Beast as Eden",
     "prereqs": [
+      "A Strange Door",
       "Eden"
     ]
   },
@@ -3323,6 +3334,7 @@
     "name": "Hungry Soul",
     "requirements": "Defeat The Beast as The Lost",
     "prereqs": [
+      "A Strange Door",
       "The Lost"
     ]
   },
@@ -3340,6 +3352,7 @@
     "name": "C Section",
     "requirements": "Defeat The Beast as Lilith",
     "prereqs": [
+      "A Strange Door",
       "Lilith"
     ]
   },
@@ -3357,6 +3370,7 @@
     "name": "Keeper's Box",
     "requirements": "Defeat The Beast as Keeper",
     "prereqs": [
+      "A Strange Door",
       "Keeper"
     ]
   },
@@ -3374,6 +3388,7 @@
     "name": "Worm Friend",
     "requirements": "Defeat The Beast as Apollyon",
     "prereqs": [
+      "A Strange Door",
       "Apollyon"
     ]
   },
@@ -3391,6 +3406,7 @@
     "name": "Spirit Shackles",
     "requirements": "Defeat The Beast as The Forgotten",
     "prereqs": [
+      "A Strange Door",
       "The Forgotten"
     ]
   },
@@ -3408,6 +3424,7 @@
     "name": "Jar of Wisps",
     "requirements": "Defeat The Beast as Bethany",
     "prereqs": [
+      "A Strange Door",
       "Bethany"
     ]
   },
@@ -3425,6 +3442,7 @@
     "name": "Friend Finder",
     "requirements": "Defeat The Beast as Jacob and Esau",
     "prereqs": [
+      "A Strange Door",
       "Jacob and Esau"
     ]
   },
@@ -3585,6 +3603,7 @@
     "name": "Glitched Crown",
     "requirements": "Defeat The Beast as Tainted Isaac",
     "prereqs": [
+      "A Strange Door",
       "The Broken"
     ]
   },
@@ -3593,6 +3612,7 @@
     "name": "Belly Jelly",
     "requirements": "Defeat The Beast as Tainted Magdalene",
     "prereqs": [
+      "A Strange Door",
       "The Dauntless"
     ]
   },
@@ -3601,6 +3621,7 @@
     "name": "Blue Key",
     "requirements": "Defeat The Beast as Tainted Cain",
     "prereqs": [
+      "A Strange Door",
       "The Hoarder"
     ]
   },
@@ -3609,6 +3630,7 @@
     "name": "Sanguine Bond",
     "requirements": "Defeat The Beast as Tainted Judas",
     "prereqs": [
+      "A Strange Door",
       "The Deceiver"
     ]
   },
@@ -3617,6 +3639,7 @@
     "name": "The Swarm",
     "requirements": "Defeat The Beast as Tainted ???",
     "prereqs": [
+      "A Strange Door",
       "The Soiled"
     ]
   },
@@ -3625,6 +3648,7 @@
     "name": "Heartbreak",
     "requirements": "Defeat The Beast as Tainted Eve",
     "prereqs": [
+      "A Strange Door",
       "The Curdled"
     ]
   },
@@ -3633,6 +3657,7 @@
     "name": "Larynx",
     "requirements": "Defeat The Beast as Tainted Samson",
     "prereqs": [
+      "A Strange Door",
       "The Savage"
     ]
   },
@@ -3641,6 +3666,7 @@
     "name": "Azazel's Rage",
     "requirements": "Defeat The Beast as Tainted Azazel",
     "prereqs": [
+      "A Strange Door",
       "The Benighted"
     ]
   },
@@ -3649,6 +3675,7 @@
     "name": "Salvation",
     "requirements": "Defeat The Beast as Tainted Lazarus",
     "prereqs": [
+      "A Strange Door",
       "The Enigma"
     ]
   },
@@ -3657,6 +3684,7 @@
     "name": "TMTRAINER",
     "requirements": "Defeat The Beast as Tainted Eden",
     "prereqs": [
+      "A Strange Door",
       "The Capricious"
     ]
   },
@@ -3665,6 +3693,7 @@
     "name": "Sacred Orb",
     "requirements": "Defeat The Beast as Tainted Lost",
     "prereqs": [
+      "A Strange Door",
       "The Baleful"
     ]
   },
@@ -3673,6 +3702,7 @@
     "name": "Twisted Pair",
     "requirements": "Defeat The Beast as Tainted Lilith",
     "prereqs": [
+      "A Strange Door",
       "The Harlot"
     ]
   },
@@ -3681,6 +3711,7 @@
     "name": "Strawman",
     "requirements": "Defeat The Beast as Tainted Keeper",
     "prereqs": [
+      "A Strange Door",
       "The Miser"
     ]
   },
@@ -3689,6 +3720,7 @@
     "name": "Echo Chamber",
     "requirements": "Defeat The Beast as Tainted Apollyon",
     "prereqs": [
+      "A Strange Door",
       "The Empty"
     ]
   },
@@ -3697,6 +3729,7 @@
     "name": "Isaac's Tomb",
     "requirements": "Defeat The Beast as Tainted Forgotten",
     "prereqs": [
+      "A Strange Door",
       "The Fettered"
     ]
   },
@@ -3705,6 +3738,7 @@
     "name": "Vengeful Spirit",
     "requirements": "Defeat The Beast as Tainted Bethany",
     "prereqs": [
+      "A Strange Door",
       "The Zealot"
     ]
   },
@@ -3713,6 +3747,7 @@
     "name": "Esau Jr.",
     "requirements": "Defeat The Beast as Tainted Jacob",
     "prereqs": [
+      "A Strange Door",
       "The Deserter"
     ]
   },

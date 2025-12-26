@@ -97,6 +97,7 @@ namespace :vendor do
       BOSSES = {
         "Hush" => "Blue Womb",
         "Mother" => "A Secret Exit",
+        "The Beast" => "A Strange Door",
       }
 
       def initialize(names)
