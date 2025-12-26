@@ -92,6 +92,11 @@ namespace :vendor do
         "Red Key" => ["A Strange Door"],
       }
 
+      BOSSES = {
+        "Hush" => "Blue Womb",
+        "Mother" => "A Secret Exit",
+      }
+
       def initialize(names)
         @names = names
         @prereq_map = MANUAL_PREREQ_MAP.dup
@@ -114,12 +119,7 @@ namespace :vendor do
         when CHALLENGE_REGEX
           [$1]
         when DEFEAT_AS_REGEX
-          case $1
-          when "Hush"
-            ["Blue Womb", $2]
-          else
-            [$2]
-          end
+          [BOSSES[$1], $2].compact
         when OTHER_AS_REGEX
           case $1
           when "Home"

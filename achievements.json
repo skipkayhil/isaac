@@ -3143,7 +3143,9 @@
     "id": "440",
     "name": "Meat Cleaver",
     "requirements": "Defeat Mother as Isaac",
-    "prereqs": []
+    "prereqs": [
+      "A Secret Exit"
+    ]
   },
   {
     "id": "441",
@@ -3156,6 +3158,7 @@
     "name": "Yuck Heart",
     "requirements": "Defeat Mother as Magdalene",
     "prereqs": [
+      "A Secret Exit",
       "Magdalene"
     ]
   },
@@ -3172,6 +3175,7 @@
     "name": "Guppy's Eye",
     "requirements": "Defeat Mother as Cain",
     "prereqs": [
+      "A Secret Exit",
       "Cain"
     ]
   },
@@ -3188,6 +3192,7 @@
     "name": "Akeldama",
     "requirements": "Defeat Mother as Judas",
     "prereqs": [
+      "A Secret Exit",
       "Judas"
     ]
   },
@@ -3204,6 +3209,7 @@
     "name": "Eternal D6",
     "requirements": "Defeat Mother as ???",
     "prereqs": [
+      "A Secret Exit",
       "???"
     ]
   },
@@ -3220,6 +3226,7 @@
     "name": "Bird Cage",
     "requirements": "Defeat Mother as Eve",
     "prereqs": [
+      "A Secret Exit",
       "Eve"
     ]
   },
@@ -3236,6 +3243,7 @@
     "name": "Bloody Gust",
     "requirements": "Defeat Mother as Samson",
     "prereqs": [
+      "A Secret Exit",
       "Samson"
     ]
   },
@@ -3252,6 +3260,7 @@
     "name": "Devil's Crown",
     "requirements": "Defeat Mother as Azazel",
     "prereqs": [
+      "A Secret Exit",
       "Azazel"
     ]
   },
@@ -3268,6 +3277,7 @@
     "name": "Tinytoma",
     "requirements": "Defeat Mother as Lazarus",
     "prereqs": [
+      "A Secret Exit",
       "Lazarus"
     ]
   },
@@ -3284,6 +3294,7 @@
     "name": "'M",
     "requirements": "Defeat Mother as Eden",
     "prereqs": [
+      "A Secret Exit",
       "Eden"
     ]
   },
@@ -3300,6 +3311,7 @@
     "name": "Lost Soul",
     "requirements": "Defeat Mother as The Lost",
     "prereqs": [
+      "A Secret Exit",
       "The Lost"
     ]
   },
@@ -3316,6 +3328,7 @@
     "name": "Blood Puppy",
     "requirements": "Defeat Mother as Lilith",
     "prereqs": [
+      "A Secret Exit",
       "Lilith"
     ]
   },
@@ -3332,6 +3345,7 @@
     "name": "Keeper's Sack",
     "requirements": "Defeat Mother as Keeper",
     "prereqs": [
+      "A Secret Exit",
       "Keeper"
     ]
   },
@@ -3348,6 +3362,7 @@
     "name": "Lil Portal",
     "requirements": "Defeat Mother as Apollyon",
     "prereqs": [
+      "A Secret Exit",
       "Apollyon"
     ]
   },
@@ -3364,6 +3379,7 @@
     "name": "Bone Spurs",
     "requirements": "Defeat Mother as The Forgotten",
     "prereqs": [
+      "A Secret Exit",
       "The Forgotten"
     ]
   },
@@ -3380,6 +3396,7 @@
     "name": "Revelation",
     "requirements": "Defeat Mother as Bethany",
     "prereqs": [
+      "A Secret Exit",
       "Bethany"
     ]
   },
@@ -3396,6 +3413,7 @@
     "name": "Magic Skin",
     "requirements": "Defeat Mother as Jacob and Esau",
     "prereqs": [
+      "A Secret Exit",
       "Jacob and Esau"
     ]
   },
@@ -4004,6 +4022,7 @@
     "name": "Dice Bag",
     "requirements": "Defeat Mother as Tainted Isaac",
     "prereqs": [
+      "A Secret Exit",
       "The Broken"
     ]
   },
@@ -4020,6 +4039,7 @@
     "name": "Mother's Kiss",
     "requirements": "Defeat Mother as Tainted Magdalene",
     "prereqs": [
+      "A Secret Exit",
       "The Dauntless"
     ]
   },
@@ -4036,6 +4056,7 @@
     "name": "Lucky Sack",
     "requirements": "Defeat Mother as Tainted Cain",
     "prereqs": [
+      "A Secret Exit",
       "The Hoarder"
     ]
   },
@@ -4052,6 +4073,7 @@
     "name": "Number Magnet",
     "requirements": "Defeat Mother as Tainted Judas",
     "prereqs": [
+      "A Secret Exit",
       "The Deceiver"
     ]
   },
@@ -4068,6 +4090,7 @@
     "name": "Ring Cap",
     "requirements": "Defeat Mother as Tainted ???",
     "prereqs": [
+      "A Secret Exit",
       "The Soiled"
     ]
   },
@@ -4084,6 +4107,7 @@
     "name": "Lil Clot",
     "requirements": "Defeat Mother as Tainted Eve",
     "prereqs": [
+      "A Secret Exit",
       "The Curdled"
     ]
   },
@@ -4100,6 +4124,7 @@
     "name": "Swallowed M80",
     "requirements": "Defeat Mother as Tainted Samson",
     "prereqs": [
+      "A Secret Exit",
       "The Savage"
     ]
   },
@@ -4116,6 +4141,7 @@
     "name": "Azazel's Stump",
     "requirements": "Defeat Mother as Tainted Azazel",
     "prereqs": [
+      "A Secret Exit",
       "The Benighted"
     ]
   },
@@ -4132,6 +4158,7 @@
     "name": "Torn Card",
     "requirements": "Defeat Mother as Tainted Lazarus",
     "prereqs": [
+      "A Secret Exit",
       "The Enigma"
     ]
   },
@@ -4148,6 +4175,7 @@
     "name": "Modeling Clay",
     "requirements": "Defeat Mother as Tainted Eden",
     "prereqs": [
+      "A Secret Exit",
       "The Capricious"
     ]
   },
@@ -4164,6 +4192,7 @@
     "name": "Crystal Key",
     "requirements": "Defeat Mother as Tainted Lost",
     "prereqs": [
+      "A Secret Exit",
       "The Baleful"
     ]
   },
@@ -4180,6 +4209,7 @@
     "name": "Adoption Papers",
     "requirements": "Defeat Mother as Tainted Lilith",
     "prereqs": [
+      "A Secret Exit",
       "The Harlot"
     ]
   },
@@ -4196,6 +4226,7 @@
     "name": "Cursed Penny",
     "requirements": "Defeat Mother as Tainted Keeper",
     "prereqs": [
+      "A Secret Exit",
       "The Miser"
     ]
   },
@@ -4212,6 +4243,7 @@
     "name": "Apollyon's Best Friend",
     "requirements": "Defeat Mother as Tainted Apollyon",
     "prereqs": [
+      "A Secret Exit",
       "The Empty"
     ]
   },
@@ -4228,6 +4260,7 @@
     "name": "Hollow Heart",
     "requirements": "Defeat Mother as Tainted Forgotten",
     "prereqs": [
+      "A Secret Exit",
       "The Fettered"
     ]
   },
@@ -4244,6 +4277,7 @@
     "name": "Beth's Essence",
     "requirements": "Defeat Mother as Tainted Bethany",
     "prereqs": [
+      "A Secret Exit",
       "The Zealot"
     ]
   },
@@ -4260,6 +4294,7 @@
     "name": "Found Soul",
     "requirements": "Defeat Mother as Tainted Jacob",
     "prereqs": [
+      "A Secret Exit",
       "The Deserter"
     ]
   },
