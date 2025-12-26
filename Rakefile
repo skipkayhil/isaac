@@ -86,7 +86,6 @@ namespace :vendor do
         "Dank Depths" => ["Flooded Caves"],
         "Scarred Womb" => ["Dank Depths"],
         # Hush
-        "New Area" => ["Blue Womb"],
         "A Secret Exit" => ["New Area"],
         # Home
         "Red Key" => ["A Strange Door"],
