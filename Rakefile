@@ -51,43 +51,43 @@ namespace :vendor do
         "Isaac" => nil,
       }
 
-      MANUAL_IDS = {
-        "82" => ["Missing Poster"],
+      MANUAL_NAMES = {
+        "The Lost" => ["Missing Poster"],
         # Default Challenges
-        "60" => NONE,
-        "63" => NONE,
-        "89" => NONE,
-        "90" => NONE,
-        "91" => NONE,
-        "100" => NONE,
-        "101" => NONE,
-        "102" => NONE,
-        "103" => NONE,
-        "104" => NONE,
-        "517" => NONE,
+        "Burnt Penny" => NONE,
+        "SMB Super Fan" => NONE,
+        "Rune of Hagalaz" => NONE,
+        "Rune of Jera" => NONE,
+        "Rune of Ehwaz" => NONE,
+        "Card Against Humanity" => NONE,
+        "Swallowed Penny" => NONE,
+        "Robo-Baby 2.0" => NONE,
+        "Death's Touch" => NONE,
+        "Technology .5" => NONE,
+        "Dirty Mind" => NONE,
         # Mis-cased challenges
-        "332" => ["Aprils fool"],
-        "335" => ["PONG"],
-        "532" => ["Cantripped!"],
+        "Maggy Now Holds a Pill!" => ["Aprils fool"],
+        "Greed's Gullet" => ["PONG"],
+        "Justice" => ["Cantripped!"],
         # Mom's Heart #s
-        "8" => ["Rubber Cement"],
-        "159" => ["Rubber Cement"],
-        "139" => ["A Noose"],
-        "33" => ["Wire Coat Hanger"],
-        "140" => ["Everything Is Terrible!!!"],
-        "141" => ["Ipecac"],
-        "10" => ["Experimental Treatment"],
-        "11" => ["A Quarter"],
-        "162" => ["A Quarter"],
-        "32" => ["A Fetus in a Jar"],
-        "234" => ["A Fetus in a Jar"],
+        "A Noose" => ["Rubber Cement"], # 3
+        "Solar System" => ["Rubber Cement"],
+        "Wire Coat Hanger" => ["A Noose"], # 4
+        "Everything Is Terrible!!!" => ["Wire Coat Hanger"], # 5
+        "Ipecac" => ["Everything Is Terrible!!!"], # 6
+        "Experimental Treatment" => ["Ipecac"], # 7
+        "A Quarter" => ["Experimental Treatment"], # 8
+        "A Fetus in a Jar" => ["A Quarter"], # 9
+        "Demo Man" => ["A Quarter"],
+        "???" => ["A Fetus in a Jar"], # 10
+        "Blue Womb" => ["A Fetus in a Jar"],
         # It Lives! #s
-        "343" => ["???"],
-        "344" => ["Flooded Caves"],
-        "345" => ["Dank Depths"],
+        "Flooded Caves" => ["???"],
+        "Dank Depths" => ["Flooded Caves"],
+        "Scarred Womb" => ["Dank Depths"],
         # Hush
-        "320" => ["Blue Womb"],
-        "407" => ["New Area"],
+        "New Area" => ["Blue Womb"],
+        "A Secret Exit" => ["New Area"],
       }
 
       def initialize(names)
@@ -96,10 +96,10 @@ namespace :vendor do
       end
 
       def call(achievement)
-        id = achievement["id"]
+        name = achievement["name"]
 
-        MANUAL_IDS.fetch(id) { match(achievement) }.tap do |parsed_names|
-          puts "Unknown name for id #{id}: #{parsed_names}" unless parsed_names.all? { |n| @names.include? n }
+        MANUAL_NAMES.fetch(name) { match(achievement) }.tap do |parsed_names|
+          puts "Unknown prereq for #{name}: #{parsed_names}" unless parsed_names.all? { |n| @names.include? n }
         end
       end
 
