@@ -2880,7 +2880,9 @@
     "id": "405",
     "name": "Jacob and Esau",
     "requirements": "Defeat Mother",
-    "prereqs": []
+    "prereqs": [
+      "A Secret Exit"
+    ]
   },
   {
     "id": "406",
@@ -3734,13 +3736,17 @@
     "id": "510",
     "name": "Isaac's Awakening",
     "requirements": "Defeat Mother",
-    "prereqs": []
+    "prereqs": [
+      "A Secret Exit"
+    ]
   },
   {
     "id": "511",
     "name": "Seeing Double",
     "requirements": "Defeat Mother",
-    "prereqs": []
+    "prereqs": [
+      "A Secret Exit"
+    ]
   },
   {
     "id": "512",
@@ -4590,6 +4596,7 @@
     "name": "Soul of Isaac",
     "requirements": "Defeat Hush and Boss Rush as Tainted Isaac",
     "prereqs": [
+      "Blue Womb",
       "The Broken"
     ]
   },
@@ -4598,6 +4605,7 @@
     "name": "Soul of Magdalene",
     "requirements": "Defeat Hush and Boss Rush as Tainted Magdalene",
     "prereqs": [
+      "Blue Womb",
       "The Dauntless"
     ]
   },
@@ -4606,6 +4614,7 @@
     "name": "Soul of Cain",
     "requirements": "Defeat Hush and Boss Rush as Tainted Cain",
     "prereqs": [
+      "Blue Womb",
       "The Hoarder"
     ]
   },
@@ -4614,6 +4623,7 @@
     "name": "Soul of Judas",
     "requirements": "Defeat Hush and Boss Rush as Tainted Judas",
     "prereqs": [
+      "Blue Womb",
       "The Deceiver"
     ]
   },
@@ -4622,6 +4632,7 @@
     "name": "Soul of ???",
     "requirements": "Defeat Hush and Boss Rush as Tainted ???",
     "prereqs": [
+      "Blue Womb",
       "The Soiled"
     ]
   },
@@ -4630,6 +4641,7 @@
     "name": "Soul of Eve",
     "requirements": "Defeat Hush and Boss Rush as Tainted Eve",
     "prereqs": [
+      "Blue Womb",
       "The Curdled"
     ]
   },
@@ -4638,6 +4650,7 @@
     "name": "Soul of Samson",
     "requirements": "Defeat Hush and Boss Rush as Tainted Samson",
     "prereqs": [
+      "Blue Womb",
       "The Savage"
     ]
   },
@@ -4646,6 +4659,7 @@
     "name": "Soul of Azazel",
     "requirements": "Defeat Hush and Boss Rush as Tainted Azazel",
     "prereqs": [
+      "Blue Womb",
       "The Benighted"
     ]
   },
@@ -4654,6 +4668,7 @@
     "name": "Soul of Lazarus",
     "requirements": "Defeat Hush and Boss Rush as Tainted Lazarus",
     "prereqs": [
+      "Blue Womb",
       "The Enigma"
     ]
   },
@@ -4662,6 +4677,7 @@
     "name": "Soul of Eden",
     "requirements": "Defeat Hush and Boss Rush as Tainted Eden",
     "prereqs": [
+      "Blue Womb",
       "The Capricious"
     ]
   },
@@ -4670,6 +4686,7 @@
     "name": "Soul of the Lost",
     "requirements": "Defeat Hush and Boss Rush as Tainted Lost",
     "prereqs": [
+      "Blue Womb",
       "The Baleful"
     ]
   },
@@ -4678,6 +4695,7 @@
     "name": "Soul of Lilith",
     "requirements": "Defeat Hush and Boss Rush as Tainted Lilith",
     "prereqs": [
+      "Blue Womb",
       "The Harlot"
     ]
   },
@@ -4686,6 +4704,7 @@
     "name": "Soul of the Keeper",
     "requirements": "Defeat Hush and Boss Rush as Tainted Keeper",
     "prereqs": [
+      "Blue Womb",
       "The Miser"
     ]
   },
@@ -4694,6 +4713,7 @@
     "name": "Soul of Apollyon",
     "requirements": "Defeat Hush and Boss Rush as Tainted Apollyon",
     "prereqs": [
+      "Blue Womb",
       "The Empty"
     ]
   },
@@ -4702,6 +4722,7 @@
     "name": "Soul of the Forgotten",
     "requirements": "Defeat Hush and Boss Rush as Tainted Forgotten",
     "prereqs": [
+      "Blue Womb",
       "The Fettered"
     ]
   },
@@ -4710,6 +4731,7 @@
     "name": "Soul of Bethany",
     "requirements": "Defeat Hush and Boss Rush as Tainted Bethany",
     "prereqs": [
+      "Blue Womb",
       "The Zealot"
     ]
   },
@@ -4718,6 +4740,7 @@
     "name": "Soul of Jacob and Esau",
     "requirements": "Defeat Hush and Boss Rush as Tainted Jacob",
     "prereqs": [
+      "Blue Womb",
       "The Deserter"
     ]
   },
@@ -4725,7 +4748,9 @@
     "id": "635",
     "name": "A Strange Door",
     "requirements": "Defeat Mother",
-    "prereqs": []
+    "prereqs": [
+      "A Secret Exit"
+    ]
   },
   {
     "id": "636",

@@ -44,7 +44,7 @@ namespace :vendor do
       NONE = [].freeze
 
       CHALLENGE_REGEX = /Complete \[\[(.*?) \(challenge #/
-      DEFEAT_AS_REGEX = /^Defeat \[\[(.*?)\]\] as \[\[(.*?)\]\]/
+      DEFEAT_AS_REGEX = /^Defeat \[\[(.*?)\]\](?:.* as \[\[(.*?)\]\])?/
       OTHER_AS_REGEX = /\[\[(Home|Boss Rush|Completion Mark)\]\]s? as \[\[(.*?)\]\]/
 
       MANUAL_PREREQ_MAP = {
@@ -119,6 +119,8 @@ namespace :vendor do
         text = achievement["requirements"]
 
         prereqs = case text
+        when /11 times/ # Before DEFEAT_AS to catch "Defeat Mom's Heart 11 times"
+          ["???"]
         when CHALLENGE_REGEX
           [$1]
         when DEFEAT_AS_REGEX
@@ -134,8 +136,6 @@ namespace :vendor do
           end
         when /Chapter 4/
           ["The Womb"]
-        when /11 times/
-          ["???"]
         else
           []
         end
