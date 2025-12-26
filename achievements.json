@@ -1084,6 +1084,7 @@
     "name": "Darkness Falls",
     "requirements": "Defeat Mom's Heart 11 times and defeat ??? as Eve",
     "prereqs": [
+      "???",
       "Eve"
     ]
   },
@@ -3724,7 +3725,9 @@
     "name": "Baptism by Fire",
     "requirements": "Defeat Satan as Bethany, defeat Mom's Heart 11 times, and unlock Maggy's Faith",
     "prereqs": [
-      "Bethany"
+      "Bethany",
+      "???",
+      "Magdalene"
     ]
   },
   {

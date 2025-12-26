@@ -90,6 +90,9 @@ namespace :vendor do
         "A Secret Exit" => ["New Area"],
         # Home
         "Red Key" => ["A Strange Door"],
+        # Complex/Multi Requirement
+        "Darkness Falls" => ["???", "Eve"],
+        "Baptism by Fire" => ["Bethany", "???", "Magdalene"],
       }
 
       BOSSES = {
