@@ -223,6 +223,12 @@ namespace :vendor do
       shrubs["priority"].each_key do |name|
         puts "Unknown achievement: #{name}" unless achievement_names.include? name
       end
+
+      puts "Duplicate achievement!" if shrubs["priority"].keys.uniq!
+
+      unless shrubs["priority"].values.uniq.all? { shrubs["rank"].include? it }
+        puts "Rank missing: #{shrubs["priority"].values.uniq - shrubs["rank"]}"
+      end
     end
 
     task :shrubs do
@@ -239,6 +245,7 @@ namespace :vendor do
           :challenges,
           "early progression",
           :characters,
+          "early completion",
           :unknown,
           :bad,
         ],
@@ -326,6 +333,57 @@ namespace :vendor do
         "The Forgotten",
         "Jacob and Esau",
       ].each { priority[it] = "characters" }
+
+      [
+        "The D6",
+        "Mom's Knife",
+        # Missing Poster (-> early progression)
+        "The D20",
+        "D infinity",
+        "A Cross",
+        "Purity",
+        "Eucharist",
+        "Cain's Eye",
+        "Judas' Shadow",
+        "Curved Horn",
+        "Forget Me Now",
+        "Fate",
+        "Eve's Mascara",
+        "Athame",
+        "Blood Penny",
+        "The Nail",
+        "Daemon's Tail",
+        "Satanic Bible",
+        "Abaddon",
+        "Maw of the Void",
+        "Pandora's Box",
+        "Store Credit",
+        "Empty Vessel",
+        "Compound Fracture",
+        "Book of Secrets",
+        "Blank Card",
+        "Eden's Blessing",
+        "Eden's Soul",
+        "'M",
+        "Succubus",
+        "Incubus",
+        "Euthanasia",
+        "C Section",
+        "Smelter",
+        "Void",
+        "Divorce Papers",
+        "Brittle Bones",
+        "Book of Virtues",
+        "Blessed Penny",
+        "Urn of Souls",
+        "Star of Bethlehem",
+        "Revelation",
+        "Rock Bottom",
+        "The Stairway",
+        "Birthright",
+        "Damocles",
+        "Suplex!",
+      ].each { priority[it] = "early completion" }
 
       [
         "Corrupted Data",
