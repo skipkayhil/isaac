@@ -212,11 +212,15 @@
 
           <h2>completed</h2>
 
-          <${ItemSection}
-            type="checked"
-            items=${Object.values(data.checked)}
-            toggle=${toggleItemChecked}
-          />
+          <details>
+            <summary>show</summary>
+
+            <${ItemSection}
+              type="checked"
+              items=${Object.values(data.checked)}
+              toggle=${toggleItemChecked}
+            />
+          </details>
 
           ${prio.rank.map((priorityName) => {
             const unchecked = prioritizedUnchecked[priorityName];
