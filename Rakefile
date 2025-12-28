@@ -210,7 +210,21 @@ namespace :vendor do
     rm "achievements.json.tmp"
   end
 
+  task :prio => ["prio:shrubs", "prio:validate"]
+
   namespace :prio do
+    task :validate do
+      require "json"
+
+      achievement_names = JSON.load_file("achievements.json").map { it["name"] }.to_set
+
+      shrubs = JSON.load_file("priority-shrubs.json")
+
+      shrubs["priority"].each_key do |name|
+        puts "Unknown achievement: #{name}" unless achievement_names.include? name
+      end
+    end
+
     task :shrubs do
       # https://steamcommunity.com/sharedfiles/filedetails/?id=3434706205
 
@@ -237,7 +251,7 @@ namespace :vendor do
         "Hat trick!", # 3 win streak
         "5 Nights at Mom's", # 5 win streak with different characters
         "A Halo",
-        "Once More With Feeling!", # Victory Lap
+        "Once More with Feeling!", # Victory Lap
         "Marbles",
         "Huge Growth",
         "Counterfeit Coin",
@@ -307,7 +321,7 @@ namespace :vendor do
         "???",
         # The Lost (-> misc)
         "Lilith",
-        "The Keeper",
+        "Keeper",
         "Apollyon",
         "The Forgotten",
         "Jacob and Esau",
