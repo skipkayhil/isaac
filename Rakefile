@@ -221,6 +221,10 @@ namespace :vendor do
         rank: [
           :misc,
           :daily,
+          :runes,
+          :challenges,
+          "early progression",
+          :characters,
           :unknown,
           :bad,
         ],
@@ -246,6 +250,68 @@ namespace :vendor do
         "Broken Modem",
         "Dedication", # Technically bad but takes 31 days
       ].each { priority[it] = "daily" }
+
+      [
+        "Rune of Jera",
+        "Rune of Ehwaz",
+        "Rune of Ansuz",
+        "Blank Rune",
+        "Rune of Perthro",
+        "Rune of Dagaz",
+        "Rune of Algiz",
+      ].each { priority[it] = "runes" }
+
+      [
+        "Card Against Humanity",
+        "Burnt Penny",
+        "SMB Super Fan",
+        "Death's Touch",
+        "Technology .5",
+        "Chaos Card",
+        "Credit Card",
+        "Epic Fetus",
+        "Gold Heart",
+        "Get out of Jail Free Card",
+        "Gold Bomb",
+        "Laz Bleeds More!",
+        "Maggy Now Holds a Pill!",
+        "Charged Key",
+        "Samson Feels Healthy!",
+        "Sigil of Baphomet",
+        "Spirit Sword",
+        "Justice",
+      ].each { priority[it] = "challenges" }
+
+      [
+        "Lucky Pennies",
+        # Store Upgrade v1 (-> misc)
+        "The Polaroid",
+        "The Negative",
+        "New Area",
+        "Missing Poster",
+        "A Secret Exit",
+        "A Strange Door",
+        "Greedier!",
+      ].each { priority[it] = "early progression" }
+
+      [
+        "Magdalene",
+        "Cain",
+        "Eve",
+        "Samson",
+        "Azazel",
+        "Lazarus",
+        "Judas",
+        "Eden",
+        "Bethany",
+        "???",
+        # The Lost (-> misc)
+        "Lilith",
+        "The Keeper",
+        "Apollyon",
+        "The Forgotten",
+        "Jacob and Esau",
+      ].each { priority[it] = "characters" }
 
       [
         "Corrupted Data",
