@@ -38,7 +38,7 @@
         for (let i = 0; i < 648; ) {
           let encodedIndex = 0;
 
-          for (let j = 0; j < 6; j++) {
+          for (let j = 5; j >= 0; j--) {
             if (allChecked[i]) {
               encodedIndex |= 1 << j;
             }
@@ -67,7 +67,7 @@
             .reverse();
 
           for (let j = 0; j < 6; j++) {
-            if ("1" === bits[j]) {
+            if ("1" === bits[5 - j]) {
               checkedIds.push((i * 6 + j).toString());
             }
           }

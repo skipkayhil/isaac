@@ -39,7 +39,7 @@ when Net::HTTPSuccess
   all_checked.each_slice(6) do |slice|
     i = 0
 
-    slice.each_with_index do |b, index|
+    slice.reverse.each_with_index do |b, index|
       i |= (1 << index) if b
     end
 
