@@ -132,24 +132,10 @@
 
       export function App() {
         const [data, setData] = useState({
-          checked: [],
-          unlocked: [],
-          locked: [],
+          checked: {},
+          unchecked: {},
         });
         const [prio, setPrio] = useState({ rank: ["unknown"], priority: {} });
-
-        const processNewUnchecked = (newData, unchecked) =>
-          Object.values(unchecked).forEach((item) => {
-            for (const req of item.prereqs) {
-              if (!newData.checked[req]) {
-                newData.locked[item.name] = item;
-
-                return;
-              }
-            }
-
-            newData.unlocked[item.name] = item;
-          });
 
         useEffect(() => {
           fetch("./priority-shrubs.json").then((resp) =>
@@ -160,7 +146,7 @@
 
           fetch("./achievements.json").then((resp) =>
             resp.json().then((d) => {
-              let newData = { checked: {}, unlocked: {}, locked: {} };
+              let newData = { checked: {}, unchecked: {} };
 
               const checkedFromQuery = getCheckedFromQuery()
                 .map((id) => parseInt(id) - 1)
@@ -173,7 +159,7 @@
                 newData.checked[checkedItem.name] = checkedItem;
               }
 
-              processNewUnchecked(newData, d);
+              d.forEach((item) => (newData.unchecked[item.name] = item));
 
               setData(newData);
             }),
@@ -183,13 +169,7 @@
         const toggleItemChecked = (item, wasChecked) => () => {
           let newData = {
             checked: { ...data.checked },
-            unlocked: {},
-            locked: {},
-          };
-
-          let unchecked = {
-            ...data.unlocked,
-            ...data.locked,
+            unchecked: { ...data.unchecked },
           };
 
           if (wasChecked) {
@@ -200,21 +180,19 @@
             for (const i of sameReqItems) {
               delete newData.checked[i.name];
 
-              unchecked[i.name] = i;
+              newData.unchecked[i.name] = i;
             }
           } else {
-            const sameReqItems = Object.values(unchecked).filter(
+            const sameReqItems = Object.values(newData.unchecked).filter(
               (i) => i["requirements"] === item.requirements,
             );
 
             for (const i of sameReqItems) {
-              delete unchecked[i.name];
+              delete newData.unchecked[i.name];
 
               newData.checked[i.name] = i;
             }
           }
-
-          processNewUnchecked(newData, unchecked);
 
           setCheckedQuery(
             Object.values(newData.checked)
@@ -224,10 +202,11 @@
           setData(newData);
         };
 
-        const prioritizedUnlocks = Object.groupBy(
-          Object.values(data.unlocked),
+        const prioritizedUnchecked = Object.groupBy(
+          Object.values(data.unchecked),
           ({ name }) => prio.priority[name] || "unknown",
         );
+
         return html`
           <h1>Isaac ${Object.keys(data.checked).length} / 641</h1>
 
@@ -240,28 +219,41 @@
           />
 
           ${prio.rank.map((priorityName) => {
-            const unlocks = prioritizedUnlocks[priorityName];
+            const unchecked = prioritizedUnchecked[priorityName];
 
-            if (unlocks) {
+            if (unchecked) {
+              let locked = [];
+              let unlocked = [];
+
+              unchecked.forEach((item) => {
+                for (const req of item.prereqs) {
+                  if (!data.checked[req]) {
+                    locked.push(item);
+
+                    return;
+                  }
+                }
+
+                unlocked.push(item);
+              });
+
               return html`
                 <h2>${priorityName}</h2>
 
                 <${ItemSection}
                   type="unlocked"
-                  items=${unlocks}
+                  items=${unlocked}
+                  toggle=${toggleItemChecked}
+                />
+
+                <${ItemSection}
+                  type="locked"
+                  items=${locked}
                   toggle=${toggleItemChecked}
                 />
               `;
             }
           })}
-
-          <h2>locked</h2>
-
-          <${ItemSection}
-            type="locked"
-            items=${Object.values(data.locked)}
-            toggle=${toggleItemChecked}
-          />
         `;
       }
 
