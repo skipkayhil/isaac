@@ -114,7 +114,7 @@
 
       const ItemSection = ({ items, toggle, type }) => html`
         <ul>
-          ${Object.values(items)
+          ${items
             .toSorted((a, b) => a.id - b.id)
             .map(
               (item) => html`
@@ -136,6 +136,7 @@
           unlocked: [],
           locked: [],
         });
+        const [prio, setPrio] = useState({ rank: ["unknown"], priority: {} });
 
         const processNewUnchecked = (newData, unchecked) =>
           Object.values(unchecked).forEach((item) => {
@@ -151,6 +152,12 @@
           });
 
         useEffect(() => {
+          fetch("./priority-shrubs.json").then((resp) =>
+            resp.json().then((d) => {
+              setPrio(d);
+            }),
+          );
+
           fetch("./achievements.json").then((resp) =>
             resp.json().then((d) => {
               let newData = { checked: {}, unlocked: {}, locked: {} };
@@ -217,22 +224,42 @@
           setData(newData);
         };
 
+        const prioritizedUnlocks = Object.groupBy(
+          Object.values(data.unlocked),
+          ({ name }) => prio.priority[name] || "unknown",
+        );
         return html`
-          Isaac ${Object.keys(data.checked).length} / 641
+          <h1>Isaac ${Object.keys(data.checked).length} / 641</h1>
+
+          <h2>completed</h2>
 
           <${ItemSection}
             type="checked"
-            items=${data.checked}
+            items=${Object.values(data.checked)}
             toggle=${toggleItemChecked}
           />
-          <${ItemSection}
-            type="unlocked"
-            items=${data.unlocked}
-            toggle=${toggleItemChecked}
-          />
+
+          ${prio.rank.map((priorityName) => {
+            const unlocks = prioritizedUnlocks[priorityName];
+
+            if (unlocks) {
+              return html`
+                <h2>${priorityName}</h2>
+
+                <${ItemSection}
+                  type="unlocked"
+                  items=${unlocks}
+                  toggle=${toggleItemChecked}
+                />
+              `;
+            }
+          })}
+
+          <h2>locked</h2>
+
           <${ItemSection}
             type="locked"
-            items=${data.locked}
+            items=${Object.values(data.locked)}
             toggle=${toggleItemChecked}
           />
         `;

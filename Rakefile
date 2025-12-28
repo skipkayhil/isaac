@@ -209,4 +209,68 @@ namespace :vendor do
 
     rm "achievements.json.tmp"
   end
+
+  namespace :prio do
+    task :shrubs do
+      # https://steamcommunity.com/sharedfiles/filedetails/?id=3434706205
+
+      require "json"
+
+      priority = {}
+      output = {
+        rank: [
+          :misc,
+          :daily,
+          :unknown,
+          :bad,
+        ],
+        priority:,
+      }
+
+      [
+        *DONATION_MACHINE,
+        "The Lost",
+        "Hat trick!", # 3 win streak
+        "5 Nights at Mom's", # 5 win streak with different characters
+        "A Halo",
+        "Once More With Feeling!", # Victory Lap
+        "Marbles",
+        "Huge Growth",
+        "Counterfeit Coin",
+        "The Planetarium",
+        "Technology Zero",
+      ].each { priority[it] = "misc" }
+
+      [
+        "The Marathon",
+        "Broken Modem",
+        "Dedication", # Technically bad but takes 31 days
+      ].each { priority[it] = "daily" }
+
+      [
+        "Corrupted Data",
+        "2 new pills",
+        "Rules Card",
+        "Suicide King",
+        "Mr. Resetter!",
+        "The Scissors",
+        "Abel",
+        "Missing No.",
+        "???'s Only Friend",
+        "Isaac's Head",
+        "Shade",
+        "Rune of Berkano",
+        "TMTRAINER",
+        "Torn Card",
+        "IBS",
+        "The High Priestess",
+      ].each { priority[it] = "bad" }
+
+      JSON.dump(output, File.open("priority-shrubs.json.tmp", "w"))
+
+      sh "jq . priority-shrubs.json.tmp > priority-shrubs.json"
+
+      rm "priority-shrubs.json.tmp"
+    end
+  end
 end
