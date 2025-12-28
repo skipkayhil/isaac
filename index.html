@@ -27,7 +27,7 @@
         "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_";
 
       const toQuery = (checkedIdStrings) => {
-        let allChecked = new Array(648);
+        let allChecked = new Array(642);
 
         checkedIdStrings
           .map((id) => parseInt(id))
@@ -35,7 +35,7 @@
 
         let encodedString = "";
 
-        for (let i = 0; i < 648; ) {
+        for (let i = 0; i < 642; ) {
           let encodedIndex = 0;
 
           for (let j = 5; j >= 0; j--) {
@@ -53,13 +53,13 @@
       };
 
       const fromQuery = (query) => {
-        if (query.length != 108) {
+        if (query.length != 107) {
           return [];
         }
 
         let checkedIds = [];
 
-        for (let i = 0; i < 108; i++) {
+        for (let i = 0; i < 107; i++) {
           const bits = alphabet
             .indexOf(query[i])
             .toString(2)
