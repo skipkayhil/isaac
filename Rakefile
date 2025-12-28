@@ -1,5 +1,18 @@
 # frozen_string_literal: true
 
+DONATION_MACHINE = [
+  "Blue Map",            # 10
+  "Store Upgrade lv.1",  # 20
+  "There's Options",     # 50
+  "Store Upgrade lv.2",  # 100
+  "Black Candle",        # 150
+  "Store Upgrade lv.3",  # 200
+  "Red Candle",          # 400
+  "Store Upgrade lv.4",  # 600
+  "Blue Candle",         # 900
+  "Stop Watch",          # 999
+]
+
 namespace :vendor do
   task :data do
     module Tainted
@@ -98,6 +111,10 @@ namespace :vendor do
         "Darkness Falls" => ["???", "Eve"],
         "Baptism by Fire" => ["Bethany", "???", "Magdalene"],
       }
+      DONATION_MACHINE.each_with_index do |name, i|
+        next unless prev = DONATION_MACHINE[i - 1]
+        MANUAL_NAMES[name] = [prev]
+      end
 
       BOSSES = {
         "Delirium" => "New Area",

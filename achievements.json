@@ -397,7 +397,9 @@
     "id": "59",
     "name": "Blue Candle",
     "requirements": "Donate 900 coins to the Donation Machine",
-    "prereqs": []
+    "prereqs": [
+      "Store Upgrade lv.4"
+    ]
   },
   {
     "id": "60",
@@ -939,31 +941,41 @@
     "id": "134",
     "name": "Blue Map",
     "requirements": "Donate 10 Coins to the Donation Machine",
-    "prereqs": []
+    "prereqs": [
+      "Stop Watch"
+    ]
   },
   {
     "id": "135",
     "name": "There's Options",
     "requirements": "Donate 50 Coins to the Donation Machine",
-    "prereqs": []
+    "prereqs": [
+      "Store Upgrade lv.1"
+    ]
   },
   {
     "id": "136",
     "name": "Black Candle",
     "requirements": "Donate 150 Coins to the Donation Machine",
-    "prereqs": []
+    "prereqs": [
+      "Store Upgrade lv.2"
+    ]
   },
   {
     "id": "137",
     "name": "Red Candle",
     "requirements": "Donate 400 Coins to the Donation Machine",
-    "prereqs": []
+    "prereqs": [
+      "Store Upgrade lv.3"
+    ]
   },
   {
     "id": "138",
     "name": "Stop Watch",
     "requirements": "Donate 999 Coins to the Donation Machine",
-    "prereqs": []
+    "prereqs": [
+      "Blue Candle"
+    ]
   },
   {
     "id": "139",
@@ -1047,25 +1059,33 @@
     "id": "151",
     "name": "Store Upgrade lv.1",
     "requirements": "Donate 20 Coins to the Donation Machine",
-    "prereqs": []
+    "prereqs": [
+      "Blue Map"
+    ]
   },
   {
     "id": "152",
     "name": "Store Upgrade lv.2",
     "requirements": "Donate 100 Coins to the Donation Machine",
-    "prereqs": []
+    "prereqs": [
+      "There's Options"
+    ]
   },
   {
     "id": "153",
     "name": "Store Upgrade lv.3",
     "requirements": "Donate 200 Coins to the Donation Machine",
-    "prereqs": []
+    "prereqs": [
+      "Black Candle"
+    ]
   },
   {
     "id": "154",
     "name": "Store Upgrade lv.4",
     "requirements": "Donate 600 Coins to the Donation Machine",
-    "prereqs": []
+    "prereqs": [
+      "Red Candle"
+    ]
   },
   {
     "id": "155",
