@@ -89,6 +89,8 @@
         history.pushState(null, "", url);
       };
 
+      const compareById = (a, b) => a.id - b.id;
+
       const Item = ({ item, type, toggleChecked }) => {
         const checked = type === "checked";
         const locked = type === "locked";
@@ -114,19 +116,17 @@
 
       const ItemSection = ({ items, toggle, type }) => html`
         <ul>
-          ${items
-            .toSorted((a, b) => a.id - b.id)
-            .map(
-              (item) => html`
-                <li>
-                  <${Item}
-                    item=${item}
-                    type=${type}
-                    toggleChecked=${toggle(item, type === "checked")}
-                  />
-                </li>
-              `,
-            )}
+          ${items.map(
+            (item) => html`
+              <li>
+                <${Item}
+                  item=${item}
+                  type=${type}
+                  toggleChecked=${toggle(item, type === "checked")}
+                />
+              </li>
+            `,
+          )}
         </ul>
       `;
 
@@ -136,6 +136,13 @@
           unchecked: {},
         });
         const [prio, setPrio] = useState({ rank: ["unknown"], priority: {} });
+
+        const compareByPrioAndId = (a, b) => {
+          const keys = Object.keys(prio.priority);
+          const score = keys.indexOf(a.name) - keys.indexOf(b.name);
+
+          return score === 0 ? compareById(a, b) : score;
+        };
 
         useEffect(() => {
           fetch("./priority-shrubs.json").then((resp) =>
@@ -217,13 +224,14 @@
 
             <${ItemSection}
               type="checked"
-              items=${Object.values(data.checked)}
+              items=${Object.values(data.checked).toSorted(compareById)}
               toggle=${toggleItemChecked}
             />
           </details>
 
           ${prio.rank.map((priorityName) => {
-            const unchecked = prioritizedUnchecked[priorityName];
+            const unchecked =
+              prioritizedUnchecked[priorityName]?.toSorted(compareByPrioAndId);
 
             if (unchecked) {
               let locked = [];
