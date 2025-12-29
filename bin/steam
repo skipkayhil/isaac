@@ -1,6 +1,17 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+unless ARGV.one?
+  puts <<~USAGE
+  Usage: bin/steam <id>
+
+  Arguments:
+    <id>  The unique Steam ID to import achievements from
+  USAGE
+
+  exit 1
+end
+
 require "bundler/inline"
 
 gemfile do
