@@ -14,6 +14,41 @@
         }
       }
     </script>
+    <style>
+      body {
+        background: #e0d9cc;
+        font-family: system-ui, sans-serif;
+        font-size: 14px;
+        margin: 0;
+      }
+      main {
+        margin: 0.5rem;
+      }
+
+      .progress {
+        background: black;
+        box-shadow:
+          0 1px 1px 0 rgba(60, 64, 67, 0.08),
+          0 1px 3px 1px rgba(60, 64, 67, 0.16);
+        color: #ddd;
+        display: flex;
+        font-family: monospace;
+        font-weight: normal;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+      }
+      .progress h3 {
+        z-index: 1;
+      }
+      .progress-bar {
+        background: #4e0300;
+        height: 100%;
+        position: absolute;
+        transition: width 5s ease-in-out;
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>
@@ -214,58 +249,75 @@
           ({ name }) => prio.priority[name] || "unknown",
         );
 
+        const checkedCount = Object.keys(data.checked).length;
+        const percent = ((checkedCount / 641) * 100) % 100;
+
         return html`
-          <h1>Isaac ${Object.keys(data.checked).length} / 641</h1>
-
-          <h2>completed</h2>
-
-          <details>
-            <summary>show</summary>
-
-            <${ItemSection}
-              type="checked"
-              items=${Object.values(data.checked).toSorted(compareById)}
-              toggle=${toggleItemChecked}
+          <div class="progress">
+            <div style></div>
+            <h3>${checkedCount} / 641</h3>
+            <img
+              src="https://bindingofisaacrebirth.wiki.gg/images/Achievement_Dead_God_icon.png"
             />
-          </details>
+            <div
+              class="progress-bar"
+              style="width: calc(${percent}% - 64px)"
+            ></div>
+          </div>
 
-          ${prio.rank.map((priorityName) => {
-            const unchecked =
-              prioritizedUnchecked[priorityName]?.toSorted(compareByPrioAndId);
+          <main>
+            <h2>completed</h2>
 
-            if (unchecked) {
-              let locked = [];
-              let unlocked = [];
+            <details>
+              <summary>show</summary>
 
-              unchecked.forEach((item) => {
-                for (const req of item.prereqs) {
-                  if (!data.checked[req]) {
-                    locked.push(item);
+              <${ItemSection}
+                type="checked"
+                items=${Object.values(data.checked).toSorted(compareById)}
+                toggle=${toggleItemChecked}
+              />
+            </details>
 
-                    return;
+            ${prio.rank.map((priorityName) => {
+              const unchecked =
+                prioritizedUnchecked[priorityName]?.toSorted(
+                  compareByPrioAndId,
+                );
+
+              if (unchecked) {
+                let locked = [];
+                let unlocked = [];
+
+                unchecked.forEach((item) => {
+                  for (const req of item.prereqs) {
+                    if (!data.checked[req]) {
+                      locked.push(item);
+
+                      return;
+                    }
                   }
-                }
 
-                unlocked.push(item);
-              });
+                  unlocked.push(item);
+                });
 
-              return html`
-                <h2>${priorityName}</h2>
+                return html`
+                  <h2>${priorityName}</h2>
 
-                <${ItemSection}
-                  type="unlocked"
-                  items=${unlocked}
-                  toggle=${toggleItemChecked}
-                />
+                  <${ItemSection}
+                    type="unlocked"
+                    items=${unlocked}
+                    toggle=${toggleItemChecked}
+                  />
 
-                <${ItemSection}
-                  type="locked"
-                  items=${locked}
-                  toggle=${toggleItemChecked}
-                />
-              `;
-            }
-          })}
+                  <${ItemSection}
+                    type="locked"
+                    items=${locked}
+                    toggle=${toggleItemChecked}
+                  />
+                `;
+              }
+            })}
+          </main>
         `;
       }
 
