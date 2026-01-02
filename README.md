@@ -2,6 +2,10 @@
 
 [Deployed Here](https://skipkayhil.github.io/isaac)
 
+Examples:
+
+- [100%](http://skipkayhil.github.io/isaac/?q=f__________________________________________________________________________________________________________)
+
 ## Import from Steam
 
 You can use `bin/steam` to generate a link which imports your achievements from

@@ -46,7 +46,7 @@
     "name": "A Noose",
     "requirements": "Defeat Mom's Heart 3 times",
     "prereqs": [
-      "Rubber Cement"
+      "150"
     ]
   },
   {
@@ -54,7 +54,7 @@
     "name": "The Nail",
     "requirements": "Complete the Boss Rush as Azazel",
     "prereqs": [
-      "Azazel"
+      "79"
     ]
   },
   {
@@ -62,7 +62,7 @@
     "name": "A Quarter",
     "requirements": "Defeat Mom's Heart 8 times",
     "prereqs": [
-      "Experimental Treatment"
+      "141"
     ]
   },
   {
@@ -70,7 +70,7 @@
     "name": "A Fetus in a Jar",
     "requirements": "Defeat Mom's Heart 9 times",
     "prereqs": [
-      "A Quarter"
+      "10"
     ]
   },
   {
@@ -126,7 +126,7 @@
     "name": "A Cross",
     "requirements": "Defeat Isaac as Magdalene",
     "prereqs": [
-      "Magdalene"
+      "1"
     ]
   },
   {
@@ -134,7 +134,7 @@
     "name": "A Bag of Pennies",
     "requirements": "Defeat Isaac as Cain",
     "prereqs": [
-      "Cain"
+      "2"
     ]
   },
   {
@@ -184,7 +184,7 @@
     "name": "The D6",
     "requirements": "Defeat Isaac as ???",
     "prereqs": [
-      "???"
+      "32"
     ]
   },
   {
@@ -204,7 +204,7 @@
     "name": "???",
     "requirements": "Defeat Mom's Heart 10 times",
     "prereqs": [
-      "A Fetus in a Jar"
+      "11"
     ]
   },
   {
@@ -212,7 +212,7 @@
     "name": "Everything Is Terrible!!!",
     "requirements": "Defeat Mom's Heart 5 times",
     "prereqs": [
-      "Wire Coat Hanger"
+      "139"
     ]
   },
   {
@@ -220,7 +220,7 @@
     "name": "It Lives!",
     "requirements": "Defeat Mom's Heart 11 times",
     "prereqs": [
-      "???"
+      "32"
     ]
   },
   {
@@ -258,7 +258,7 @@
     "name": "Mama's Boy",
     "requirements": "Beat Chapter 4 without taking damage",
     "prereqs": [
-      "The Womb"
+      "4"
     ]
   },
   {
@@ -284,7 +284,7 @@
     "name": "The Razor",
     "requirements": "Defeat Satan as Eve",
     "prereqs": [
-      "Eve"
+      "42"
     ]
   },
   {
@@ -292,7 +292,7 @@
     "name": "Guardian Angel",
     "requirements": "Defeat Satan as Magdalene",
     "prereqs": [
-      "Magdalene"
+      "1"
     ]
   },
   {
@@ -300,7 +300,7 @@
     "name": "A Bag of Bombs",
     "requirements": "Defeat Satan as Cain",
     "prereqs": [
-      "Cain"
+      "2"
     ]
   },
   {
@@ -308,7 +308,7 @@
     "name": "Demon Baby",
     "requirements": "Defeat The Lamb as Azazel",
     "prereqs": [
-      "Azazel"
+      "79"
     ]
   },
   {
@@ -316,7 +316,7 @@
     "name": "Forget Me Now",
     "requirements": "Defeat Satan as ???",
     "prereqs": [
-      "???"
+      "32"
     ]
   },
   {
@@ -330,7 +330,7 @@
     "name": "Celtic Cross",
     "requirements": "Defeat ??? as Magdalene",
     "prereqs": [
-      "Magdalene"
+      "1"
     ]
   },
   {
@@ -338,7 +338,7 @@
     "name": "Abel",
     "requirements": "Defeat The Lamb as Cain",
     "prereqs": [
-      "Cain"
+      "2"
     ]
   },
   {
@@ -346,7 +346,7 @@
     "name": "Curved Horn",
     "requirements": "Defeat The Lamb as Judas",
     "prereqs": [
-      "Judas"
+      "3"
     ]
   },
   {
@@ -354,7 +354,7 @@
     "name": "Sacrificial Dagger",
     "requirements": "Defeat ??? as Eve",
     "prereqs": [
-      "Eve"
+      "42"
     ]
   },
   {
@@ -362,7 +362,7 @@
     "name": "Bloody Lust",
     "requirements": "Defeat Isaac as Samson",
     "prereqs": [
-      "Samson"
+      "67"
     ]
   },
   {
@@ -370,7 +370,7 @@
     "name": "Blood Penny",
     "requirements": "Defeat ??? as Samson",
     "prereqs": [
-      "Samson"
+      "67"
     ]
   },
   {
@@ -378,7 +378,7 @@
     "name": "Blood Rights",
     "requirements": "Defeat Satan as Samson",
     "prereqs": [
-      "Samson"
+      "67"
     ]
   },
   {
@@ -398,7 +398,7 @@
     "name": "Blue Candle",
     "requirements": "Donate 900 coins to the Donation Machine",
     "prereqs": [
-      "Store Upgrade lv.4"
+      "154"
     ]
   },
   {
@@ -418,7 +418,7 @@
     "name": "Epic Fetus",
     "requirements": "Complete The Family Man (challenge #19)",
     "prereqs": [
-      "The Family Man"
+      "165"
     ]
   },
   {
@@ -474,7 +474,7 @@
     "name": "Maggy's Faith",
     "requirements": "Defeat The Lamb as Magdalene",
     "prereqs": [
-      "Magdalene"
+      "1"
     ]
   },
   {
@@ -482,7 +482,7 @@
     "name": "Judas' Tongue",
     "requirements": "Defeat Satan as Judas",
     "prereqs": [
-      "Judas"
+      "3"
     ]
   },
   {
@@ -490,7 +490,7 @@
     "name": "???'s Soul",
     "requirements": "Defeat The Lamb as ???",
     "prereqs": [
-      "???"
+      "32"
     ]
   },
   {
@@ -498,7 +498,7 @@
     "name": "Samson's Lock",
     "requirements": "Defeat The Lamb as Samson",
     "prereqs": [
-      "Samson"
+      "67"
     ]
   },
   {
@@ -506,7 +506,7 @@
     "name": "Cain's Eye",
     "requirements": "Defeat ??? as Cain",
     "prereqs": [
-      "Cain"
+      "2"
     ]
   },
   {
@@ -514,7 +514,7 @@
     "name": "Eve's Bird Foot",
     "requirements": "Defeat Isaac as Eve",
     "prereqs": [
-      "Eve"
+      "42"
     ]
   },
   {
@@ -522,7 +522,7 @@
     "name": "The Left Hand",
     "requirements": "Defeat Ultra Pride as any character, or ??? as Judas",
     "prereqs": [
-      "Judas"
+      "3"
     ]
   },
   {
@@ -548,7 +548,7 @@
     "name": "Eden",
     "requirements": "Complete Chapter 4",
     "prereqs": [
-      "The Womb"
+      "4"
     ]
   },
   {
@@ -556,7 +556,7 @@
     "name": "The Lost",
     "requirements": "Die in a Sacrifice Room while holding Missing Poster",
     "prereqs": [
-      "Missing Poster"
+      "149"
     ]
   },
   {
@@ -618,7 +618,7 @@
     "name": "Rune of Dagaz",
     "requirements": "Complete Darkness Falls (challenge #4)",
     "prereqs": [
-      "Darkness Falls"
+      "157"
     ]
   },
   {
@@ -626,7 +626,7 @@
     "name": "Rune of Ansuz",
     "requirements": "Complete The Tank (challenge #5)",
     "prereqs": [
-      "The Tank"
+      "158"
     ]
   },
   {
@@ -634,7 +634,7 @@
     "name": "Rune of Perthro",
     "requirements": "Complete Solar System (challenge #6)",
     "prereqs": [
-      "Solar System"
+      "159"
     ]
   },
   {
@@ -642,7 +642,7 @@
     "name": "Rune of Berkano",
     "requirements": "Complete Purist (challenge #20)",
     "prereqs": [
-      "Purist"
+      "166"
     ]
   },
   {
@@ -650,7 +650,7 @@
     "name": "Rune of Algiz",
     "requirements": "Complete Cat Got Your Tongue (challenge #8)",
     "prereqs": [
-      "Cat Got Your Tongue"
+      "161"
     ]
   },
   {
@@ -658,7 +658,7 @@
     "name": "Chaos Card",
     "requirements": "Complete Demo Man (challenge #9)",
     "prereqs": [
-      "Demo Man"
+      "162"
     ]
   },
   {
@@ -666,7 +666,7 @@
     "name": "Credit Card",
     "requirements": "Complete Cursed! (challenge #10)",
     "prereqs": [
-      "Cursed!"
+      "163"
     ]
   },
   {
@@ -674,7 +674,7 @@
     "name": "Rules Card",
     "requirements": "Complete Glass Cannon (challenge #11)",
     "prereqs": [
-      "Glass Cannon"
+      "164"
     ]
   },
   {
@@ -712,7 +712,7 @@
     "name": "Missing No.",
     "requirements": "Complete the Boss Rush as Lazarus",
     "prereqs": [
-      "Lazarus"
+      "80"
     ]
   },
   {
@@ -726,7 +726,7 @@
     "name": "Guillotine",
     "requirements": "Defeat Isaac as Judas",
     "prereqs": [
-      "Judas"
+      "3"
     ]
   },
   {
@@ -734,7 +734,7 @@
     "name": "Judas' Shadow",
     "requirements": "Complete the Boss Rush as Judas",
     "prereqs": [
-      "Judas"
+      "3"
     ]
   },
   {
@@ -742,7 +742,7 @@
     "name": "Maggy's Bow",
     "requirements": "Complete the Boss Rush as Magdalene",
     "prereqs": [
-      "Magdalene"
+      "1"
     ]
   },
   {
@@ -750,7 +750,7 @@
     "name": "Cain's Other Eye",
     "requirements": "Complete the Boss Rush as Cain",
     "prereqs": [
-      "Cain"
+      "2"
     ]
   },
   {
@@ -758,7 +758,7 @@
     "name": "Black Lipstick",
     "requirements": "Defeat The Lamb as Eve",
     "prereqs": [
-      "Eve"
+      "42"
     ]
   },
   {
@@ -766,7 +766,7 @@
     "name": "Eve's Mascara",
     "requirements": "Complete the Boss Rush as Eve",
     "prereqs": [
-      "Eve"
+      "42"
     ]
   },
   {
@@ -774,7 +774,7 @@
     "name": "Fate",
     "requirements": "Defeat ??? as ???",
     "prereqs": [
-      "???"
+      "32"
     ]
   },
   {
@@ -782,7 +782,7 @@
     "name": "???'s Only Friend",
     "requirements": "Complete the Boss Rush as ???",
     "prereqs": [
-      "???"
+      "32"
     ]
   },
   {
@@ -790,7 +790,7 @@
     "name": "Samson's Chains",
     "requirements": "Complete the Boss Rush as Samson",
     "prereqs": [
-      "Samson"
+      "67"
     ]
   },
   {
@@ -798,7 +798,7 @@
     "name": "Lazarus' Rags",
     "requirements": "Defeat Isaac as Lazarus",
     "prereqs": [
-      "Lazarus"
+      "80"
     ]
   },
   {
@@ -806,7 +806,7 @@
     "name": "Broken Ankh",
     "requirements": "Defeat Satan as Lazarus",
     "prereqs": [
-      "Lazarus"
+      "80"
     ]
   },
   {
@@ -814,7 +814,7 @@
     "name": "Store Credit",
     "requirements": "Defeat ??? as Lazarus",
     "prereqs": [
-      "Lazarus"
+      "80"
     ]
   },
   {
@@ -822,7 +822,7 @@
     "name": "Pandora's Box",
     "requirements": "Defeat The Lamb as Lazarus",
     "prereqs": [
-      "Lazarus"
+      "80"
     ]
   },
   {
@@ -830,7 +830,7 @@
     "name": "Suicide King",
     "requirements": "Complete Suicide King (challenge #7)",
     "prereqs": [
-      "Suicide King"
+      "120"
     ]
   },
   {
@@ -838,7 +838,7 @@
     "name": "Blank Card",
     "requirements": "Defeat Isaac as Eden",
     "prereqs": [
-      "Eden"
+      "81"
     ]
   },
   {
@@ -846,7 +846,7 @@
     "name": "Book of Secrets",
     "requirements": "Defeat Satan as Eden",
     "prereqs": [
-      "Eden"
+      "81"
     ]
   },
   {
@@ -854,7 +854,7 @@
     "name": "Mysterious Paper",
     "requirements": "Defeat ??? as Eden",
     "prereqs": [
-      "Eden"
+      "81"
     ]
   },
   {
@@ -862,7 +862,7 @@
     "name": "Mystery Sack",
     "requirements": "Defeat The Lamb as Eden",
     "prereqs": [
-      "Eden"
+      "81"
     ]
   },
   {
@@ -870,7 +870,7 @@
     "name": "Undefined",
     "requirements": "Complete the Boss Rush as Eden",
     "prereqs": [
-      "Eden"
+      "81"
     ]
   },
   {
@@ -878,7 +878,7 @@
     "name": "Satanic Bible",
     "requirements": "Defeat Isaac as Azazel",
     "prereqs": [
-      "Azazel"
+      "79"
     ]
   },
   {
@@ -886,7 +886,7 @@
     "name": "Daemon's Tail",
     "requirements": "Defeat Satan as Azazel",
     "prereqs": [
-      "Azazel"
+      "79"
     ]
   },
   {
@@ -894,7 +894,7 @@
     "name": "Abaddon",
     "requirements": "Defeat ??? as Azazel",
     "prereqs": [
-      "Azazel"
+      "79"
     ]
   },
   {
@@ -902,7 +902,7 @@
     "name": "Isaac's Heart",
     "requirements": "Defeat Isaac as The Lost",
     "prereqs": [
-      "The Lost"
+      "82"
     ]
   },
   {
@@ -910,7 +910,7 @@
     "name": "The Mind",
     "requirements": "Defeat Satan as The Lost",
     "prereqs": [
-      "The Lost"
+      "82"
     ]
   },
   {
@@ -918,7 +918,7 @@
     "name": "The Body",
     "requirements": "Defeat ??? as The Lost",
     "prereqs": [
-      "The Lost"
+      "82"
     ]
   },
   {
@@ -926,7 +926,7 @@
     "name": "The Soul",
     "requirements": "Defeat The Lamb as The Lost",
     "prereqs": [
-      "The Lost"
+      "82"
     ]
   },
   {
@@ -934,7 +934,7 @@
     "name": "The D100",
     "requirements": "Complete the Boss Rush as The Lost",
     "prereqs": [
-      "The Lost"
+      "82"
     ]
   },
   {
@@ -942,7 +942,7 @@
     "name": "Blue Map",
     "requirements": "Donate 10 Coins to the Donation Machine",
     "prereqs": [
-      "Stop Watch"
+      "138"
     ]
   },
   {
@@ -950,7 +950,7 @@
     "name": "There's Options",
     "requirements": "Donate 50 Coins to the Donation Machine",
     "prereqs": [
-      "Store Upgrade lv.1"
+      "151"
     ]
   },
   {
@@ -958,7 +958,7 @@
     "name": "Black Candle",
     "requirements": "Donate 150 Coins to the Donation Machine",
     "prereqs": [
-      "Store Upgrade lv.2"
+      "152"
     ]
   },
   {
@@ -966,7 +966,7 @@
     "name": "Red Candle",
     "requirements": "Donate 400 Coins to the Donation Machine",
     "prereqs": [
-      "Store Upgrade lv.3"
+      "153"
     ]
   },
   {
@@ -974,7 +974,7 @@
     "name": "Stop Watch",
     "requirements": "Donate 999 Coins to the Donation Machine",
     "prereqs": [
-      "Blue Candle"
+      "59"
     ]
   },
   {
@@ -982,7 +982,7 @@
     "name": "Wire Coat Hanger",
     "requirements": "Defeat Mom's Heart 4 times",
     "prereqs": [
-      "A Noose"
+      "8"
     ]
   },
   {
@@ -990,7 +990,7 @@
     "name": "Ipecac",
     "requirements": "Defeat Mom's Heart 6 times",
     "prereqs": [
-      "Everything Is Terrible!!!"
+      "33"
     ]
   },
   {
@@ -998,7 +998,7 @@
     "name": "Experimental Treatment",
     "requirements": "Defeat Mom's Heart 7 times",
     "prereqs": [
-      "Ipecac"
+      "140"
     ]
   },
   {
@@ -1060,7 +1060,7 @@
     "name": "Store Upgrade lv.1",
     "requirements": "Donate 20 Coins to the Donation Machine",
     "prereqs": [
-      "Blue Map"
+      "134"
     ]
   },
   {
@@ -1068,7 +1068,7 @@
     "name": "Store Upgrade lv.2",
     "requirements": "Donate 100 Coins to the Donation Machine",
     "prereqs": [
-      "There's Options"
+      "135"
     ]
   },
   {
@@ -1076,7 +1076,7 @@
     "name": "Store Upgrade lv.3",
     "requirements": "Donate 200 Coins to the Donation Machine",
     "prereqs": [
-      "Black Candle"
+      "136"
     ]
   },
   {
@@ -1084,7 +1084,7 @@
     "name": "Store Upgrade lv.4",
     "requirements": "Donate 600 Coins to the Donation Machine",
     "prereqs": [
-      "Red Candle"
+      "137"
     ]
   },
   {
@@ -1104,8 +1104,8 @@
     "name": "Darkness Falls",
     "requirements": "Defeat Mom's Heart 11 times and defeat ??? as Eve",
     "prereqs": [
-      "???",
-      "Eve"
+      "32",
+      "42"
     ]
   },
   {
@@ -1119,7 +1119,7 @@
     "name": "Solar System",
     "requirements": "Defeat Mom's Heart 3 times",
     "prereqs": [
-      "Rubber Cement"
+      "150"
     ]
   },
   {
@@ -1139,7 +1139,7 @@
     "name": "Demo Man",
     "requirements": "Defeat Mom's Heart 9 times",
     "prereqs": [
-      "A Quarter"
+      "10"
     ]
   },
   {
@@ -1177,7 +1177,7 @@
     "name": "Cute Baby",
     "requirements": "Defeat Mom's Heart on Hard mode as Magdalene",
     "prereqs": [
-      "Magdalene"
+      "1"
     ]
   },
   {
@@ -1185,7 +1185,7 @@
     "name": "Crow Baby",
     "requirements": "Defeat Mom's Heart on Hard mode as Eve",
     "prereqs": [
-      "Eve"
+      "42"
     ]
   },
   {
@@ -1193,7 +1193,7 @@
     "name": "Shadow Baby",
     "requirements": "Defeat Mom's Heart on Hard mode as Judas",
     "prereqs": [
-      "Judas"
+      "3"
     ]
   },
   {
@@ -1201,7 +1201,7 @@
     "name": "Glass Baby",
     "requirements": "Defeat Mom's Heart on Hard mode as Cain",
     "prereqs": [
-      "Cain"
+      "2"
     ]
   },
   {
@@ -1209,7 +1209,7 @@
     "name": "Wrapped Baby",
     "requirements": "Defeat Mom's Heart on Hard mode as Lazarus",
     "prereqs": [
-      "Lazarus"
+      "80"
     ]
   },
   {
@@ -1217,7 +1217,7 @@
     "name": "Begotten Baby",
     "requirements": "Defeat Mom's Heart on Hard mode as Azazel",
     "prereqs": [
-      "Azazel"
+      "79"
     ]
   },
   {
@@ -1225,7 +1225,7 @@
     "name": "Dead Baby",
     "requirements": "Defeat Mom's Heart on Hard mode as ???",
     "prereqs": [
-      "???"
+      "32"
     ]
   },
   {
@@ -1233,7 +1233,7 @@
     "name": "-0- Baby",
     "requirements": "Defeat Mom's Heart on Hard mode as The Lost",
     "prereqs": [
-      "The Lost"
+      "82"
     ]
   },
   {
@@ -1241,7 +1241,7 @@
     "name": "Glitch Baby",
     "requirements": "Defeat Mom's Heart on Hard mode as Eden",
     "prereqs": [
-      "Eden"
+      "81"
     ]
   },
   {
@@ -1249,7 +1249,7 @@
     "name": "Fighting Baby",
     "requirements": "Defeat Mom's Heart on Hard mode as Samson",
     "prereqs": [
-      "Samson"
+      "67"
     ]
   },
   {
@@ -1263,7 +1263,7 @@
     "name": "Fart Baby",
     "requirements": "Defeat Hush as Isaac",
     "prereqs": [
-      "Blue Womb"
+      "234"
     ]
   },
   {
@@ -1271,8 +1271,8 @@
     "name": "Purity",
     "requirements": "Defeat Hush as Magdalene",
     "prereqs": [
-      "Blue Womb",
-      "Magdalene"
+      "234",
+      "1"
     ]
   },
   {
@@ -1280,8 +1280,8 @@
     "name": "D12",
     "requirements": "Defeat Hush as Cain",
     "prereqs": [
-      "Blue Womb",
-      "Cain"
+      "234",
+      "2"
     ]
   },
   {
@@ -1289,8 +1289,8 @@
     "name": "Betrayal",
     "requirements": "Defeat Hush as Judas",
     "prereqs": [
-      "Blue Womb",
-      "Judas"
+      "234",
+      "3"
     ]
   },
   {
@@ -1298,8 +1298,8 @@
     "name": "Fate's Reward",
     "requirements": "Defeat Hush as ???",
     "prereqs": [
-      "Blue Womb",
-      "???"
+      "234",
+      "32"
     ]
   },
   {
@@ -1307,8 +1307,8 @@
     "name": "Athame",
     "requirements": "Defeat Hush as Eve",
     "prereqs": [
-      "Blue Womb",
-      "Eve"
+      "234",
+      "42"
     ]
   },
   {
@@ -1316,8 +1316,8 @@
     "name": "Blind Rage",
     "requirements": "Defeat Hush as Samson",
     "prereqs": [
-      "Blue Womb",
-      "Samson"
+      "234",
+      "67"
     ]
   },
   {
@@ -1325,8 +1325,8 @@
     "name": "Maw of the Void",
     "requirements": "Defeat Hush as Azazel",
     "prereqs": [
-      "Blue Womb",
-      "Azazel"
+      "234",
+      "79"
     ]
   },
   {
@@ -1334,8 +1334,8 @@
     "name": "Empty Vessel",
     "requirements": "Defeat Hush as Lazarus",
     "prereqs": [
-      "Blue Womb",
-      "Lazarus"
+      "234",
+      "80"
     ]
   },
   {
@@ -1343,8 +1343,8 @@
     "name": "Eden's Blessing",
     "requirements": "Defeat Hush as Eden",
     "prereqs": [
-      "Blue Womb",
-      "Eden"
+      "234",
+      "81"
     ]
   },
   {
@@ -1352,8 +1352,8 @@
     "name": "Sworn Protector",
     "requirements": "Defeat Hush as The Lost",
     "prereqs": [
-      "Blue Womb",
-      "The Lost"
+      "234",
+      "82"
     ]
   },
   {
@@ -1361,8 +1361,8 @@
     "name": "Incubus",
     "requirements": "Defeat Hush as Lilith",
     "prereqs": [
-      "Blue Womb",
-      "Lilith"
+      "234",
+      "199"
     ]
   },
   {
@@ -1370,8 +1370,8 @@
     "name": "Keeper now holds... A Penny!",
     "requirements": "Defeat Hush as Keeper",
     "prereqs": [
-      "Blue Womb",
-      "Keeper"
+      "234",
+      "251"
     ]
   },
   {
@@ -1385,7 +1385,7 @@
     "name": "Censer",
     "requirements": "Defeat Ultra Greed as Magdalene",
     "prereqs": [
-      "Magdalene"
+      "1"
     ]
   },
   {
@@ -1393,7 +1393,7 @@
     "name": "Evil Eye",
     "requirements": "Defeat Ultra Greed as Cain",
     "prereqs": [
-      "Cain"
+      "2"
     ]
   },
   {
@@ -1401,7 +1401,7 @@
     "name": "My Shadow",
     "requirements": "Defeat Ultra Greed as Judas",
     "prereqs": [
-      "Judas"
+      "3"
     ]
   },
   {
@@ -1409,7 +1409,7 @@
     "name": "Cracked Dice",
     "requirements": "Defeat Ultra Greed as ???",
     "prereqs": [
-      "???"
+      "32"
     ]
   },
   {
@@ -1417,7 +1417,7 @@
     "name": "Black Feather",
     "requirements": "Defeat Ultra Greed as Eve",
     "prereqs": [
-      "Eve"
+      "42"
     ]
   },
   {
@@ -1425,7 +1425,7 @@
     "name": "Lusty Blood",
     "requirements": "Defeat Ultra Greed as Samson",
     "prereqs": [
-      "Samson"
+      "67"
     ]
   },
   {
@@ -1433,7 +1433,7 @@
     "name": "Lilith",
     "requirements": "Defeat Ultra Greed as Azazel",
     "prereqs": [
-      "Azazel"
+      "79"
     ]
   },
   {
@@ -1441,7 +1441,7 @@
     "name": "Key Bum",
     "requirements": "Defeat Ultra Greed as Lazarus",
     "prereqs": [
-      "Lazarus"
+      "80"
     ]
   },
   {
@@ -1449,7 +1449,7 @@
     "name": "GB Bug",
     "requirements": "Defeat Ultra Greed as Eden",
     "prereqs": [
-      "Eden"
+      "81"
     ]
   },
   {
@@ -1457,7 +1457,7 @@
     "name": "Zodiac",
     "requirements": "Defeat Ultra Greed as The Lost",
     "prereqs": [
-      "The Lost"
+      "82"
     ]
   },
   {
@@ -1465,7 +1465,7 @@
     "name": "Box of Friends",
     "requirements": "Defeat Ultra Greed as Lilith",
     "prereqs": [
-      "Lilith"
+      "199"
     ]
   },
   {
@@ -1473,7 +1473,7 @@
     "name": "Rib of Greed",
     "requirements": "Defeat Ultra Greed as Keeper",
     "prereqs": [
-      "Keeper"
+      "251"
     ]
   },
   {
@@ -1481,7 +1481,7 @@
     "name": "Cry Baby",
     "requirements": "Defeat Mega Satan as Isaac",
     "prereqs": [
-      "Angels"
+      "155"
     ]
   },
   {
@@ -1489,8 +1489,8 @@
     "name": "Red Baby",
     "requirements": "Defeat Mega Satan as Magdalene",
     "prereqs": [
-      "Angels",
-      "Magdalene"
+      "155",
+      "1"
     ]
   },
   {
@@ -1498,8 +1498,8 @@
     "name": "Green Baby",
     "requirements": "Defeat Mega Satan as Cain",
     "prereqs": [
-      "Angels",
-      "Cain"
+      "155",
+      "2"
     ]
   },
   {
@@ -1507,8 +1507,8 @@
     "name": "Brown Baby",
     "requirements": "Defeat Mega Satan as Judas",
     "prereqs": [
-      "Angels",
-      "Judas"
+      "155",
+      "3"
     ]
   },
   {
@@ -1516,8 +1516,8 @@
     "name": "Blue Baby",
     "requirements": "Defeat Mega Satan as ???",
     "prereqs": [
-      "Angels",
-      "???"
+      "155",
+      "32"
     ]
   },
   {
@@ -1525,8 +1525,8 @@
     "name": "Lil' Baby",
     "requirements": "Defeat Mega Satan as Eve",
     "prereqs": [
-      "Angels",
-      "Eve"
+      "155",
+      "42"
     ]
   },
   {
@@ -1534,8 +1534,8 @@
     "name": "Rage Baby",
     "requirements": "Defeat Mega Satan as Samson",
     "prereqs": [
-      "Angels",
-      "Samson"
+      "155",
+      "67"
     ]
   },
   {
@@ -1543,8 +1543,8 @@
     "name": "Black Baby",
     "requirements": "Defeat Mega Satan as Azazel",
     "prereqs": [
-      "Angels",
-      "Azazel"
+      "155",
+      "79"
     ]
   },
   {
@@ -1552,8 +1552,8 @@
     "name": "Long Baby",
     "requirements": "Defeat Mega Satan as Lazarus",
     "prereqs": [
-      "Angels",
-      "Lazarus"
+      "155",
+      "80"
     ]
   },
   {
@@ -1561,8 +1561,8 @@
     "name": "Yellow Baby",
     "requirements": "Defeat Mega Satan as Eden",
     "prereqs": [
-      "Angels",
-      "Eden"
+      "155",
+      "81"
     ]
   },
   {
@@ -1570,8 +1570,8 @@
     "name": "White Baby",
     "requirements": "Defeat Mega Satan as The Lost",
     "prereqs": [
-      "Angels",
-      "The Lost"
+      "155",
+      "82"
     ]
   },
   {
@@ -1579,8 +1579,8 @@
     "name": "Big Baby",
     "requirements": "Defeat Mega Satan as Lilith",
     "prereqs": [
-      "Angels",
-      "Lilith"
+      "155",
+      "199"
     ]
   },
   {
@@ -1588,8 +1588,8 @@
     "name": "Noose Baby",
     "requirements": "Defeat Mega Satan as Keeper",
     "prereqs": [
-      "Angels",
-      "Keeper"
+      "155",
+      "251"
     ]
   },
   {
@@ -1597,7 +1597,7 @@
     "name": "Rune Bag",
     "requirements": "Defeat Isaac as Lilith",
     "prereqs": [
-      "Lilith"
+      "199"
     ]
   },
   {
@@ -1605,7 +1605,7 @@
     "name": "Cambion Conception",
     "requirements": "Defeat ??? as Lilith",
     "prereqs": [
-      "Lilith"
+      "199"
     ]
   },
   {
@@ -1613,7 +1613,7 @@
     "name": "Serpent's Kiss",
     "requirements": "Defeat Satan as Lilith",
     "prereqs": [
-      "Lilith"
+      "199"
     ]
   },
   {
@@ -1621,7 +1621,7 @@
     "name": "Succubus",
     "requirements": "Defeat The Lamb as Lilith",
     "prereqs": [
-      "Lilith"
+      "199"
     ]
   },
   {
@@ -1629,7 +1629,7 @@
     "name": "Immaculate Conception",
     "requirements": "Complete the Boss Rush as Lilith",
     "prereqs": [
-      "Lilith"
+      "199"
     ]
   },
   {
@@ -1637,7 +1637,7 @@
     "name": "Goat Head Baby",
     "requirements": "Defeat Mom's Heart on Hard mode as Lilith",
     "prereqs": [
-      "Lilith"
+      "199"
     ]
   },
   {
@@ -1645,7 +1645,7 @@
     "name": "Gold Heart",
     "requirements": "Complete XXXXXXXXL (challenge #21)",
     "prereqs": [
-      "XXXXXXXXL"
+      "265"
     ]
   },
   {
@@ -1653,7 +1653,7 @@
     "name": "Get out of Jail Free Card",
     "requirements": "Complete SPEED! (challenge #22)",
     "prereqs": [
-      "SPEED!"
+      "266"
     ]
   },
   {
@@ -1661,7 +1661,7 @@
     "name": "Gold Bomb",
     "requirements": "Complete Blue Bomber (challenge #23)",
     "prereqs": [
-      "Blue Bomber"
+      "267"
     ]
   },
   {
@@ -1669,7 +1669,7 @@
     "name": "2 new pills",
     "requirements": "Complete PAY TO PLAY (challenge #24)",
     "prereqs": [
-      "PAY TO PLAY"
+      "268"
     ]
   },
   {
@@ -1677,7 +1677,7 @@
     "name": "2 new pills",
     "requirements": "Complete Have a Heart (challenge #25)",
     "prereqs": [
-      "Have a Heart"
+      "269"
     ]
   },
   {
@@ -1685,7 +1685,7 @@
     "name": "Poker Chip",
     "requirements": "Complete I RULE! (challenge #26)",
     "prereqs": [
-      "I RULE!"
+      "270"
     ]
   },
   {
@@ -1693,7 +1693,7 @@
     "name": "Stud Finder",
     "requirements": "Complete BRAINS! (challenge #27)",
     "prereqs": [
-      "BRAINS!"
+      "271"
     ]
   },
   {
@@ -1701,7 +1701,7 @@
     "name": "D8",
     "requirements": "Complete PRIDE DAY! (challenge #28)",
     "prereqs": [
-      "PRIDE DAY!"
+      "272"
     ]
   },
   {
@@ -1709,7 +1709,7 @@
     "name": "Kidney Stone",
     "requirements": "Complete Onan's Streak (challenge #29)",
     "prereqs": [
-      "Onan's Streak"
+      "273"
     ]
   },
   {
@@ -1717,7 +1717,7 @@
     "name": "Blank Rune",
     "requirements": "Complete The Guardian (challenge #30)",
     "prereqs": [
-      "The Guardian"
+      "274"
     ]
   },
   {
@@ -1725,7 +1725,7 @@
     "name": "Blue Womb",
     "requirements": "Defeat Mom's Heart 10 times",
     "prereqs": [
-      "A Fetus in a Jar"
+      "11"
     ]
   },
   {
@@ -1739,7 +1739,7 @@
     "name": "Keeper holds Wooden Nickel",
     "requirements": "Defeat Isaac as Keeper",
     "prereqs": [
-      "Keeper"
+      "251"
     ]
   },
   {
@@ -1747,7 +1747,7 @@
     "name": "Keeper holds Store Key",
     "requirements": "Defeat Satan as Keeper",
     "prereqs": [
-      "Keeper"
+      "251"
     ]
   },
   {
@@ -1755,7 +1755,7 @@
     "name": "Deep Pockets",
     "requirements": "Defeat ??? as Keeper",
     "prereqs": [
-      "Keeper"
+      "251"
     ]
   },
   {
@@ -1763,7 +1763,7 @@
     "name": "Karma",
     "requirements": "Defeat The Lamb as Keeper",
     "prereqs": [
-      "Keeper"
+      "251"
     ]
   },
   {
@@ -1771,7 +1771,7 @@
     "name": "Sticky Nickels",
     "requirements": "Complete the Boss Rush as Keeper",
     "prereqs": [
-      "Keeper"
+      "251"
     ]
   },
   {
@@ -1779,7 +1779,7 @@
     "name": "Super Greed Baby",
     "requirements": "Defeat Mom's Heart on Hard mode as Keeper",
     "prereqs": [
-      "Keeper"
+      "251"
     ]
   },
   {
@@ -1847,7 +1847,7 @@
     "name": "Hive Baby",
     "requirements": "Earn all Hard mode Completion Marks as ???",
     "prereqs": [
-      "???"
+      "32"
     ]
   },
   {
@@ -1861,7 +1861,7 @@
     "name": "Colorful Baby",
     "requirements": "Earn all Hard mode Completion Marks as Magdalene",
     "prereqs": [
-      "Magdalene"
+      "1"
     ]
   },
   {
@@ -1869,7 +1869,7 @@
     "name": "Whore Baby",
     "requirements": "Earn all Hard mode Completion Marks as Eve",
     "prereqs": [
-      "Eve"
+      "42"
     ]
   },
   {
@@ -1877,7 +1877,7 @@
     "name": "Cracked Baby",
     "requirements": "Earn all Hard mode Completion Marks as Eden",
     "prereqs": [
-      "Eden"
+      "81"
     ]
   },
   {
@@ -1885,7 +1885,7 @@
     "name": "Dripping Baby",
     "requirements": "Earn all Hard mode Completion Marks as Lazarus",
     "prereqs": [
-      "Lazarus"
+      "80"
     ]
   },
   {
@@ -1899,7 +1899,7 @@
     "name": "Sucky Baby",
     "requirements": "Earn all Hard mode Completion Marks as Azazel",
     "prereqs": [
-      "Azazel"
+      "79"
     ]
   },
   {
@@ -1907,7 +1907,7 @@
     "name": "Dark Baby",
     "requirements": "Earn all Hard mode Completion Marks as Lilith",
     "prereqs": [
-      "Lilith"
+      "199"
     ]
   },
   {
@@ -1915,7 +1915,7 @@
     "name": "Picky Baby",
     "requirements": "Earn all Hard mode Completion Marks as Cain",
     "prereqs": [
-      "Cain"
+      "2"
     ]
   },
   {
@@ -1923,7 +1923,7 @@
     "name": "Revenge Baby",
     "requirements": "Earn all Hard mode Completion Marks as Samson",
     "prereqs": [
-      "Samson"
+      "67"
     ]
   },
   {
@@ -1931,7 +1931,7 @@
     "name": "Belial Baby",
     "requirements": "Earn all Hard mode Completion Marks as Judas",
     "prereqs": [
-      "Judas"
+      "3"
     ]
   },
   {
@@ -1939,7 +1939,7 @@
     "name": "Sale Baby",
     "requirements": "Earn all Hard mode Completion Marks as Keeper",
     "prereqs": [
-      "Keeper"
+      "251"
     ]
   },
   {
@@ -1959,7 +1959,7 @@
     "name": "Blue Bomber",
     "requirements": "Destroy 10 Tinted Rocks and defeat Mom's Heart 11 times",
     "prereqs": [
-      "???"
+      "32"
     ]
   },
   {
@@ -1967,7 +1967,7 @@
     "name": "PAY TO PLAY",
     "requirements": "Defeat Isaac as Cain and destroy 10 Tinted Rocks",
     "prereqs": [
-      "Cain"
+      "2"
     ]
   },
   {
@@ -1981,7 +1981,7 @@
     "name": "I RULE!",
     "requirements": "Defeat Mega Satan and unlock The Negative",
     "prereqs": [
-      "Angels"
+      "155"
     ]
   },
   {
@@ -2019,7 +2019,7 @@
     "name": "Mega",
     "requirements": "Defeat Mega Satan as every character ( except tainted characters)",
     "prereqs": [
-      "Angels"
+      "155"
     ]
   },
   {
@@ -2027,7 +2027,7 @@
     "name": "Backasswards",
     "requirements": "Defeat Mega Satan and unlock The Negative",
     "prereqs": [
-      "Angels"
+      "155"
     ]
   },
   {
@@ -2041,7 +2041,7 @@
     "name": "Pokey Mans",
     "requirements": "Defeat Mom's Heart 11 times",
     "prereqs": [
-      "???"
+      "32"
     ]
   },
   {
@@ -2049,7 +2049,7 @@
     "name": "Ultra Hard",
     "requirements": "Defeat Mega Satan and unlock The Negative",
     "prereqs": [
-      "Angels"
+      "155"
     ]
   },
   {
@@ -2063,7 +2063,7 @@
     "name": "D infinity",
     "requirements": "Defeat Delirium as Isaac",
     "prereqs": [
-      "New Area"
+      "320"
     ]
   },
   {
@@ -2071,8 +2071,8 @@
     "name": "Eucharist",
     "requirements": "Defeat Delirium as Magdalene",
     "prereqs": [
-      "New Area",
-      "Magdalene"
+      "320",
+      "1"
     ]
   },
   {
@@ -2080,8 +2080,8 @@
     "name": "Silver Dollar",
     "requirements": "Defeat Delirium as Cain",
     "prereqs": [
-      "New Area",
-      "Cain"
+      "320",
+      "2"
     ]
   },
   {
@@ -2089,8 +2089,8 @@
     "name": "Shade",
     "requirements": "Defeat Delirium as Judas",
     "prereqs": [
-      "New Area",
-      "Judas"
+      "320",
+      "3"
     ]
   },
   {
@@ -2098,8 +2098,8 @@
     "name": "King Baby",
     "requirements": "Defeat Delirium as ???",
     "prereqs": [
-      "New Area",
-      "???"
+      "320",
+      "32"
     ]
   },
   {
@@ -2107,8 +2107,8 @@
     "name": "Bloody Crown",
     "requirements": "Defeat Delirium as Samson",
     "prereqs": [
-      "New Area",
-      "Samson"
+      "320",
+      "67"
     ]
   },
   {
@@ -2116,8 +2116,8 @@
     "name": "Dull Razor",
     "requirements": "Defeat Delirium as Eve",
     "prereqs": [
-      "New Area",
-      "Eve"
+      "320",
+      "42"
     ]
   },
   {
@@ -2125,8 +2125,8 @@
     "name": "Eden's Soul",
     "requirements": "Defeat Delirium as Eden",
     "prereqs": [
-      "New Area",
-      "Eden"
+      "320",
+      "81"
     ]
   },
   {
@@ -2134,8 +2134,8 @@
     "name": "Dark Prince's Crown",
     "requirements": "Defeat Delirium as Azazel",
     "prereqs": [
-      "New Area",
-      "Azazel"
+      "320",
+      "79"
     ]
   },
   {
@@ -2143,8 +2143,8 @@
     "name": "Compound Fracture",
     "requirements": "Defeat Delirium as Lazarus",
     "prereqs": [
-      "New Area",
-      "Lazarus"
+      "320",
+      "80"
     ]
   },
   {
@@ -2152,8 +2152,8 @@
     "name": "Euthanasia",
     "requirements": "Defeat Delirium as Lilith",
     "prereqs": [
-      "New Area",
-      "Lilith"
+      "320",
+      "199"
     ]
   },
   {
@@ -2161,8 +2161,8 @@
     "name": "Holy Card",
     "requirements": "Defeat Delirium as The Lost",
     "prereqs": [
-      "New Area",
-      "The Lost"
+      "320",
+      "82"
     ]
   },
   {
@@ -2170,8 +2170,8 @@
     "name": "Crooked Penny",
     "requirements": "Defeat Delirium as Keeper",
     "prereqs": [
-      "New Area",
-      "Keeper"
+      "320",
+      "251"
     ]
   },
   {
@@ -2179,8 +2179,8 @@
     "name": "Void",
     "requirements": "Defeat Delirium as Apollyon",
     "prereqs": [
-      "New Area",
-      "Apollyon"
+      "320",
+      "340"
     ]
   },
   {
@@ -2188,7 +2188,7 @@
     "name": "D1",
     "requirements": "Defeat Ultra Greedier as Isaac",
     "prereqs": [
-      "Greedier!"
+      "341"
     ]
   },
   {
@@ -2196,8 +2196,8 @@
     "name": "Glyph of Balance",
     "requirements": "Defeat Ultra Greedier as Magdalene",
     "prereqs": [
-      "Greedier!",
-      "Magdalene"
+      "341",
+      "1"
     ]
   },
   {
@@ -2205,8 +2205,8 @@
     "name": "Sack of Sacks",
     "requirements": "Defeat Ultra Greedier as Cain",
     "prereqs": [
-      "Greedier!",
-      "Cain"
+      "341",
+      "2"
     ]
   },
   {
@@ -2214,8 +2214,8 @@
     "name": "Eye of Belial",
     "requirements": "Defeat Ultra Greedier as Judas",
     "prereqs": [
-      "Greedier!",
-      "Judas"
+      "341",
+      "3"
     ]
   },
   {
@@ -2223,8 +2223,8 @@
     "name": "Meconium",
     "requirements": "Defeat Ultra Greedier as ???",
     "prereqs": [
-      "Greedier!",
-      "???"
+      "341",
+      "32"
     ]
   },
   {
@@ -2232,8 +2232,8 @@
     "name": "Stem Cell",
     "requirements": "Defeat Ultra Greedier as Samson",
     "prereqs": [
-      "Greedier!",
-      "Samson"
+      "341",
+      "67"
     ]
   },
   {
@@ -2241,8 +2241,8 @@
     "name": "Crow Heart",
     "requirements": "Defeat Ultra Greedier as Eve",
     "prereqs": [
-      "Greedier!",
-      "Eve"
+      "341",
+      "42"
     ]
   },
   {
@@ -2250,8 +2250,8 @@
     "name": "Metronome",
     "requirements": "Defeat Ultra Greedier as Eden",
     "prereqs": [
-      "Greedier!",
-      "Eden"
+      "341",
+      "81"
     ]
   },
   {
@@ -2259,8 +2259,8 @@
     "name": "Bat Wing",
     "requirements": "Defeat Ultra Greedier as Azazel",
     "prereqs": [
-      "Greedier!",
-      "Azazel"
+      "341",
+      "79"
     ]
   },
   {
@@ -2268,8 +2268,8 @@
     "name": "Plan C",
     "requirements": "Defeat Ultra Greedier as Lazarus",
     "prereqs": [
-      "Greedier!",
-      "Lazarus"
+      "341",
+      "80"
     ]
   },
   {
@@ -2277,8 +2277,8 @@
     "name": "Duality",
     "requirements": "Defeat Ultra Greedier as Lilith",
     "prereqs": [
-      "Greedier!",
-      "Lilith"
+      "341",
+      "199"
     ]
   },
   {
@@ -2286,8 +2286,8 @@
     "name": "Dad's Lost Coin",
     "requirements": "Defeat Ultra Greedier as The Lost",
     "prereqs": [
-      "Greedier!",
-      "The Lost"
+      "341",
+      "82"
     ]
   },
   {
@@ -2295,8 +2295,8 @@
     "name": "Eye of Greed",
     "requirements": "Defeat Ultra Greedier as Keeper",
     "prereqs": [
-      "Greedier!",
-      "Keeper"
+      "341",
+      "251"
     ]
   },
   {
@@ -2304,8 +2304,8 @@
     "name": "Black Rune",
     "requirements": "Defeat Ultra Greedier as Apollyon",
     "prereqs": [
-      "Greedier!",
-      "Apollyon"
+      "341",
+      "340"
     ]
   },
   {
@@ -2313,7 +2313,7 @@
     "name": "Locust of Wrath",
     "requirements": "Defeat Isaac as Apollyon",
     "prereqs": [
-      "Apollyon"
+      "340"
     ]
   },
   {
@@ -2321,7 +2321,7 @@
     "name": "Locust of Pestilence",
     "requirements": "Defeat Satan as Apollyon",
     "prereqs": [
-      "Apollyon"
+      "340"
     ]
   },
   {
@@ -2329,7 +2329,7 @@
     "name": "Locust of Famine",
     "requirements": "Defeat ??? as Apollyon",
     "prereqs": [
-      "Apollyon"
+      "340"
     ]
   },
   {
@@ -2337,7 +2337,7 @@
     "name": "Locust of Death",
     "requirements": "Defeat The Lamb as Apollyon",
     "prereqs": [
-      "Apollyon"
+      "340"
     ]
   },
   {
@@ -2345,7 +2345,7 @@
     "name": "Locust of Conquest",
     "requirements": "Complete the Boss Rush as Apollyon",
     "prereqs": [
-      "Apollyon"
+      "340"
     ]
   },
   {
@@ -2353,8 +2353,8 @@
     "name": "Hushy",
     "requirements": "Defeat Hush as Apollyon",
     "prereqs": [
-      "Blue Womb",
-      "Apollyon"
+      "234",
+      "340"
     ]
   },
   {
@@ -2362,7 +2362,7 @@
     "name": "Brown Nugget",
     "requirements": "Defeat Ultra Greed as Apollyon",
     "prereqs": [
-      "Apollyon"
+      "340"
     ]
   },
   {
@@ -2370,8 +2370,8 @@
     "name": "Mort Baby",
     "requirements": "Defeat Mega Satan as Apollyon",
     "prereqs": [
-      "Angels",
-      "Apollyon"
+      "155",
+      "340"
     ]
   },
   {
@@ -2379,7 +2379,7 @@
     "name": "Smelter",
     "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as Apollyon",
     "prereqs": [
-      "Apollyon"
+      "340"
     ]
   },
   {
@@ -2387,7 +2387,7 @@
     "name": "Apollyon Baby",
     "requirements": "Earn all Hard mode Completion Marks as Apollyon",
     "prereqs": [
-      "Apollyon"
+      "340"
     ]
   },
   {
@@ -2395,7 +2395,7 @@
     "name": "New Area",
     "requirements": "Defeat Hush",
     "prereqs": [
-      "Blue Womb"
+      "234"
     ]
   },
   {
@@ -2463,7 +2463,7 @@
     "name": "Laz Bleeds More!",
     "requirements": "Complete Backasswards (challenge #31)",
     "prereqs": [
-      "Backasswards"
+      "277"
     ]
   },
   {
@@ -2471,7 +2471,7 @@
     "name": "Maggy Now Holds a Pill!",
     "requirements": "Complete Aprils Fool (challenge #32)",
     "prereqs": [
-      "Aprils fool"
+      "278"
     ]
   },
   {
@@ -2479,7 +2479,7 @@
     "name": "Charged Key",
     "requirements": "Complete Pokey Mans (challenge #33)",
     "prereqs": [
-      "Pokey Mans"
+      "279"
     ]
   },
   {
@@ -2487,7 +2487,7 @@
     "name": "Samson Feels Healthy!",
     "requirements": "Complete Ultra Hard (challenge #34)",
     "prereqs": [
-      "Ultra Hard"
+      "280"
     ]
   },
   {
@@ -2495,7 +2495,7 @@
     "name": "Greed's Gullet",
     "requirements": "Complete Pong (challenge #35)",
     "prereqs": [
-      "PONG"
+      "281"
     ]
   },
   {
@@ -2515,7 +2515,7 @@
     "name": "Delirious",
     "requirements": "Defeat Delirium",
     "prereqs": [
-      "New Area"
+      "320"
     ]
   },
   {
@@ -2529,7 +2529,7 @@
     "name": "Apollyon",
     "requirements": "Defeat Mega Satan",
     "prereqs": [
-      "Angels"
+      "155"
     ]
   },
   {
@@ -2543,7 +2543,7 @@
     "name": "Burning Basement",
     "requirements": "Defeat Mom's Heart 11 times",
     "prereqs": [
-      "???"
+      "32"
     ]
   },
   {
@@ -2551,7 +2551,7 @@
     "name": "Flooded Caves",
     "requirements": "Defeat It Lives! 16 times",
     "prereqs": [
-      "???"
+      "32"
     ]
   },
   {
@@ -2559,7 +2559,7 @@
     "name": "Dank Depths",
     "requirements": "Defeat It Lives! 21 times",
     "prereqs": [
-      "Flooded Caves"
+      "343"
     ]
   },
   {
@@ -2567,7 +2567,7 @@
     "name": "Scarred Womb",
     "requirements": "Defeat It Lives! 30 times",
     "prereqs": [
-      "Dank Depths"
+      "344"
     ]
   },
   {
@@ -2641,7 +2641,7 @@
     "name": "Lil Delirium",
     "requirements": "Defeat Delirium for the 1st time",
     "prereqs": [
-      "New Area"
+      "320"
     ]
   },
   {
@@ -2745,7 +2745,7 @@
     "name": "Pop!",
     "requirements": "Beat Chapter 4 without taking damage",
     "prereqs": [
-      "The Womb"
+      "4"
     ]
   },
   {
@@ -2855,7 +2855,7 @@
     "name": "Marrow",
     "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as The Forgotten",
     "prereqs": [
-      "The Forgotten"
+      "390"
     ]
   },
   {
@@ -2863,7 +2863,7 @@
     "name": "Slipped Rib",
     "requirements": "Defeat Isaac as The Forgotten",
     "prereqs": [
-      "The Forgotten"
+      "390"
     ]
   },
   {
@@ -2871,7 +2871,7 @@
     "name": "Pointy Rib",
     "requirements": "Defeat Satan as The Forgotten",
     "prereqs": [
-      "The Forgotten"
+      "390"
     ]
   },
   {
@@ -2879,7 +2879,7 @@
     "name": "Jaw Bone",
     "requirements": "Defeat ??? as The Forgotten",
     "prereqs": [
-      "The Forgotten"
+      "390"
     ]
   },
   {
@@ -2887,7 +2887,7 @@
     "name": "Brittle Bones",
     "requirements": "Defeat The Lamb as The Forgotten",
     "prereqs": [
-      "The Forgotten"
+      "390"
     ]
   },
   {
@@ -2895,7 +2895,7 @@
     "name": "Divorce Papers",
     "requirements": "Complete the Boss Rush as The Forgotten",
     "prereqs": [
-      "The Forgotten"
+      "390"
     ]
   },
   {
@@ -2903,8 +2903,8 @@
     "name": "Hallowed Ground",
     "requirements": "Defeat Hush as The Forgotten",
     "prereqs": [
-      "Blue Womb",
-      "The Forgotten"
+      "234",
+      "390"
     ]
   },
   {
@@ -2912,7 +2912,7 @@
     "name": "Finger Bone",
     "requirements": "Defeat Ultra Greed as The Forgotten",
     "prereqs": [
-      "The Forgotten"
+      "390"
     ]
   },
   {
@@ -2920,8 +2920,8 @@
     "name": "Dad's Ring",
     "requirements": "Defeat Ultra Greedier as The Forgotten",
     "prereqs": [
-      "Greedier!",
-      "The Forgotten"
+      "341",
+      "390"
     ]
   },
   {
@@ -2929,8 +2929,8 @@
     "name": "Book of the Dead",
     "requirements": "Defeat Delirium as The Forgotten",
     "prereqs": [
-      "New Area",
-      "The Forgotten"
+      "320",
+      "390"
     ]
   },
   {
@@ -2938,7 +2938,7 @@
     "name": "Bone Baby",
     "requirements": "Earn all Hard mode Completion Marks as The Forgotten",
     "prereqs": [
-      "The Forgotten"
+      "390"
     ]
   },
   {
@@ -2946,8 +2946,8 @@
     "name": "Bound Baby",
     "requirements": "Defeat Mega Satan as The Forgotten",
     "prereqs": [
-      "Angels",
-      "The Forgotten"
+      "155",
+      "390"
     ]
   },
   {
@@ -2955,7 +2955,7 @@
     "name": "Bethany",
     "requirements": "Defeat Mom's Heart/It Lives! on hard mode as Lazarus, without dying at all",
     "prereqs": [
-      "Lazarus"
+      "80"
     ]
   },
   {
@@ -2963,7 +2963,7 @@
     "name": "Jacob and Esau",
     "requirements": "Defeat Mother",
     "prereqs": [
-      "A Secret Exit"
+      "407"
     ]
   },
   {
@@ -2977,7 +2977,7 @@
     "name": "A Secret Exit",
     "requirements": "Defeat Hush 3 times",
     "prereqs": [
-      "New Area"
+      "320"
     ]
   },
   {
@@ -3003,7 +3003,7 @@
     "name": "Rotten Heart",
     "requirements": "Enter Corpse for the first time",
     "prereqs": [
-      "A Secret Exit"
+      "407"
     ]
   },
   {
@@ -3011,7 +3011,7 @@
     "name": "Dross",
     "requirements": "Defeat all bosses in Downpour",
     "prereqs": [
-      "A Secret Exit"
+      "407"
     ]
   },
   {
@@ -3019,7 +3019,7 @@
     "name": "Ashpit",
     "requirements": "Defeat all bosses in Mines",
     "prereqs": [
-      "A Secret Exit"
+      "407"
     ]
   },
   {
@@ -3027,7 +3027,7 @@
     "name": "Gehenna",
     "requirements": "Defeat all bosses in Mausoleum",
     "prereqs": [
-      "A Secret Exit"
+      "407"
     ]
   },
   {
@@ -3035,7 +3035,7 @@
     "name": "Red Key",
     "requirements": "Open Mom's Chest in Home",
     "prereqs": [
-      "A Strange Door"
+      "635"
     ]
   },
   {
@@ -3043,7 +3043,7 @@
     "name": "Wisp Baby",
     "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as Bethany",
     "prereqs": [
-      "Bethany"
+      "404"
     ]
   },
   {
@@ -3051,7 +3051,7 @@
     "name": "Book of Virtues",
     "requirements": "Defeat Isaac as Bethany",
     "prereqs": [
-      "Bethany"
+      "404"
     ]
   },
   {
@@ -3059,7 +3059,7 @@
     "name": "Urn of Souls",
     "requirements": "Defeat Satan as Bethany",
     "prereqs": [
-      "Bethany"
+      "404"
     ]
   },
   {
@@ -3067,7 +3067,7 @@
     "name": "Blessed Penny",
     "requirements": "Defeat ??? as Bethany",
     "prereqs": [
-      "Bethany"
+      "404"
     ]
   },
   {
@@ -3075,7 +3075,7 @@
     "name": "Alabaster Box",
     "requirements": "Defeat The Lamb as Bethany",
     "prereqs": [
-      "Bethany"
+      "404"
     ]
   },
   {
@@ -3083,7 +3083,7 @@
     "name": "Beth's Faith",
     "requirements": "Complete the Boss Rush as Bethany",
     "prereqs": [
-      "Bethany"
+      "404"
     ]
   },
   {
@@ -3091,7 +3091,7 @@
     "name": "Soul Locket",
     "requirements": "Defeat Ultra Greed as Bethany",
     "prereqs": [
-      "Bethany"
+      "404"
     ]
   },
   {
@@ -3099,8 +3099,8 @@
     "name": "Divine Intervention",
     "requirements": "Defeat Hush as Bethany",
     "prereqs": [
-      "Blue Womb",
-      "Bethany"
+      "234",
+      "404"
     ]
   },
   {
@@ -3108,8 +3108,8 @@
     "name": "Vade Retro",
     "requirements": "Defeat Ultra Greedier as Bethany",
     "prereqs": [
-      "Greedier!",
-      "Bethany"
+      "341",
+      "404"
     ]
   },
   {
@@ -3117,8 +3117,8 @@
     "name": "Star of Bethlehem",
     "requirements": "Defeat Delirium as Bethany",
     "prereqs": [
-      "New Area",
-      "Bethany"
+      "320",
+      "404"
     ]
   },
   {
@@ -3126,7 +3126,7 @@
     "name": "Hope Baby",
     "requirements": "Earn all Hard mode Completion Marks as Bethany",
     "prereqs": [
-      "Bethany"
+      "404"
     ]
   },
   {
@@ -3134,8 +3134,8 @@
     "name": "Glowing Baby",
     "requirements": "Defeat Mega Satan as Bethany",
     "prereqs": [
-      "Angels",
-      "Bethany"
+      "155",
+      "404"
     ]
   },
   {
@@ -3143,7 +3143,7 @@
     "name": "Double Baby",
     "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as Jacob and Esau",
     "prereqs": [
-      "Jacob and Esau"
+      "405"
     ]
   },
   {
@@ -3151,7 +3151,7 @@
     "name": "The Stairway",
     "requirements": "Defeat Isaac as Jacob and Esau",
     "prereqs": [
-      "Jacob and Esau"
+      "405"
     ]
   },
   {
@@ -3159,7 +3159,7 @@
     "name": "Red Stew",
     "requirements": "Defeat Satan as Jacob and Esau",
     "prereqs": [
-      "Jacob and Esau"
+      "405"
     ]
   },
   {
@@ -3167,7 +3167,7 @@
     "name": "Birthright",
     "requirements": "Defeat ??? as Jacob and Esau",
     "prereqs": [
-      "Jacob and Esau"
+      "405"
     ]
   },
   {
@@ -3175,7 +3175,7 @@
     "name": "Damocles",
     "requirements": "Defeat The Lamb as Jacob and Esau",
     "prereqs": [
-      "Jacob and Esau"
+      "405"
     ]
   },
   {
@@ -3183,7 +3183,7 @@
     "name": "Rock Bottom",
     "requirements": "Complete Boss Rush as Jacob and Esau",
     "prereqs": [
-      "Jacob and Esau"
+      "405"
     ]
   },
   {
@@ -3191,7 +3191,7 @@
     "name": "Inner Child",
     "requirements": "Defeat Ultra Greed as Jacob and Esau",
     "prereqs": [
-      "Jacob and Esau"
+      "405"
     ]
   },
   {
@@ -3199,8 +3199,8 @@
     "name": "Vanishing Twin",
     "requirements": "Defeat Hush as Jacob and Esau",
     "prereqs": [
-      "Blue Womb",
-      "Jacob and Esau"
+      "234",
+      "405"
     ]
   },
   {
@@ -3208,8 +3208,8 @@
     "name": "Genesis",
     "requirements": "Defeat Ultra Greedier as Jacob and Esau",
     "prereqs": [
-      "Greedier!",
-      "Jacob and Esau"
+      "341",
+      "405"
     ]
   },
   {
@@ -3217,8 +3217,8 @@
     "name": "Suplex!",
     "requirements": "Defeat Delirium as Jacob and Esau",
     "prereqs": [
-      "New Area",
-      "Jacob and Esau"
+      "320",
+      "405"
     ]
   },
   {
@@ -3226,7 +3226,7 @@
     "name": "Solomon's Baby",
     "requirements": "Earn all Hard mode Completion Marks as Jacob and Esau",
     "prereqs": [
-      "Jacob and Esau"
+      "405"
     ]
   },
   {
@@ -3234,8 +3234,8 @@
     "name": "Illusion Baby",
     "requirements": "Defeat Mega Satan as Jacob and Esau",
     "prereqs": [
-      "Angels",
-      "Jacob and Esau"
+      "155",
+      "405"
     ]
   },
   {
@@ -3243,7 +3243,7 @@
     "name": "Meat Cleaver",
     "requirements": "Defeat Mother as Isaac",
     "prereqs": [
-      "A Secret Exit"
+      "407"
     ]
   },
   {
@@ -3251,7 +3251,7 @@
     "name": "Options?",
     "requirements": "Defeat The Beast as Isaac",
     "prereqs": [
-      "A Strange Door"
+      "635"
     ]
   },
   {
@@ -3259,8 +3259,8 @@
     "name": "Yuck Heart",
     "requirements": "Defeat Mother as Magdalene",
     "prereqs": [
-      "A Secret Exit",
-      "Magdalene"
+      "407",
+      "1"
     ]
   },
   {
@@ -3268,8 +3268,8 @@
     "name": "Candy Heart",
     "requirements": "Defeat The Beast as Magdalene",
     "prereqs": [
-      "A Strange Door",
-      "Magdalene"
+      "635",
+      "1"
     ]
   },
   {
@@ -3277,8 +3277,8 @@
     "name": "Guppy's Eye",
     "requirements": "Defeat Mother as Cain",
     "prereqs": [
-      "A Secret Exit",
-      "Cain"
+      "407",
+      "2"
     ]
   },
   {
@@ -3286,8 +3286,8 @@
     "name": "A Pound of Flesh",
     "requirements": "Defeat The Beast as Cain",
     "prereqs": [
-      "A Strange Door",
-      "Cain"
+      "635",
+      "2"
     ]
   },
   {
@@ -3295,8 +3295,8 @@
     "name": "Akeldama",
     "requirements": "Defeat Mother as Judas",
     "prereqs": [
-      "A Secret Exit",
-      "Judas"
+      "407",
+      "3"
     ]
   },
   {
@@ -3304,8 +3304,8 @@
     "name": "Redemption",
     "requirements": "Defeat The Beast as Judas",
     "prereqs": [
-      "A Strange Door",
-      "Judas"
+      "635",
+      "3"
     ]
   },
   {
@@ -3313,8 +3313,8 @@
     "name": "Eternal D6",
     "requirements": "Defeat Mother as ???",
     "prereqs": [
-      "A Secret Exit",
-      "???"
+      "407",
+      "32"
     ]
   },
   {
@@ -3322,8 +3322,8 @@
     "name": "Montezuma's Revenge",
     "requirements": "Defeat The Beast as ???",
     "prereqs": [
-      "A Strange Door",
-      "???"
+      "635",
+      "32"
     ]
   },
   {
@@ -3331,8 +3331,8 @@
     "name": "Bird Cage",
     "requirements": "Defeat Mother as Eve",
     "prereqs": [
-      "A Secret Exit",
-      "Eve"
+      "407",
+      "42"
     ]
   },
   {
@@ -3340,8 +3340,8 @@
     "name": "Cracked Orb",
     "requirements": "Defeat The Beast as Eve",
     "prereqs": [
-      "A Strange Door",
-      "Eve"
+      "635",
+      "42"
     ]
   },
   {
@@ -3349,8 +3349,8 @@
     "name": "Bloody Gust",
     "requirements": "Defeat Mother as Samson",
     "prereqs": [
-      "A Secret Exit",
-      "Samson"
+      "407",
+      "67"
     ]
   },
   {
@@ -3358,8 +3358,8 @@
     "name": "Empty Heart",
     "requirements": "Defeat The Beast as Samson",
     "prereqs": [
-      "A Strange Door",
-      "Samson"
+      "635",
+      "67"
     ]
   },
   {
@@ -3367,8 +3367,8 @@
     "name": "Devil's Crown",
     "requirements": "Defeat Mother as Azazel",
     "prereqs": [
-      "A Secret Exit",
-      "Azazel"
+      "407",
+      "79"
     ]
   },
   {
@@ -3376,8 +3376,8 @@
     "name": "Lil Abaddon",
     "requirements": "Defeat The Beast as Azazel",
     "prereqs": [
-      "A Strange Door",
-      "Azazel"
+      "635",
+      "79"
     ]
   },
   {
@@ -3385,8 +3385,8 @@
     "name": "Tinytoma",
     "requirements": "Defeat Mother as Lazarus",
     "prereqs": [
-      "A Secret Exit",
-      "Lazarus"
+      "407",
+      "80"
     ]
   },
   {
@@ -3394,8 +3394,8 @@
     "name": "Astral Projection",
     "requirements": "Defeat The Beast as Lazarus",
     "prereqs": [
-      "A Strange Door",
-      "Lazarus"
+      "635",
+      "80"
     ]
   },
   {
@@ -3403,8 +3403,8 @@
     "name": "'M",
     "requirements": "Defeat Mother as Eden",
     "prereqs": [
-      "A Secret Exit",
-      "Eden"
+      "407",
+      "81"
     ]
   },
   {
@@ -3412,8 +3412,8 @@
     "name": "Everything Jar",
     "requirements": "Defeat The Beast as Eden",
     "prereqs": [
-      "A Strange Door",
-      "Eden"
+      "635",
+      "81"
     ]
   },
   {
@@ -3421,8 +3421,8 @@
     "name": "Lost Soul",
     "requirements": "Defeat Mother as The Lost",
     "prereqs": [
-      "A Secret Exit",
-      "The Lost"
+      "407",
+      "82"
     ]
   },
   {
@@ -3430,8 +3430,8 @@
     "name": "Hungry Soul",
     "requirements": "Defeat The Beast as The Lost",
     "prereqs": [
-      "A Strange Door",
-      "The Lost"
+      "635",
+      "82"
     ]
   },
   {
@@ -3439,8 +3439,8 @@
     "name": "Blood Puppy",
     "requirements": "Defeat Mother as Lilith",
     "prereqs": [
-      "A Secret Exit",
-      "Lilith"
+      "407",
+      "199"
     ]
   },
   {
@@ -3448,8 +3448,8 @@
     "name": "C Section",
     "requirements": "Defeat The Beast as Lilith",
     "prereqs": [
-      "A Strange Door",
-      "Lilith"
+      "635",
+      "199"
     ]
   },
   {
@@ -3457,8 +3457,8 @@
     "name": "Keeper's Sack",
     "requirements": "Defeat Mother as Keeper",
     "prereqs": [
-      "A Secret Exit",
-      "Keeper"
+      "407",
+      "251"
     ]
   },
   {
@@ -3466,8 +3466,8 @@
     "name": "Keeper's Box",
     "requirements": "Defeat The Beast as Keeper",
     "prereqs": [
-      "A Strange Door",
-      "Keeper"
+      "635",
+      "251"
     ]
   },
   {
@@ -3475,8 +3475,8 @@
     "name": "Lil Portal",
     "requirements": "Defeat Mother as Apollyon",
     "prereqs": [
-      "A Secret Exit",
-      "Apollyon"
+      "407",
+      "340"
     ]
   },
   {
@@ -3484,8 +3484,8 @@
     "name": "Worm Friend",
     "requirements": "Defeat The Beast as Apollyon",
     "prereqs": [
-      "A Strange Door",
-      "Apollyon"
+      "635",
+      "340"
     ]
   },
   {
@@ -3493,8 +3493,8 @@
     "name": "Bone Spurs",
     "requirements": "Defeat Mother as The Forgotten",
     "prereqs": [
-      "A Secret Exit",
-      "The Forgotten"
+      "407",
+      "390"
     ]
   },
   {
@@ -3502,8 +3502,8 @@
     "name": "Spirit Shackles",
     "requirements": "Defeat The Beast as The Forgotten",
     "prereqs": [
-      "A Strange Door",
-      "The Forgotten"
+      "635",
+      "390"
     ]
   },
   {
@@ -3511,8 +3511,8 @@
     "name": "Revelation",
     "requirements": "Defeat Mother as Bethany",
     "prereqs": [
-      "A Secret Exit",
-      "Bethany"
+      "407",
+      "404"
     ]
   },
   {
@@ -3520,8 +3520,8 @@
     "name": "Jar of Wisps",
     "requirements": "Defeat The Beast as Bethany",
     "prereqs": [
-      "A Strange Door",
-      "Bethany"
+      "635",
+      "404"
     ]
   },
   {
@@ -3529,8 +3529,8 @@
     "name": "Magic Skin",
     "requirements": "Defeat Mother as Jacob and Esau",
     "prereqs": [
-      "A Secret Exit",
-      "Jacob and Esau"
+      "407",
+      "405"
     ]
   },
   {
@@ -3538,8 +3538,8 @@
     "name": "Friend Finder",
     "requirements": "Defeat The Beast as Jacob and Esau",
     "prereqs": [
-      "A Strange Door",
-      "Jacob and Esau"
+      "635",
+      "405"
     ]
   },
   {
@@ -3547,7 +3547,7 @@
     "name": "The Broken",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Isaac",
     "prereqs": [
-      "A Strange Door"
+      "635"
     ]
   },
   {
@@ -3555,8 +3555,8 @@
     "name": "The Dauntless",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Magdalene",
     "prereqs": [
-      "Magdalene",
-      "A Strange Door"
+      "1",
+      "635"
     ]
   },
   {
@@ -3564,8 +3564,8 @@
     "name": "The Hoarder",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Cain",
     "prereqs": [
-      "Cain",
-      "A Strange Door"
+      "2",
+      "635"
     ]
   },
   {
@@ -3573,8 +3573,8 @@
     "name": "The Deceiver",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Judas",
     "prereqs": [
-      "Judas",
-      "A Strange Door"
+      "3",
+      "635"
     ]
   },
   {
@@ -3582,8 +3582,8 @@
     "name": "The Soiled",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as ???",
     "prereqs": [
-      "???",
-      "A Strange Door"
+      "32",
+      "635"
     ]
   },
   {
@@ -3591,8 +3591,8 @@
     "name": "The Curdled",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Eve",
     "prereqs": [
-      "Eve",
-      "A Strange Door"
+      "42",
+      "635"
     ]
   },
   {
@@ -3600,8 +3600,8 @@
     "name": "The Savage",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Samson",
     "prereqs": [
-      "Samson",
-      "A Strange Door"
+      "67",
+      "635"
     ]
   },
   {
@@ -3609,8 +3609,8 @@
     "name": "The Benighted",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Azazel",
     "prereqs": [
-      "Azazel",
-      "A Strange Door"
+      "79",
+      "635"
     ]
   },
   {
@@ -3618,8 +3618,8 @@
     "name": "The Enigma",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Lazarus",
     "prereqs": [
-      "Lazarus",
-      "A Strange Door"
+      "80",
+      "635"
     ]
   },
   {
@@ -3627,8 +3627,8 @@
     "name": "The Capricious",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Eden",
     "prereqs": [
-      "Eden",
-      "A Strange Door"
+      "81",
+      "635"
     ]
   },
   {
@@ -3636,8 +3636,8 @@
     "name": "The Baleful",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as The Lost",
     "prereqs": [
-      "The Lost",
-      "A Strange Door"
+      "82",
+      "635"
     ]
   },
   {
@@ -3645,8 +3645,8 @@
     "name": "The Harlot",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Lilith",
     "prereqs": [
-      "Lilith",
-      "A Strange Door"
+      "199",
+      "635"
     ]
   },
   {
@@ -3654,8 +3654,8 @@
     "name": "The Miser",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Keeper",
     "prereqs": [
-      "Keeper",
-      "A Strange Door"
+      "251",
+      "635"
     ]
   },
   {
@@ -3663,8 +3663,8 @@
     "name": "The Empty",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Apollyon",
     "prereqs": [
-      "Apollyon",
-      "A Strange Door"
+      "340",
+      "635"
     ]
   },
   {
@@ -3672,8 +3672,8 @@
     "name": "The Fettered",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as The Forgotten",
     "prereqs": [
-      "The Forgotten",
-      "A Strange Door"
+      "390",
+      "635"
     ]
   },
   {
@@ -3681,8 +3681,8 @@
     "name": "The Zealot",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Bethany",
     "prereqs": [
-      "Bethany",
-      "A Strange Door"
+      "404",
+      "635"
     ]
   },
   {
@@ -3690,8 +3690,8 @@
     "name": "The Deserter",
     "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Jacob and Esau",
     "prereqs": [
-      "Jacob and Esau",
-      "A Strange Door"
+      "405",
+      "635"
     ]
   },
   {
@@ -3699,8 +3699,8 @@
     "name": "Glitched Crown",
     "requirements": "Defeat The Beast as Tainted Isaac",
     "prereqs": [
-      "A Strange Door",
-      "The Broken"
+      "635",
+      "474"
     ]
   },
   {
@@ -3708,8 +3708,8 @@
     "name": "Belly Jelly",
     "requirements": "Defeat The Beast as Tainted Magdalene",
     "prereqs": [
-      "A Strange Door",
-      "The Dauntless"
+      "635",
+      "475"
     ]
   },
   {
@@ -3717,8 +3717,8 @@
     "name": "Blue Key",
     "requirements": "Defeat The Beast as Tainted Cain",
     "prereqs": [
-      "A Strange Door",
-      "The Hoarder"
+      "635",
+      "476"
     ]
   },
   {
@@ -3726,8 +3726,8 @@
     "name": "Sanguine Bond",
     "requirements": "Defeat The Beast as Tainted Judas",
     "prereqs": [
-      "A Strange Door",
-      "The Deceiver"
+      "635",
+      "477"
     ]
   },
   {
@@ -3735,8 +3735,8 @@
     "name": "The Swarm",
     "requirements": "Defeat The Beast as Tainted ???",
     "prereqs": [
-      "A Strange Door",
-      "The Soiled"
+      "635",
+      "478"
     ]
   },
   {
@@ -3744,8 +3744,8 @@
     "name": "Heartbreak",
     "requirements": "Defeat The Beast as Tainted Eve",
     "prereqs": [
-      "A Strange Door",
-      "The Curdled"
+      "635",
+      "479"
     ]
   },
   {
@@ -3753,8 +3753,8 @@
     "name": "Larynx",
     "requirements": "Defeat The Beast as Tainted Samson",
     "prereqs": [
-      "A Strange Door",
-      "The Savage"
+      "635",
+      "480"
     ]
   },
   {
@@ -3762,8 +3762,8 @@
     "name": "Azazel's Rage",
     "requirements": "Defeat The Beast as Tainted Azazel",
     "prereqs": [
-      "A Strange Door",
-      "The Benighted"
+      "635",
+      "481"
     ]
   },
   {
@@ -3771,8 +3771,8 @@
     "name": "Salvation",
     "requirements": "Defeat The Beast as Tainted Lazarus",
     "prereqs": [
-      "A Strange Door",
-      "The Enigma"
+      "635",
+      "482"
     ]
   },
   {
@@ -3780,8 +3780,8 @@
     "name": "TMTRAINER",
     "requirements": "Defeat The Beast as Tainted Eden",
     "prereqs": [
-      "A Strange Door",
-      "The Capricious"
+      "635",
+      "483"
     ]
   },
   {
@@ -3789,8 +3789,8 @@
     "name": "Sacred Orb",
     "requirements": "Defeat The Beast as Tainted Lost",
     "prereqs": [
-      "A Strange Door",
-      "The Baleful"
+      "635",
+      "484"
     ]
   },
   {
@@ -3798,8 +3798,8 @@
     "name": "Twisted Pair",
     "requirements": "Defeat The Beast as Tainted Lilith",
     "prereqs": [
-      "A Strange Door",
-      "The Harlot"
+      "635",
+      "485"
     ]
   },
   {
@@ -3807,8 +3807,8 @@
     "name": "Strawman",
     "requirements": "Defeat The Beast as Tainted Keeper",
     "prereqs": [
-      "A Strange Door",
-      "The Miser"
+      "635",
+      "486"
     ]
   },
   {
@@ -3816,8 +3816,8 @@
     "name": "Echo Chamber",
     "requirements": "Defeat The Beast as Tainted Apollyon",
     "prereqs": [
-      "A Strange Door",
-      "The Empty"
+      "635",
+      "487"
     ]
   },
   {
@@ -3825,8 +3825,8 @@
     "name": "Isaac's Tomb",
     "requirements": "Defeat The Beast as Tainted Forgotten",
     "prereqs": [
-      "A Strange Door",
-      "The Fettered"
+      "635",
+      "488"
     ]
   },
   {
@@ -3834,8 +3834,8 @@
     "name": "Vengeful Spirit",
     "requirements": "Defeat The Beast as Tainted Bethany",
     "prereqs": [
-      "A Strange Door",
-      "The Zealot"
+      "635",
+      "489"
     ]
   },
   {
@@ -3843,8 +3843,8 @@
     "name": "Esau Jr.",
     "requirements": "Defeat The Beast as Tainted Jacob",
     "prereqs": [
-      "A Strange Door",
-      "The Deserter"
+      "635",
+      "490"
     ]
   },
   {
@@ -3858,9 +3858,9 @@
     "name": "Baptism by Fire",
     "requirements": "Defeat Satan as Bethany, defeat Mom's Heart 11 times, and unlock Maggy's Faith",
     "prereqs": [
-      "Bethany",
-      "???",
-      "Magdalene"
+      "404",
+      "32",
+      "1"
     ]
   },
   {
@@ -3868,7 +3868,7 @@
     "name": "Isaac's Awakening",
     "requirements": "Defeat Mother",
     "prereqs": [
-      "A Secret Exit"
+      "407"
     ]
   },
   {
@@ -3876,7 +3876,7 @@
     "name": "Seeing Double",
     "requirements": "Defeat Mother",
     "prereqs": [
-      "A Secret Exit"
+      "407"
     ]
   },
   {
@@ -3884,7 +3884,7 @@
     "name": "Pica Run",
     "requirements": "Defeat Mom's Heart 11 times and unlock Marbles",
     "prereqs": [
-      "???"
+      "32"
     ]
   },
   {
@@ -3922,7 +3922,7 @@
     "name": "Sigil of Baphomet",
     "requirements": "Complete Bloody Mary (challenge #37)",
     "prereqs": [
-      "Bloody Mary"
+      "508"
     ]
   },
   {
@@ -3930,7 +3930,7 @@
     "name": "Purgatory",
     "requirements": "Complete Baptism by Fire (challenge #38)",
     "prereqs": [
-      "Baptism by Fire"
+      "509"
     ]
   },
   {
@@ -3938,7 +3938,7 @@
     "name": "Spirit Sword",
     "requirements": "Complete Isaac's Awakening (challenge #39)",
     "prereqs": [
-      "Isaac's Awakening"
+      "510"
     ]
   },
   {
@@ -3946,7 +3946,7 @@
     "name": "Broken Glasses",
     "requirements": "Complete Seeing Double (challenge #40)",
     "prereqs": [
-      "Seeing Double"
+      "511"
     ]
   },
   {
@@ -3954,7 +3954,7 @@
     "name": "Ice Cube",
     "requirements": "Complete Pica Run (challenge #41)",
     "prereqs": [
-      "Pica Run"
+      "512"
     ]
   },
   {
@@ -3968,8 +3968,8 @@
     "name": "The Fool",
     "requirements": "Defeat Ultra Greedier as Tainted Lost",
     "prereqs": [
-      "Greedier!",
-      "The Baleful"
+      "341",
+      "484"
     ]
   },
   {
@@ -3977,8 +3977,8 @@
     "name": "The Magician",
     "requirements": "Defeat Ultra Greedier as Tainted Judas",
     "prereqs": [
-      "Greedier!",
-      "The Deceiver"
+      "341",
+      "477"
     ]
   },
   {
@@ -3986,8 +3986,8 @@
     "name": "The High Priestess",
     "requirements": "Defeat Ultra Greedier as Tainted Lilith",
     "prereqs": [
-      "Greedier!",
-      "The Harlot"
+      "341",
+      "485"
     ]
   },
   {
@@ -3995,8 +3995,8 @@
     "name": "The Empress",
     "requirements": "Defeat Ultra Greedier as Tainted Eve",
     "prereqs": [
-      "Greedier!",
-      "The Curdled"
+      "341",
+      "479"
     ]
   },
   {
@@ -4004,8 +4004,8 @@
     "name": "The Emperor",
     "requirements": "Defeat Ultra Greedier as Tainted ???",
     "prereqs": [
-      "Greedier!",
-      "The Soiled"
+      "341",
+      "478"
     ]
   },
   {
@@ -4013,8 +4013,8 @@
     "name": "The Hierophant",
     "requirements": "Defeat Ultra Greedier as Tainted Bethany",
     "prereqs": [
-      "Greedier!",
-      "The Zealot"
+      "341",
+      "489"
     ]
   },
   {
@@ -4022,8 +4022,8 @@
     "name": "The Lovers",
     "requirements": "Defeat Ultra Greedier as Tainted Magdalene",
     "prereqs": [
-      "Greedier!",
-      "The Dauntless"
+      "341",
+      "475"
     ]
   },
   {
@@ -4031,7 +4031,7 @@
     "name": "The Chariot",
     "requirements": "Complete Hot Potato (challenge #42)",
     "prereqs": [
-      "Hot Potato"
+      "513"
     ]
   },
   {
@@ -4039,7 +4039,7 @@
     "name": "Justice",
     "requirements": "Complete Cantripped (challenge #43)",
     "prereqs": [
-      "Cantripped!"
+      "514"
     ]
   },
   {
@@ -4047,7 +4047,7 @@
     "name": "The Hermit",
     "requirements": "Complete Red Redemption (challenge #44)",
     "prereqs": [
-      "Red Redemption"
+      "515"
     ]
   },
   {
@@ -4055,8 +4055,8 @@
     "name": "Wheel of Fortune",
     "requirements": "Defeat Ultra Greedier as Tainted Cain",
     "prereqs": [
-      "Greedier!",
-      "The Hoarder"
+      "341",
+      "476"
     ]
   },
   {
@@ -4064,8 +4064,8 @@
     "name": "Strength",
     "requirements": "Defeat Ultra Greedier as Tainted Samson",
     "prereqs": [
-      "Greedier!",
-      "The Savage"
+      "341",
+      "480"
     ]
   },
   {
@@ -4073,8 +4073,8 @@
     "name": "The Hanged Man",
     "requirements": "Defeat Ultra Greedier as Tainted Keeper",
     "prereqs": [
-      "Greedier!",
-      "The Miser"
+      "341",
+      "486"
     ]
   },
   {
@@ -4082,8 +4082,8 @@
     "name": "Death",
     "requirements": "Defeat Ultra Greedier as Tainted Forgotten",
     "prereqs": [
-      "Greedier!",
-      "The Fettered"
+      "341",
+      "488"
     ]
   },
   {
@@ -4091,7 +4091,7 @@
     "name": "Temperance",
     "requirements": "Complete DELETE THIS (challenge #45)",
     "prereqs": [
-      "DELETE THIS"
+      "516"
     ]
   },
   {
@@ -4099,8 +4099,8 @@
     "name": "The Devil",
     "requirements": "Defeat Ultra Greedier as Tainted Azazel",
     "prereqs": [
-      "Greedier!",
-      "The Benighted"
+      "341",
+      "481"
     ]
   },
   {
@@ -4108,8 +4108,8 @@
     "name": "The Tower",
     "requirements": "Defeat Ultra Greedier as Tainted Apollyon",
     "prereqs": [
-      "Greedier!",
-      "The Empty"
+      "341",
+      "487"
     ]
   },
   {
@@ -4117,8 +4117,8 @@
     "name": "The Stars",
     "requirements": "Defeat Ultra Greedier as Tainted Isaac",
     "prereqs": [
-      "Greedier!",
-      "The Broken"
+      "341",
+      "474"
     ]
   },
   {
@@ -4126,8 +4126,8 @@
     "name": "The Sun and the Moon",
     "requirements": "Defeat Ultra Greedier as Tainted Jacob",
     "prereqs": [
-      "Greedier!",
-      "The Deserter"
+      "341",
+      "490"
     ]
   },
   {
@@ -4135,8 +4135,8 @@
     "name": "Judgement",
     "requirements": "Defeat Ultra Greedier as Tainted Lazarus",
     "prereqs": [
-      "Greedier!",
-      "The Enigma"
+      "341",
+      "482"
     ]
   },
   {
@@ -4144,8 +4144,8 @@
     "name": "The World",
     "requirements": "Defeat Ultra Greedier as Tainted Eden",
     "prereqs": [
-      "Greedier!",
-      "The Capricious"
+      "341",
+      "483"
     ]
   },
   {
@@ -4171,7 +4171,7 @@
     "name": "Mom's Lock",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Isaac",
     "prereqs": [
-      "The Broken"
+      "474"
     ]
   },
   {
@@ -4179,8 +4179,8 @@
     "name": "Dice Bag",
     "requirements": "Defeat Mother as Tainted Isaac",
     "prereqs": [
-      "A Secret Exit",
-      "The Broken"
+      "407",
+      "474"
     ]
   },
   {
@@ -4188,7 +4188,7 @@
     "name": "Holy Crown",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Magdalene",
     "prereqs": [
-      "The Dauntless"
+      "475"
     ]
   },
   {
@@ -4196,8 +4196,8 @@
     "name": "Mother's Kiss",
     "requirements": "Defeat Mother as Tainted Magdalene",
     "prereqs": [
-      "A Secret Exit",
-      "The Dauntless"
+      "407",
+      "475"
     ]
   },
   {
@@ -4205,7 +4205,7 @@
     "name": "Gilded Key",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Cain",
     "prereqs": [
-      "The Hoarder"
+      "476"
     ]
   },
   {
@@ -4213,8 +4213,8 @@
     "name": "Lucky Sack",
     "requirements": "Defeat Mother as Tainted Cain",
     "prereqs": [
-      "A Secret Exit",
-      "The Hoarder"
+      "407",
+      "476"
     ]
   },
   {
@@ -4222,7 +4222,7 @@
     "name": "Your Soul",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Judas",
     "prereqs": [
-      "The Deceiver"
+      "477"
     ]
   },
   {
@@ -4230,8 +4230,8 @@
     "name": "Number Magnet",
     "requirements": "Defeat Mother as Tainted Judas",
     "prereqs": [
-      "A Secret Exit",
-      "The Deceiver"
+      "407",
+      "477"
     ]
   },
   {
@@ -4239,7 +4239,7 @@
     "name": "Dingle Berry",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted ???",
     "prereqs": [
-      "The Soiled"
+      "478"
     ]
   },
   {
@@ -4247,8 +4247,8 @@
     "name": "Ring Cap",
     "requirements": "Defeat Mother as Tainted ???",
     "prereqs": [
-      "A Secret Exit",
-      "The Soiled"
+      "407",
+      "478"
     ]
   },
   {
@@ -4256,7 +4256,7 @@
     "name": "Strange Key",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Eve",
     "prereqs": [
-      "The Curdled"
+      "479"
     ]
   },
   {
@@ -4264,8 +4264,8 @@
     "name": "Lil Clot",
     "requirements": "Defeat Mother as Tainted Eve",
     "prereqs": [
-      "A Secret Exit",
-      "The Curdled"
+      "407",
+      "479"
     ]
   },
   {
@@ -4273,7 +4273,7 @@
     "name": "Temporary Tattoo",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Samson",
     "prereqs": [
-      "The Savage"
+      "480"
     ]
   },
   {
@@ -4281,8 +4281,8 @@
     "name": "Swallowed M80",
     "requirements": "Defeat Mother as Tainted Samson",
     "prereqs": [
-      "A Secret Exit",
-      "The Savage"
+      "407",
+      "480"
     ]
   },
   {
@@ -4290,7 +4290,7 @@
     "name": "Wicked Crown",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Azazel",
     "prereqs": [
-      "The Benighted"
+      "481"
     ]
   },
   {
@@ -4298,8 +4298,8 @@
     "name": "Azazel's Stump",
     "requirements": "Defeat Mother as Tainted Azazel",
     "prereqs": [
-      "A Secret Exit",
-      "The Benighted"
+      "407",
+      "481"
     ]
   },
   {
@@ -4307,7 +4307,7 @@
     "name": "Torn Pocket",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Lazarus",
     "prereqs": [
-      "The Enigma"
+      "482"
     ]
   },
   {
@@ -4315,8 +4315,8 @@
     "name": "Torn Card",
     "requirements": "Defeat Mother as Tainted Lazarus",
     "prereqs": [
-      "A Secret Exit",
-      "The Enigma"
+      "407",
+      "482"
     ]
   },
   {
@@ -4324,7 +4324,7 @@
     "name": "Nuh Uh!",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Eden",
     "prereqs": [
-      "The Capricious"
+      "483"
     ]
   },
   {
@@ -4332,8 +4332,8 @@
     "name": "Modeling Clay",
     "requirements": "Defeat Mother as Tainted Eden",
     "prereqs": [
-      "A Secret Exit",
-      "The Capricious"
+      "407",
+      "483"
     ]
   },
   {
@@ -4341,7 +4341,7 @@
     "name": "Kid's Drawing",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Lost",
     "prereqs": [
-      "The Baleful"
+      "484"
     ]
   },
   {
@@ -4349,8 +4349,8 @@
     "name": "Crystal Key",
     "requirements": "Defeat Mother as Tainted Lost",
     "prereqs": [
-      "A Secret Exit",
-      "The Baleful"
+      "407",
+      "484"
     ]
   },
   {
@@ -4358,7 +4358,7 @@
     "name": "The Twins",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Lilith",
     "prereqs": [
-      "The Harlot"
+      "485"
     ]
   },
   {
@@ -4366,8 +4366,8 @@
     "name": "Adoption Papers",
     "requirements": "Defeat Mother as Tainted Lilith",
     "prereqs": [
-      "A Secret Exit",
-      "The Harlot"
+      "407",
+      "485"
     ]
   },
   {
@@ -4375,7 +4375,7 @@
     "name": "Keeper's Bargain",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Keeper",
     "prereqs": [
-      "The Miser"
+      "486"
     ]
   },
   {
@@ -4383,8 +4383,8 @@
     "name": "Cursed Penny",
     "requirements": "Defeat Mother as Tainted Keeper",
     "prereqs": [
-      "A Secret Exit",
-      "The Miser"
+      "407",
+      "486"
     ]
   },
   {
@@ -4392,7 +4392,7 @@
     "name": "Cricket Leg",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Apollyon",
     "prereqs": [
-      "The Empty"
+      "487"
     ]
   },
   {
@@ -4400,8 +4400,8 @@
     "name": "Apollyon's Best Friend",
     "requirements": "Defeat Mother as Tainted Apollyon",
     "prereqs": [
-      "A Secret Exit",
-      "The Empty"
+      "407",
+      "487"
     ]
   },
   {
@@ -4409,7 +4409,7 @@
     "name": "Polished Bone",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Forgotten",
     "prereqs": [
-      "The Fettered"
+      "488"
     ]
   },
   {
@@ -4417,8 +4417,8 @@
     "name": "Hollow Heart",
     "requirements": "Defeat Mother as Tainted Forgotten",
     "prereqs": [
-      "A Secret Exit",
-      "The Fettered"
+      "407",
+      "488"
     ]
   },
   {
@@ -4426,7 +4426,7 @@
     "name": "Expansion Pack",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Bethany",
     "prereqs": [
-      "The Zealot"
+      "489"
     ]
   },
   {
@@ -4434,8 +4434,8 @@
     "name": "Beth's Essence",
     "requirements": "Defeat Mother as Tainted Bethany",
     "prereqs": [
-      "A Secret Exit",
-      "The Zealot"
+      "407",
+      "489"
     ]
   },
   {
@@ -4443,7 +4443,7 @@
     "name": "RC Remote",
     "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Jacob",
     "prereqs": [
-      "The Deserter"
+      "490"
     ]
   },
   {
@@ -4451,8 +4451,8 @@
     "name": "Found Soul",
     "requirements": "Defeat Mother as Tainted Jacob",
     "prereqs": [
-      "A Secret Exit",
-      "The Deserter"
+      "407",
+      "490"
     ]
   },
   {
@@ -4472,8 +4472,8 @@
     "name": "Spindown Dice",
     "requirements": "Defeat Delirium as Tainted Isaac",
     "prereqs": [
-      "New Area",
-      "The Broken"
+      "320",
+      "474"
     ]
   },
   {
@@ -4481,8 +4481,8 @@
     "name": "Hypercoagulation",
     "requirements": "Defeat Delirium as Tainted Magdalene",
     "prereqs": [
-      "New Area",
-      "The Dauntless"
+      "320",
+      "475"
     ]
   },
   {
@@ -4490,8 +4490,8 @@
     "name": "Bag of Crafting",
     "requirements": "Defeat Delirium as Tainted Cain",
     "prereqs": [
-      "New Area",
-      "The Hoarder"
+      "320",
+      "476"
     ]
   },
   {
@@ -4499,8 +4499,8 @@
     "name": "Dark Arts",
     "requirements": "Defeat Delirium as Tainted Judas",
     "prereqs": [
-      "New Area",
-      "The Deceiver"
+      "320",
+      "477"
     ]
   },
   {
@@ -4508,8 +4508,8 @@
     "name": "IBS",
     "requirements": "Defeat Delirium as Tainted ???",
     "prereqs": [
-      "New Area",
-      "The Soiled"
+      "320",
+      "478"
     ]
   },
   {
@@ -4517,8 +4517,8 @@
     "name": "Sumptorium",
     "requirements": "Defeat Delirium as Tainted Eve",
     "prereqs": [
-      "New Area",
-      "The Curdled"
+      "320",
+      "479"
     ]
   },
   {
@@ -4526,8 +4526,8 @@
     "name": "Berserk!",
     "requirements": "Defeat Delirium as Tainted Samson",
     "prereqs": [
-      "New Area",
-      "The Savage"
+      "320",
+      "480"
     ]
   },
   {
@@ -4535,8 +4535,8 @@
     "name": "Hemoptysis",
     "requirements": "Defeat Delirium as Tainted Azazel",
     "prereqs": [
-      "New Area",
-      "The Benighted"
+      "320",
+      "481"
     ]
   },
   {
@@ -4544,8 +4544,8 @@
     "name": "Flip",
     "requirements": "Defeat Delirium as Tainted Lazarus",
     "prereqs": [
-      "New Area",
-      "The Enigma"
+      "320",
+      "482"
     ]
   },
   {
@@ -4553,8 +4553,8 @@
     "name": "Corrupted Data",
     "requirements": "Defeat Delirium as Tainted Eden",
     "prereqs": [
-      "New Area",
-      "The Capricious"
+      "320",
+      "483"
     ]
   },
   {
@@ -4562,8 +4562,8 @@
     "name": "Ghost Bombs",
     "requirements": "Defeat Delirium as Tainted Lost",
     "prereqs": [
-      "New Area",
-      "The Baleful"
+      "320",
+      "484"
     ]
   },
   {
@@ -4571,8 +4571,8 @@
     "name": "Gello",
     "requirements": "Defeat Delirium as Tainted Lilith",
     "prereqs": [
-      "New Area",
-      "The Harlot"
+      "320",
+      "485"
     ]
   },
   {
@@ -4580,8 +4580,8 @@
     "name": "Keeper's Kin",
     "requirements": "Defeat Delirium as Tainted Keeper",
     "prereqs": [
-      "New Area",
-      "The Miser"
+      "320",
+      "486"
     ]
   },
   {
@@ -4589,8 +4589,8 @@
     "name": "Abyss",
     "requirements": "Defeat Delirium as Tainted Apollyon",
     "prereqs": [
-      "New Area",
-      "The Empty"
+      "320",
+      "487"
     ]
   },
   {
@@ -4598,8 +4598,8 @@
     "name": "Decap Attack",
     "requirements": "Defeat Delirium as Tainted Forgotten",
     "prereqs": [
-      "New Area",
-      "The Fettered"
+      "320",
+      "488"
     ]
   },
   {
@@ -4607,8 +4607,8 @@
     "name": "Lemegeton",
     "requirements": "Defeat Delirium as Tainted Bethany",
     "prereqs": [
-      "New Area",
-      "The Zealot"
+      "320",
+      "489"
     ]
   },
   {
@@ -4616,8 +4616,8 @@
     "name": "Anima Sola",
     "requirements": "Defeat Delirium as Tainted Jacob",
     "prereqs": [
-      "New Area",
-      "The Deserter"
+      "320",
+      "490"
     ]
   },
   {
@@ -4625,8 +4625,8 @@
     "name": "Mega Chest",
     "requirements": "Defeat Mega Satan as Tainted Isaac",
     "prereqs": [
-      "Angels",
-      "The Broken"
+      "155",
+      "474"
     ]
   },
   {
@@ -4634,8 +4634,8 @@
     "name": "Queen of Hearts",
     "requirements": "Defeat Mega Satan as Tainted Magdalene",
     "prereqs": [
-      "Angels",
-      "The Dauntless"
+      "155",
+      "475"
     ]
   },
   {
@@ -4643,8 +4643,8 @@
     "name": "Gold Pill",
     "requirements": "Defeat Mega Satan as Tainted Cain",
     "prereqs": [
-      "Angels",
-      "The Hoarder"
+      "155",
+      "476"
     ]
   },
   {
@@ -4652,8 +4652,8 @@
     "name": "Black Sack",
     "requirements": "Defeat Mega Satan as Tainted Judas",
     "prereqs": [
-      "Angels",
-      "The Deceiver"
+      "155",
+      "477"
     ]
   },
   {
@@ -4661,8 +4661,8 @@
     "name": "Charming Poop",
     "requirements": "Defeat Mega Satan as Tainted ???",
     "prereqs": [
-      "Angels",
-      "The Soiled"
+      "155",
+      "478"
     ]
   },
   {
@@ -4670,8 +4670,8 @@
     "name": "Horse Pill",
     "requirements": "Defeat Mega Satan as Tainted Eve",
     "prereqs": [
-      "Angels",
-      "The Curdled"
+      "155",
+      "479"
     ]
   },
   {
@@ -4679,8 +4679,8 @@
     "name": "Crane Game",
     "requirements": "Defeat Mega Satan as Tainted Samson",
     "prereqs": [
-      "Angels",
-      "The Savage"
+      "155",
+      "480"
     ]
   },
   {
@@ -4688,8 +4688,8 @@
     "name": "Hell Game",
     "requirements": "Defeat Mega Satan as Tainted Azazel",
     "prereqs": [
-      "Angels",
-      "The Benighted"
+      "155",
+      "481"
     ]
   },
   {
@@ -4697,8 +4697,8 @@
     "name": "Wooden Chest",
     "requirements": "Defeat Mega Satan as Tainted Lazarus",
     "prereqs": [
-      "Angels",
-      "The Enigma"
+      "155",
+      "482"
     ]
   },
   {
@@ -4706,8 +4706,8 @@
     "name": "Wild Card",
     "requirements": "Defeat Mega Satan as Tainted Eden",
     "prereqs": [
-      "Angels",
-      "The Capricious"
+      "155",
+      "483"
     ]
   },
   {
@@ -4715,8 +4715,8 @@
     "name": "Haunted Chest",
     "requirements": "Defeat Mega Satan as Tainted Lost",
     "prereqs": [
-      "Angels",
-      "The Baleful"
+      "155",
+      "484"
     ]
   },
   {
@@ -4724,8 +4724,8 @@
     "name": "Fool's Gold",
     "requirements": "Defeat Mega Satan as Tainted Lilith",
     "prereqs": [
-      "Angels",
-      "The Harlot"
+      "155",
+      "485"
     ]
   },
   {
@@ -4733,8 +4733,8 @@
     "name": "Golden Penny",
     "requirements": "Defeat Mega Satan as Tainted Keeper",
     "prereqs": [
-      "Angels",
-      "The Miser"
+      "155",
+      "486"
     ]
   },
   {
@@ -4742,8 +4742,8 @@
     "name": "Rotten Beggar",
     "requirements": "Defeat Mega Satan as Tainted Apollyon",
     "prereqs": [
-      "Angels",
-      "The Empty"
+      "155",
+      "487"
     ]
   },
   {
@@ -4751,8 +4751,8 @@
     "name": "Golden Battery",
     "requirements": "Defeat Mega Satan as Tainted Forgotten",
     "prereqs": [
-      "Angels",
-      "The Fettered"
+      "155",
+      "488"
     ]
   },
   {
@@ -4760,8 +4760,8 @@
     "name": "Confessional",
     "requirements": "Defeat Mega Satan as Tainted Bethany",
     "prereqs": [
-      "Angels",
-      "The Zealot"
+      "155",
+      "489"
     ]
   },
   {
@@ -4769,8 +4769,8 @@
     "name": "Golden Trinket",
     "requirements": "Defeat Mega Satan as Tainted Jacob",
     "prereqs": [
-      "Angels",
-      "The Deserter"
+      "155",
+      "490"
     ]
   },
   {
@@ -4778,8 +4778,8 @@
     "name": "Soul of Isaac",
     "requirements": "Defeat Hush and Boss Rush as Tainted Isaac",
     "prereqs": [
-      "Blue Womb",
-      "The Broken"
+      "234",
+      "474"
     ]
   },
   {
@@ -4787,8 +4787,8 @@
     "name": "Soul of Magdalene",
     "requirements": "Defeat Hush and Boss Rush as Tainted Magdalene",
     "prereqs": [
-      "Blue Womb",
-      "The Dauntless"
+      "234",
+      "475"
     ]
   },
   {
@@ -4796,8 +4796,8 @@
     "name": "Soul of Cain",
     "requirements": "Defeat Hush and Boss Rush as Tainted Cain",
     "prereqs": [
-      "Blue Womb",
-      "The Hoarder"
+      "234",
+      "476"
     ]
   },
   {
@@ -4805,8 +4805,8 @@
     "name": "Soul of Judas",
     "requirements": "Defeat Hush and Boss Rush as Tainted Judas",
     "prereqs": [
-      "Blue Womb",
-      "The Deceiver"
+      "234",
+      "477"
     ]
   },
   {
@@ -4814,8 +4814,8 @@
     "name": "Soul of ???",
     "requirements": "Defeat Hush and Boss Rush as Tainted ???",
     "prereqs": [
-      "Blue Womb",
-      "The Soiled"
+      "234",
+      "478"
     ]
   },
   {
@@ -4823,8 +4823,8 @@
     "name": "Soul of Eve",
     "requirements": "Defeat Hush and Boss Rush as Tainted Eve",
     "prereqs": [
-      "Blue Womb",
-      "The Curdled"
+      "234",
+      "479"
     ]
   },
   {
@@ -4832,8 +4832,8 @@
     "name": "Soul of Samson",
     "requirements": "Defeat Hush and Boss Rush as Tainted Samson",
     "prereqs": [
-      "Blue Womb",
-      "The Savage"
+      "234",
+      "480"
     ]
   },
   {
@@ -4841,8 +4841,8 @@
     "name": "Soul of Azazel",
     "requirements": "Defeat Hush and Boss Rush as Tainted Azazel",
     "prereqs": [
-      "Blue Womb",
-      "The Benighted"
+      "234",
+      "481"
     ]
   },
   {
@@ -4850,8 +4850,8 @@
     "name": "Soul of Lazarus",
     "requirements": "Defeat Hush and Boss Rush as Tainted Lazarus",
     "prereqs": [
-      "Blue Womb",
-      "The Enigma"
+      "234",
+      "482"
     ]
   },
   {
@@ -4859,8 +4859,8 @@
     "name": "Soul of Eden",
     "requirements": "Defeat Hush and Boss Rush as Tainted Eden",
     "prereqs": [
-      "Blue Womb",
-      "The Capricious"
+      "234",
+      "483"
     ]
   },
   {
@@ -4868,8 +4868,8 @@
     "name": "Soul of the Lost",
     "requirements": "Defeat Hush and Boss Rush as Tainted Lost",
     "prereqs": [
-      "Blue Womb",
-      "The Baleful"
+      "234",
+      "484"
     ]
   },
   {
@@ -4877,8 +4877,8 @@
     "name": "Soul of Lilith",
     "requirements": "Defeat Hush and Boss Rush as Tainted Lilith",
     "prereqs": [
-      "Blue Womb",
-      "The Harlot"
+      "234",
+      "485"
     ]
   },
   {
@@ -4886,8 +4886,8 @@
     "name": "Soul of the Keeper",
     "requirements": "Defeat Hush and Boss Rush as Tainted Keeper",
     "prereqs": [
-      "Blue Womb",
-      "The Miser"
+      "234",
+      "486"
     ]
   },
   {
@@ -4895,8 +4895,8 @@
     "name": "Soul of Apollyon",
     "requirements": "Defeat Hush and Boss Rush as Tainted Apollyon",
     "prereqs": [
-      "Blue Womb",
-      "The Empty"
+      "234",
+      "487"
     ]
   },
   {
@@ -4904,8 +4904,8 @@
     "name": "Soul of the Forgotten",
     "requirements": "Defeat Hush and Boss Rush as Tainted Forgotten",
     "prereqs": [
-      "Blue Womb",
-      "The Fettered"
+      "234",
+      "488"
     ]
   },
   {
@@ -4913,8 +4913,8 @@
     "name": "Soul of Bethany",
     "requirements": "Defeat Hush and Boss Rush as Tainted Bethany",
     "prereqs": [
-      "Blue Womb",
-      "The Zealot"
+      "234",
+      "489"
     ]
   },
   {
@@ -4922,8 +4922,8 @@
     "name": "Soul of Jacob and Esau",
     "requirements": "Defeat Hush and Boss Rush as Tainted Jacob",
     "prereqs": [
-      "Blue Womb",
-      "The Deserter"
+      "234",
+      "490"
     ]
   },
   {
@@ -4931,7 +4931,7 @@
     "name": "A Strange Door",
     "requirements": "Defeat Mother",
     "prereqs": [
-      "A Secret Exit"
+      "407"
     ]
   },
   {

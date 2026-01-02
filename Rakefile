@@ -125,17 +125,17 @@ namespace :vendor do
         "Ultra Greedier" => "Greedier!",
       }
 
-      def initialize(names)
-        @names = names
+      def initialize(name_map)
+        @name_map = name_map
         @prereq_map = MANUAL_PREREQ_MAP.dup
       end
 
       def call(achievement)
         name = achievement["name"]
 
-        MANUAL_NAMES.fetch(name) { match(achievement) }.tap do |parsed_names|
-          puts "Unknown prereq for #{name}: #{parsed_names}" unless parsed_names.all? { |n| @names.include? n }
-        end
+        MANUAL_NAMES.fetch(name) { match(achievement) }.tap { |parsed_names|
+          puts "Unknown prereq for #{name}: #{parsed_names}" unless parsed_names.all? { |n| @name_map.key? n }
+        }.flat_map { |name| @name_map.fetch(name).map { it["id"] } }
       end
 
       private
@@ -194,7 +194,7 @@ namespace :vendor do
 
     $stdout.puts
 
-    prereq_parser = PrereqParser.new(achievements.map { |a| a["name"] })
+    prereq_parser = PrereqParser.new(achievements.group_by { |a| a["name"] })
 
     achievements.each do |a|
       a["requirements"] = RequirementsScrubber.call(a["requirements"])
@@ -216,12 +216,12 @@ namespace :vendor do
     task :validate do
       require "json"
 
-      achievement_names = JSON.load_file("achievements.json").map { it["name"] }.to_set
+      achievement_ids = JSON.load_file("achievements.json").map { it["id"] }.to_set
 
       shrubs = JSON.load_file("priority-shrubs.json")
 
-      shrubs["priority"].each_key do |name|
-        puts "Unknown achievement: #{name}" unless achievement_names.include? name
+      shrubs["priority"].each_key do |id|
+        puts "Unknown achievement: #{id}" unless achievement_ids.include? id
       end
 
       puts "Duplicate achievement!" if shrubs["priority"].keys.uniq!
@@ -234,9 +234,26 @@ namespace :vendor do
     task :shrubs do
       # https://steamcommunity.com/sharedfiles/filedetails/?id=3434706205
 
-      require "json"
+      class Priority
+        def initialize(achievements_by_name)
+          @mapping = {}
+          @achievements_by_name = achievements_by_name
+        end
 
-      priority = {}
+        def assign(name, priority)
+          @achievements_by_name[name].each { @mapping[it["id"]] = priority }
+        end
+
+        def to_json(state = nil, *)
+          JSON::State.from_state(state).generate(@mapping)
+        end
+      end
+
+      require "json"
+      achievement_names = JSON.load_file("achievements.json").group_by { it["name"] }
+
+      priority = Priority.new(achievement_names)
+
       output = {
         rank: [
           :misc,
@@ -264,13 +281,13 @@ namespace :vendor do
         "Counterfeit Coin",
         "The Planetarium",
         "Technology Zero",
-      ].each { priority[it] = "misc" }
+      ].each { priority.assign(it, "misc") }
 
       [
         "The Marathon",
         "Broken Modem",
         "Dedication", # Technically bad but takes 31 days
-      ].each { priority[it] = "daily" }
+      ].each { priority.assign(it, "daily") }
 
       [
         "Rune of Jera",
@@ -280,7 +297,7 @@ namespace :vendor do
         "Rune of Perthro",
         "Rune of Dagaz",
         "Rune of Algiz",
-      ].each { priority[it] = "runes" }
+      ].each { priority.assign(it, "runes") }
 
       [
         "Card Against Humanity",
@@ -301,7 +318,7 @@ namespace :vendor do
         "Sigil of Baphomet",
         "Spirit Sword",
         "Justice",
-      ].each { priority[it] = "challenges" }
+      ].each { priority.assign(it, "challenges") }
 
       [
         "Lucky Pennies",
@@ -313,7 +330,7 @@ namespace :vendor do
         "A Secret Exit",
         "A Strange Door",
         "Greedier!",
-      ].each { priority[it] = "early progression" }
+      ].each { priority.assign(it, "early progression") }
 
       [
         "Magdalene",
@@ -332,7 +349,7 @@ namespace :vendor do
         "Apollyon",
         "The Forgotten",
         "Jacob and Esau",
-      ].each { priority[it] = "characters" }
+      ].each { priority.assign(it, "characters") }
 
       [
         "The D6",
@@ -383,7 +400,7 @@ namespace :vendor do
         "Birthright",
         "Damocles",
         "Suplex!",
-      ].each { priority[it] = "early completion" }
+      ].each { priority.assign(it, "early completion") }
 
       [
         "Corrupted Data",
@@ -402,7 +419,7 @@ namespace :vendor do
         "Torn Card",
         "IBS",
         "The High Priestess",
-      ].each { priority[it] = "bad" }
+      ].each { priority.assign(it, "bad") }
 
       JSON.dump(output, File.open("priority-shrubs.json.tmp", "w"))
 
