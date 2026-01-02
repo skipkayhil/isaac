@@ -33,10 +33,8 @@
         color: #ddd;
         display: flex;
         font-family: monospace;
-        font-weight: normal;
         justify-content: space-between;
         align-items: center;
-        overflow: hidden;
         position: relative;
       }
       .progress h3 {
@@ -256,19 +254,19 @@
         );
 
         const checkedCount = Object.keys(data.checked).length;
-        const percent = checkedCount / 641 * 100;
+        const percent = checkedCount / 641;
 
         return html`
           <div class="progress">
-            <div style></div>
+            <div style="width:64px"></div>
             <h3>${checkedCount} / 641</h3>
             <img
               src="https://bindingofisaacrebirth.wiki.gg/images/Achievement_Dead_God_icon.png"
-              class="${percent == 100 ? "" : "locked"}"
+              class="${percent === 1 ? "" : "locked"}"
             />
             <div
               class="progress-bar"
-              style="width: calc(${percent}% - 64px)"
+              style="width: calc(${percent} * (100% - 64px))"
             ></div>
           </div>
 
