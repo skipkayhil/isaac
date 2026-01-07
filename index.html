@@ -175,17 +175,26 @@
           unchecked: {},
         });
         const [prio, setPrio] = useState({ rank: ["unknown"], priority: {} });
+        const [indexedPrio, setIndexedPrio] = useState({});
 
         const compareByPrioAndId = (a, b) => {
-          const keys = Object.keys(prio.priority);
-          const score = keys.indexOf(a.id) - keys.indexOf(b.id);
+          const idOrder = prio.priority[indexedPrio[a.id]];
 
-          return score === 0 ? compareById(a, b) : score;
+          return idOrder
+            ? idOrder.indexOf(a.id) - idOrder.indexOf(b.id)
+            : compareById(a, b);
         };
 
         useEffect(() => {
           fetch("./priority-shrubs.json").then((resp) =>
             resp.json().then((d) => {
+              let prioById = {};
+
+              for (const [name, ids] of Object.entries(d.priority)) {
+                ids.forEach((id) => (prioById[id] = name));
+              }
+
+              setIndexedPrio(prioById);
               setPrio(d);
             }),
           );
@@ -250,7 +259,7 @@
 
         const prioritizedUnchecked = Object.groupBy(
           Object.values(data.unchecked),
-          ({ id }) => prio.priority[id] || "unknown",
+          ({ id }) => indexedPrio[id] || "unknown",
         );
 
         const checkedCount = Object.keys(data.checked).length;

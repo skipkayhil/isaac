@@ -220,14 +220,16 @@ namespace :vendor do
 
       shrubs = JSON.load_file("priority-shrubs.json")
 
-      shrubs["priority"].each_key do |id|
-        puts "Unknown achievement: #{id}" unless achievement_ids.include? id
+      shrubs["priority"].values.each do |ids|
+        ids.each do |id|
+          puts "Unknown achievement: #{id}" unless achievement_ids.include? id
+        end
       end
 
-      puts "Duplicate achievement!" if shrubs["priority"].keys.uniq!
+      puts "Duplicate achievement!" if shrubs["priority"].values.flatten.uniq!
 
-      unless shrubs["priority"].values.uniq.all? { shrubs["rank"].include? it }
-        puts "Rank missing: #{shrubs["priority"].values.uniq - shrubs["rank"]}"
+      unless shrubs["priority"].keys.all? { shrubs["rank"].include? it }
+        puts "Rank missing: #{shrubs["priority"].keys - shrubs["rank"]}"
       end
     end
 
@@ -241,7 +243,8 @@ namespace :vendor do
         end
 
         def assign(name, priority)
-          @achievements_by_name[name].each { @mapping[it["id"]] = priority }
+          @mapping[priority] ||= []
+          @achievements_by_name[name].each { @mapping[priority] << it["id"] }
         end
 
         def to_json(state = nil, *)
