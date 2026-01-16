@@ -216,7 +216,8 @@ namespace :vendor do
     task :validate do
       require "json"
 
-      achievement_ids = JSON.load_file("achievements.json").map { it["id"] }.to_set
+      achievements = JSON.load_file("achievements.json").map { [it["id"], it] }.to_h
+      achievement_ids = achievements.keys.to_set
 
       shrubs = JSON.load_file("priority-shrubs.json")
 
@@ -226,10 +227,17 @@ namespace :vendor do
         end
       end
 
-      puts "Duplicate achievement!" if shrubs["priority"].values.flatten.uniq!
+      if shrubs["priority"].values.flatten.uniq!
+        ids = shrubs["priority"].values.flatten.group_by(&:itself).select { _2.size > 1 }.keys
+        puts "Duplicate achievements: #{ids.map { achievements[it]["name"] }}"
+
+        exit 1
+      end
 
       unless shrubs["priority"].keys.all? { shrubs["rank"].include? it }
         puts "Rank missing: #{shrubs["priority"].keys - shrubs["rank"]}"
+
+        exit 1
       end
     end
 
@@ -244,7 +252,7 @@ namespace :vendor do
 
         def assign(name, priority)
           @mapping[priority] ||= []
-          @achievements_by_name[name].each { @mapping[priority] << it["id"] }
+          @achievements_by_name.fetch(name).each { @mapping[priority] << it["id"] }
         end
 
         def to_json(state = nil, *)
@@ -266,6 +274,10 @@ namespace :vendor do
           "early progression",
           :characters,
           "early completion",
+          "tainted unlocks",
+          "greed{,ier}",
+          "misc 2",
+          "later completion",
           :unknown,
           :bad,
         ],
@@ -406,6 +418,149 @@ namespace :vendor do
       ].each { priority.assign(it, "early completion") }
 
       [
+        # Isaac
+        "Options?",
+        "The Broken",
+        # Magdalene
+        "Candy Heart",
+        "The Dauntless",
+        # Cain
+        "A Pound of Flesh",
+        "The Hoarder",
+        # Judas
+        "Redemption",
+        "The Deceiver",
+        # ???
+        "Montezuma's Revenge",
+        "The Soiled",
+        # Eve
+        "Cracked Orb",
+        "The Curdled",
+        # Samson
+        "Empty Heart",
+        "The Savage",
+        # Azazel
+        "Lil Abaddon",
+        "The Benighted",
+        # Lazarus
+        "Astral Projection",
+        "The Enigma",
+        # Eden
+        "Everything Jar",
+        "The Capricious",
+        # The Lost
+        "Hungry Soul",
+        "The Baleful",
+        # Lilith
+        # "C Section" (-> early completion)
+        "The Harlot",
+        # Keeper
+        "Keeper's Box",
+        "The Miser",
+        # Apollyon
+        "Worm Friend",
+        "The Empty",
+        # The Forgotten
+        "Spirit Shackles",
+        "The Fettered",
+        # Bethany
+        "Jar of Wisps",
+        "The Zealot",
+        # Jacob and Esau
+        "Friend Finder",
+        "The Deserter",
+      ].each { priority.assign(it, "tainted unlocks") }
+
+      [
+        "Special Hanging Shopkeepers",
+        "Wooden Nickel",
+        "Cain holds Paperclip",
+        "Everything is Terrible 2!!!",
+        "Special Shopkeepers",
+        "Eve now holds Razor Blade",
+        "Store Key",
+        "Lost holds Holy Mantle",
+        "Generosity",
+        # Greed until you unlock Greedier
+        # Lilith (-> characters)
+        "Censer",
+        "Lusty Blood",
+        "Soul Locket",
+        "Inner Child",
+        "Evil Eye",
+        "Lil' Chest",
+        "GB Bug",
+        "Key Bum",
+        "Brown Nugget",
+        "Box of Friends",
+        # Good Greedier items
+        "Glyph of Balance",
+        "Sack of Sacks",
+        "Eye of Belial",
+        "Duality",
+        "Black Rune",
+        "Dad's Ring",
+        "Dad's Lost Coin",
+        "The Emperor",
+        "The Hierophant",
+        "The Stars",
+        "The Sun and the Moon",
+        "Judgement",
+        "The World",
+      ].each { priority.assign(it, "greed{,ier}") }
+
+      [
+        "ZIP!", # Ace of Diamonds
+        "It's the Key", # Ace of Spades
+        # Redemption - touching it, not really unlocking it
+        "Plum Flute",
+        "Charged Penny",
+        "Moving Box",
+        "Blinding Baby",
+        "Brimstone Bombs",
+      ].each { priority.assign(it, "misc 2") }
+
+      [
+         "Crane Game",
+         "Strange Key",
+         "Golden Penny",
+         "Golden Trinket",
+         "Confessional",
+         "Keeper holds Wooden Nickel",
+         "Deep Pockets",
+         "Keeper's Sack",
+         "The Mind",
+         "The Soul",
+         "Holy Card",
+         "Godhead",
+         "Soul of Isaac",
+         "Spindown Dice",
+         "Glitched Crown",
+         "Soul of Cain",
+         "Gold Pill",
+         "Black Sack",
+         "Number Magnet",
+         "Horse Pill",
+         "Heartbreak",
+         "Soul of Azazel",
+         "Soul of Lazarus",
+         "Wooden Chest",
+         "Salvation",
+         "Nuh Uh!",
+         "Soul of Eden",
+         "Wild Card",
+         "Sacred Orb",
+         "Soul of Lilith",
+         "Gello",
+         "Twisted Pair",
+         "Soul of the Keeper",
+         "Echo Chamber",
+         "Hollow Heart",
+         "Isaac's Tomb",
+         "Lemegeton",
+      ].each { priority.assign(it, "later completion") }
+
+      [
         "Corrupted Data",
         "2 new pills",
         "Rules Card",
@@ -422,6 +577,7 @@ namespace :vendor do
         "Torn Card",
         "IBS",
         "The High Priestess",
+        "My Shadow", # guide mentions this in Greed section as bad
       ].each { priority.assign(it, "bad") }
 
       JSON.dump(output, File.open("priority-shrubs.json.tmp", "w"))
